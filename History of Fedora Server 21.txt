@@ -1,6 +1,7 @@
 SG 2000
 PROXIMUS BOMBER
 TEST
+COBA
     1  ls -la
     2  ls
     3  passwd
