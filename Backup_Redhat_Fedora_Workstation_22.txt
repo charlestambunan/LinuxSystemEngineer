@@ -1,0 +1,54 @@
+    1  ls -la
+    2  exit
+    3  ip a
+    4  ping -c 3 google.com
+    5  ping  google.com
+    6  ping -c 3 8.8.8.8
+    7  ip a
+    8  nmtui
+    9  ip a
+   10  exit
+   11  ls -la
+   12  poweroff
+   13  evince
+   14  ls -la
+   15  cd Desktop
+   16  id
+   17  poweroff
+   18  ip a
+   19  evince
+   20  ssh-keygen
+   21  ssh-keygen -f .ssh/key-with-pass
+   22  ls -la
+   23  touch yoman
+   24  ssh-keygen -f .yoman
+   25  history
+   26  touch ssh_key.txt
+   27  ssh-keygen -f .yoman >> ssh_key.txt 
+   28  touch ssh_key.txt 
+   29  ls -la
+   30  vi ssh_key.txt 
+   31  ls -la
+   32  ssh-copy-id -i .yoman ctambunan@192.168.37.132
+   33  ssh ctambunan@192.168.37.132
+   34  ip -a
+   35  ip a
+   36  ip a
+   37  ip a
+   38  ls -la
+   39  cd Music/
+   40  ip a
+   41  cd ..
+   42  ls -la
+   43  poweroff
+   44  ls -la
+   45  sudo systemctl enable --now cockpit.socket
+   46  sudo yum install cockpit
+   47  sudo systemctl enable --now cockpit.socket
+   48  sudo firewall-cmd --permanent --zone=public --add-service=cockpit
+   49  sudo firewall-cmd --reload
+   50  ip a
+   51  history
+   52  touch Backup_Redhat_Fedora_Workstation_22.txt
+   53  ls -la
+   54  history >> Backup_Redhat_Fedora_Workstation_22.txt 
