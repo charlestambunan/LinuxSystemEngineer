@@ -52,3 +52,4 @@
    52  touch Backup_Redhat_Fedora_Workstation_22.txt
    53  ls -la
    54  history >> Backup_Redhat_Fedora_Workstation_22.txt 
+
