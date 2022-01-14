@@ -20,3 +20,4 @@ Jan 06 16:02:09 fedora chronyd[758]: Can't synchronise: no selectable sources
 Jan 06 16:05:22 fedora chronyd[758]: Selected source 103.123.108.224 (2.fedora.pool.ntp.org)
 Jan 06 16:05:22 fedora chronyd[758]: System clock wrong by 2.060234 seconds
 Jan 06 16:08:35 fedora chronyd[758]: Selected source 203.114.225.252 (2.fedora.pool.ntp.org)
+
