@@ -1,0 +1,1958 @@
+[root@fedora ctambunan]# history
+    1  ls -la
+    2  ls
+    3  passwd
+    4  history
+    5  whoami
+    6  exit
+    7  history
+    8  ls
+    9  exit
+   10  charles
+   11  exit
+   12  exit
+   13  ls -la
+   14  ip a
+   15  ip a
+   16  systemctl up ens160
+   17  poweroff
+   18  ip a
+   19  ping -c 3 8.8.8.8
+   20  poweroff
+   21  ls -la
+   22  ip a
+   23  ping -c 8.8.8.8
+   24  ping -c 3 8.8.8.8
+   25  ls
+   26  ls -la
+   27  ping -c 3 8.8.8.8
+   28  poweroff
+   29  ip a
+   30  nmcli d
+   31  ls /etc/sysconfig/network-scripts/
+   32  vi /etc/sysconfig/network-scripts/ifcfg-ens160
+   33  clear
+   34  cat /etc/sysconfig/network-scripts/
+   35  ls -la /etc/sysconfig/network-scripts/
+   36  ls -la /etc/sysconfig/network-scripts/ifcfg-ens160
+   37  vi /etc/sysconfig/network-scripts/ifcfg-ens160
+   38  nmtui
+   39  nmcli d
+   40  sudo nmtui
+   41  clear
+   42  vi /etc/sysconfig/network-scripts/ifcfg-ens160
+   43  clear
+   44  nmcli d
+   45  ifcup ens160
+   46  ifup ens160
+   47  nmcli connection
+   48  nmcli connection reload
+   49  nmcli connection up
+   50  nmcli connection up ens160
+   51  nmcli d
+   52  poweroff
+   53  ls -la
+   54  nmcli d
+   55  ping -c 3 8.8.8.8
+   56  yum update
+   57  ip a
+   58  ls -la
+   59  nmtui
+   60  history
+   61  ip a
+   62  yum install NetworkManager-tui.x86_64
+   63  nmtui
+   64  date
+   65  wc /home/ctambunan/zcat
+   66  vim /home/ctambunan/zcat
+   67  wc /home/ctambunan/zcat
+   68  wc -n 10 /home/ctambunan/zcat
+   69  wc --help
+   70  head -n 10 zcat
+   71  head -t 10 zcat
+   72  wc --help
+   73  wc -l 10 zcat
+   74  wc -L 10 zcat ; ps grep
+   75  wc -L 10 zcat ; ps -a
+   76  ls /home/
+   77  ls /home/ctambunan/
+   78  ls /home/ctambunan/zcat
+   79  emacs /home/ctambunan/zcat
+   80  dnf search emacs | grep "noarch" | grep -v "xemacs"
+   81  sudo dnf install emacs
+   82  ls
+   83  emacs zcat
+   84  emacs zcat
+   85  emacs zcat
+   86  emacs zcat
+   87  emacs zcat
+   88  vim zcat
+   89  tail zcat
+   90  tail n -2 zcat
+   91  tail n-2 zcat
+   92  ls
+   93  ls -la
+   94  mkdir charles_tambunan
+   95  ls -la
+   96  cd charles_tambunan/
+   97  ls -la
+   98  ls -la
+   99  ls -la
+  100  vim charles.txt
+  101  date
+  102  date +%r
+  103  file zcat
+  104  ws Esc+.
+  105  wc Esc+.
+  106  wc Esc+.
+  107  wc zcat
+  108  ls
+  109  cd ..
+  110  ws Esc+.
+  111  wc Esc+.
+  112  wc zcat
+  113  tail zcat
+  114  tail zcattail zcat
+  115  tail -n 20 zcat
+  116  date +%r
+  117  history
+  118  ls
+  119  passwd
+  120  whoami
+  121  ls -la
+  122  ls -la
+  123  touch charles.txt
+  124  ls -la
+  125  vim charles.txt
+  126  pwd
+  127  ls
+  128  touch Videos/charles1.ogg ; touch Videos/charles2.ogg
+  129  mkdir dongan
+  130  touch dongan/charles1.ogg ; touch dongan/charles2.ogg
+  131  ls -la dongan/
+  132  ls -l
+  133  ls -R
+  134  pwd
+  135  cd -
+  136  pwd
+  137  cd -
+  138  cd ..
+  139  cd ctambunan/
+  140  cd -
+  141  cd -p
+  142  cd ~
+  143  cd ..
+  144  ls
+  145  cd usr/
+  146  ls
+  147  cd ..
+  148  cd home/
+  149  ls -la
+  150  cd ctambunan/
+  151  cd ../
+  152  ls
+  153  cd -u2
+  154  cd ctambunan/
+  155  cd ../..
+  156  cd ../..
+  157  ls -a
+  158  ls -l
+  159  ls -al
+  160  cd bin
+  161  cd tmp
+  162  cd ..
+  163  cd bin/
+  164  cd ../../tmp
+  165  cd ~
+  166  ls
+  167  cd ..
+  168  cd ../..
+  169  cd -u1
+  170  cd usr/
+  171  cd ..
+  172  cd usr/
+  173  ls
+  174  cd tmp/
+  175  cd ../..
+  176  timedatectl
+  177  timedatectl --help
+  178  timedatectl show
+  179  ls
+  180  ls -la
+  181  ls -la
+  182  cd usr/
+  183  ls -la
+  184  cd ..
+  185  ls -la
+  186  cd home/
+  187  cd home
+  188  ls -la
+  189  cd ctambunan
+  190  ls -la
+  191  ls -la
+  192  touch bornok.txt
+  193  ls -la
+  194  mv bornok.txt dongan/
+  195  ls -la dongan/
+  196  history
+  197  poweroff
+  198  ls -la
+  199  ip a
+  200  ip -a
+  201  ip -a
+  202  ip a
+  203  historu
+  204  history
+  205  ls -la
+  206  cd Tambunan
+  207  cd TambunanX/
+  208  history
+  209  ls -la
+  210  mkdir dori; cd dori
+  211  touch dori dori2 dori3 dori4 dori5 dori6 dori7 dori8
+  212  ls d*
+  213  ls 0*
+  214  ls o*
+  215  ls --root
+  216  ls -root
+  217  ls -user
+  218  ls ~/glob
+  219  ls ~/root
+  220  ls -/root
+  221  ls t*
+  222  ls *t
+  223  ls *r
+  224  ls r*
+  225  ls r*
+  226  ls d*
+  227  mv dori dori1
+  228  ls -la
+  229  echo {Andi,Dori,Siapudan,Sitorus}.log
+  230  echo {AndiDori1..20}.txt
+  231  ls -la
+  232  echo AndiDori{1..20}.txt
+  233  ls A*
+  234  ls a*
+  235  ls -la
+  236  ls -la
+  237  cd dori1
+  238  cd ..
+  239  ls -la
+  240  Dori1
+  241  cd Dori1/
+  242  ls -la
+  243  cd ..
+  244  cd Dori2/
+  245  ls -la
+  246  cd dori
+  247  cd ..
+  248  ls -la
+  249  cd Dori1/
+  250  ls -la
+  251  cd ..
+  252  mkdir AndiThesis
+  253  cd AndiThesis/
+  254  ls -la
+  255  echo andi{1..20}.txt
+  256  ls -la
+  257  ls
+  258  echo andi{a..c}.txt
+  259  ls -la
+  260  touch andi{dori,siska}.txt
+  261  ls -la
+  262  touch charles{1..20}.txt
+  263  ls -la
+  264  touch andi{a,b}{c,d}.txt
+  265  ls -la
+  266  touch andi{a{a,b}}{c,d}.txt
+  267  ls -la
+  268  USERNAME=ANDI
+  269  echo $ANDI
+  270  echo $USERNAME
+  271  echo Today is $(date +%A).
+  272  echo Today is $(date +%B).
+  273  echo Today is $(date +%C).
+  274  echo Today is $(date +%C + %B).
+  275  echo Today is $(date +%C,%B).
+  276  echo Today is $(date +%C,%B,%D).
+  277  myhost=$(hostname -s); echo $myhost
+  278  echo "***** hostname is ${myhost} ****"
+  279  echo "Willl cairable $myhost evaluate to $ (hostname -s)?"
+  280  echo 'Will cairable $myhost evaluate to $ (hostname -s)?'
+  281  history
+  282  ls -la
+  283  ls b*
+  284  ls *b
+  285  ls *n*
+  286  ls *b*
+  287  touch babi{1..10}.txt
+  288  ls -la
+  289  ls b*
+  290  ls *b
+  291  touch babib {1..10}.txt
+  292  ls b*
+  293  ls *b
+  294  ls [!b]*
+  295  ls *b*
+  296  ls *[digit]*
+  297  ls *[[:digit:]]*
+  298  ls *#*
+  299  ls [0-9]
+  300  ls *[[:digit:]]*
+  301  ls *[digit]*
+  302  ls *[[:digit:]]*
+  303  touch ANDISITORUS{1..20}.txt
+  304  ls -la
+  305  ls [[:upper:]]*
+  306  ls \3*
+  307  ls +++*
+  308  ls ...*
+  309  ls ???*
+  310  ls ???
+  311  ls ???*
+  312  mkdir -p dori/fighter{1..10}.sh
+  313  cat -p dori/
+  314  ls -la dori/
+  315  ls -R dori/
+  316  mkdir ando
+  317  mv dori/fighter* . ando/
+  318  mv dori/fighter* . ando/
+  319  ls ando/
+  320  ls -R dori ; ls ando/
+  321  ls -R dori ; ls -R ando/
+  322  ls -a dori ; ls -R ando/
+  323  ls -a dori ; ls -R ando
+  324  ls -a dori
+  325  cp ando/fighter * . dori/
+  326  cp ando/fighter* . dori/
+  327  cp ando
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LP(1P)                                                          POSIX Programmer's Manual                                                         LP(1P)
+
+PROLOG
+       This  manual  page  is  part  of the POSIX Programmer's Manual.  The Linux implementation of this interface may differ (consult the corresponding
+       Linux manual page for details of Linux behavior), or the interface may not be implemented on Linux.
+
+NAME
+       lp — send files to a printer
+
+SYNOPSIS
+       lp [-c] [-d dest] [-n copies] [-msw] [-o option]... [-t title] [file...]
+
+DESCRIPTION
+       The lp utility shall copy the input files to an output destination in an unspecified manner. The default output destination should be to a  hard‐
+       copy  device, such as a printer or microfilm recorder, that produces non-volatile, human-readable documents. If such a device is not available to
+       the application, or if the system provides no such device, the lp utility shall exit with a non-zero exit status.
+
+       The actual writing to the output device may occur some time after the lp utility successfully exits. During the portion of the writing that  cor‐
+       responds to each input file, the implementation shall guarantee exclusive access to the device.
+
+       The lp utility shall associate a unique request ID with each request.
+
+       Normally,  a  banner  page is produced to separate and identify each print job. This page may be suppressed by implementation-defined conditions,
+       such as an operator command or one of the -o option values.
+
+OPTIONS
+       The lp utility shall conform to the Base Definitions volume of POSIX.1‐2017, Section 12.2, Utility Syntax Guidelines.
+
+       The following options shall be supported:
+
+       -c        Exit only after further access to any of the input files is no longer required. The application can then safely delete  or  modify  the
+                 files without affecting the output operation. Normally, files are not copied, but are linked whenever possible. If the -c option is not
+                 given, then the user should be careful not to remove any of the files before the request has been printed in its  entirety.  It  should
+                 also  be  noted  that  in  the absence of the -c option, any changes made to the named files after the request is made but before it is
+                 printed may be reflected in the printed output.  On some implementations, -c may be on by default.
+
+       -d dest   Specify a string that names the destination (dest).  If dest is a printer, the request shall be printed only on that specific  printer.
+                 If  dest  is a class of printers, the request shall be printed on the first available printer that is a member of the class. Under cer‐
+                 tain conditions (printer unavailability, file space limitation, and so on), requests for specific destinations need  not  be  accepted.
+                 Destination names vary between systems.
+
+                 If -d is not specified, and neither the LPDEST nor PRINTER environment variable is set, an unspecified destination is used. The -d dest
+                 option shall take precedence over LPDEST, which in turn shall take precedence over PRINTER.  Results are undefined when dest contains a
+                 value that is not a valid destination name.
+
+       -m        Send mail (see mailx) after the files have been printed. By default, no mail is sent upon normal completion of the print request.
+
+       -n copies Write  copies  number of copies of the files, where copies is a positive decimal integer. The methods for producing multiple copies and
+                 for arranging the multiple copies when multiple file operands are used are unspecified, except that each file shall be output as an in‐
+                 tegral whole, not interleaved with portions of other files.
+
+       -o option Specify  printer-dependent  or  class-dependent  options.   Several such options may be collected by specifying the -o option more than
+                 once.
+
+       -s        Suppress messages from lp.
+
+       -t title  Write title on the banner page of the output.
+
+       -w        Write a message on the user's terminal after the files have been printed. If the user is not logged in, then mail  shall  be  sent  in‐
+                 stead.
+
+OPERANDS
+       The following operand shall be supported:
+
+       file      A pathname of a file to be output. If no file operands are specified, or if a file operand is '-', the standard input shall be used. If
+                 a file operand is used, but the -c option is not specified, the process performing the writing to the output device may have  user  and
+                 group permissions that differ from that of the process invoking lp.
+
+STDIN
+       The standard input shall be used only if no file operands are specified, or if a file operand is '-'.  See the INPUT FILES section.
+
+INPUT FILES
+       The input files shall be text files.
+
+ENVIRONMENT VARIABLES
+       The following environment variables shall affect the execution of lp:
+
+       LANG      Provide  a  default  value  for  the  internationalization  variables  that  are  unset  or  null.  (See the Base Definitions volume of
+                 POSIX.1‐2017, Section 8.2, Internationalization Variables for the precedence of internationalization variables used  to  determine  the
+                 values of locale categories.)
+
+       LC_ALL    If set to a non-empty string value, override the values of all the other internationalization variables.
+
+       LC_CTYPE  Determine  the  locale  for the interpretation of sequences of bytes of text data as characters (for example, single-byte as opposed to
+                 multi-byte characters in arguments and input files).
+
+       LC_MESSAGES
+                 Determine the locale that should be used to affect the format and contents of diagnostic messages written to standard error and  infor‐
+                 mative messages written to standard output.
+
+       LC_TIME   Determine the format and contents of date and time strings displayed in the lp banner page, if any.
+
+       LPDEST    Determine  the  destination. If the LPDEST environment variable is not set, the PRINTER environment variable shall be used. The -d dest
+                 option takes precedence over LPDEST.  Results are undefined when -d is not specified and LPDEST contains a value that is  not  a  valid
+                 destination name.
+
+       NLSPATH   Determine the location of message catalogs for the processing of LC_MESSAGES.
+
+       PRINTER   Determine  the  output device or destination. If the LPDEST and PRINTER environment variables are not set, an unspecified output device
+                 is used. The -d dest option and the LPDEST environment variable shall take precedence over PRINTER.  Results are undefined when  -d  is
+                 not specified, LPDEST is unset, and PRINTER contains a value that is not a valid device or destination name.
+
+       TZ        Determine  the timezone used to calculate date and time strings displayed in the lp banner page, if any. If TZ is unset or null, an un‐
+                 specified default timezone shall be used.
+
+ASYNCHRONOUS EVENTS
+       Default.
+
+STDOUT
+       The lp utility shall write a request ID to the standard output, unless -s is specified. The format of the message is unspecified. The request  ID
+       can be used on systems supporting the historical cancel and lpstat utilities.
+
+STDERR
+       The standard error shall be used only for diagnostic messages.
+
+OUTPUT FILES
+       None.
+
+EXTENDED DESCRIPTION
+       None.
+
+EXIT STATUS
+       The following exit values shall be returned:
+
+        0    All input files were processed successfully.
+
+       >0    No output device was available, or an error occurred.
+
+CONSEQUENCES OF ERRORS
+       Default.
+
+       The following sections are informative.
+
+APPLICATION USAGE
+       The pr and fold utilities can be used to achieve reasonable formatting for the implementation's default page size.
+
+       A conforming application can use one of the file operands only with the -c option or if the file is publicly readable and guaranteed to be avail‐
+       able at the time of printing. This is because POSIX.1‐2008 gives the implementation the freedom to queue up the  request  for  printing  at  some
+       later time by a different process that might not be able to access the file.
+
+EXAMPLES
+        1. To print file file:
+
+               lp -c file
+
+        2. To print multiple files with headers:
+
+               pr file1 file2 | lp
+
+RATIONALE
+       The  lp utility was designed to be a basic version of a utility that is already available in many historical implementations. The standard devel‐
+       opers considered that it should be implementable simply as:
+
+           cat "$@" > /dev/lp
+
+       after appropriate processing of options, if that is how the implementation chose to do it and if exclusive access could be granted (so  that  two
+       users  did  not  write  to  the device simultaneously).  Although in the future the standard developers may add other options to this utility, it
+       should always be able to execute with no options or operands and send the standard input to an unspecified output device.
+
+       This volume of POSIX.1‐2017 makes no representations concerning the format of the printed output, except that it must be  ``human-readable''  and
+       ``non-volatile''.   Thus,  writing by default to a disk or tape drive or a display terminal would not qualify. (Such destinations are not prohib‐
+       ited when -d dest, LPDEST, or PRINTER are used, however.)
+
+       This volume of POSIX.1‐2017 is worded such that a ``print job'' consisting of multiple input files, possibly in multiple copies, is guaranteed to
+       print so that any one file is not intermixed with another, but there is no statement that all the files or copies have to print out together.
+
+       The  -c  option  may  imply a spooling operation, but this is not required. The utility can be implemented to wait until the printer is ready and
+       then wait until it is finished. Because of that, there is no attempt to define a queuing mechanism (priorities, classes of output, and so on).
+
+       On some historical systems, the request ID reported on the STDOUT can be used to later cancel or find the status of a request using utilities not
+       defined in this volume of POSIX.1‐2017.
+
+       Although  the  historical  System  V  lp and BSD lpr utilities have provided similar functionality, they used different names for the environment
+       variable specifying the destination printer.  Since the name of the utility here is lp, LPDEST (used by the System V lp utility) was given prece‐
+       dence  over  PRINTER  (used by the BSD lpr utility). Since environments of users frequently contain one or the other environment variable, the lp
+       utility is required to recognize both. If this was not done, many applications would send output to unexpected output devices  when  users  moved
+       from system to system.
+
+       Some have commented that lp has far too little functionality to make it worthwhile. Requests have proposed additional options or operands or both
+       that added functionality. The requests included:
+
+        *  Wording requiring the output to be ``hardcopy''
+
+        *  A requirement for multiple printers
+
+        *  Options for supporting various page-description languages
+
+       Given that a compliant system is not required to even have a printer, placing further restrictions upon the behavior of the printer is  not  use‐
+       ful.  Since  hardcopy format is so application-dependent, it is difficult, if not impossible, to select a reasonable subset of functionality that
+       should be required on all compliant systems.
+
+       The term unspecified is used in this section in lieu of implementation-defined as most known implementations would not be able to make definitive
+       statements  in their conformance documents; the existence and usage of printers is very dependent on how the system administrator configures each
+       individual system.
+
+       Since the default destination, device type, queuing mechanisms, and acceptable forms of input are all unspecified, usage guidelines  for  what  a
+       conforming application can do are as follows:
+
+  328  ls dori/
+  329  cp dori/andi* . ando/
+  330  cp dori/fighter* . ando/
+  331  cp -p dori/fighter* . ando/
+  332  cp -r
+  333  cp --help
+  334  ls -p dori/
+  335  cp dori/charles{1..14}.txt ando/
+  336  ls ando/
+  337  history
+  338  man -k passwd
+  339  man -k adduser
+  340  man -k cp
+  341  man gedit
+  342  man cp
+  343  man -k zip
+  344  history
+  345  ls -la
+  346  cd ..
+  347  ls -la
+  348  vim Andi1.txt
+  349  tail Andi1.txt
+  350  tail -f Andi1.txt
+  351  tail -d Andi1.txt
+  352  poweroff
+  353  history
+  354  man man
+  355  man k passwd
+  356  history
+  357  man k history
+  358  man k zip
+  359  man k ext4
+  360  pinfo zip
+  361  pinfo tar
+  362  lab help-info start command
+  363  pinfo
+  364  history
+[root@fedora ctambunan]# man -t passwd > passwd.ps
+[root@fedora ctambunan]# man lp
+[root@fedora ctambunan]# less /home/student/passwd/ps
+/home/student/passwd/ps: No such file or directory
+[root@fedora ctambunan]# less /home/student/passwd.ps
+/home/student/passwd.ps: No such file or directory
+[root@fedora ctambunan]# man -k postscript viewer
+grops (1)            - PostScript driver for groff
+pango-view (1)       - "Pango text viewer"
+[root@fedora ctambunan]# man evince
+No manual entry for evince
+[root@fedora ctambunan]# ls /home/
+ctambunan
+[root@fedora ctambunan]# ls /home/ctambunan/passwd.ps
+/home/ctambunan/passwd.ps
+[root@fedora ctambunan]# evince /home/ctambunan/passwd.ps
+bash: evince: command not found
+[root@fedora ctambunan]# evince -w /home/ctambunan/passwd.ps
+bash: evince: command not found
+[root@fedora ctambunan]# man evince
+No manual entry for evince
+[root@fedora ctambunan]# date > /tmp/saved-timestamp
+[root@fedora ctambunan]#  tail -n 100 /var/log/dmesg > /home/ctambunan/konyolmsg
+tail: cannot open '/var/log/dmesg' for reading: No such file or directory
+[root@fedora ctambunan]# ls -la /home/ctambunan
+total 56
+drwx------. 6 ctambunan ctambunan  4096 Jan  5 07:55  .
+drwxr-xr-x. 3 root      root         23 Jan  3 17:54  ..
+-rw-------. 1 ctambunan ctambunan   516 Jan  4 13:05  .bash_history
+-rw-r--r--. 1 ctambunan ctambunan    18 Jul 22 02:29  .bash_logout
+-rw-r--r--. 1 ctambunan ctambunan   141 Jul 22 02:29  .bash_profile
+-rw-r--r--. 1 ctambunan ctambunan   492 Jul 22 02:29  .bashrc
+drwxr-xr-x. 2 root      root         25 Jan  4 10:42  charles_tambunan
+-rw-r--r--. 1 root      root         29 Jan  4 12:08  charles.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+total 156908
+-rwxr-xr-x. 1 root root       53424 Jul 22 05:04 [
+-rwxr-xr-x. 1 root root        1328 May 25  2021 abrt
+-rwxr-xr-x. 1 root root       16112 Oct  6 01:15 abrt-action-analyze-backtrace
+-rwxr-xr-x. 1 root root       20336 Oct  6 01:15 abrt-action-analyze-c
+-rwxr-xr-x. 1 root root        1315 Oct  6 01:14 abrt-action-analyze-ccpp-local
+-rwxr-xr-x. 1 root root        4613 Oct  6 01:14 abrt-action-analyze-core
+-rwxr-xr-x. 1 root root       16096 Oct  6 01:15 abrt-action-analyze-oops
+-rwxr-xr-x. 1 root root       16088 Oct  6 01:15 abrt-action-analyze-python
+-rwxr-xr-x. 1 root root        2597 Oct  6 01:14 abrt-action-analyze-vmcore
+-rwxr-xr-x. 1 root root        1399 Oct  6 01:14 abrt-action-analyze-vulnerability
+-rwxr-xr-x. 1 root root       16144 Oct  6 01:15 abrt-action-analyze-xorg
+-rwxr-xr-x. 1 root root        1926 Oct  6 01:14 abrt-action-check-oops-for-alt-component
+-rwxr-xr-x. 1 root root        6551 Oct  6 01:14 abrt-action-check-oops-for-hw-error
+-rwxr-xr-x. 1 root root        5587 May 25  2021 abrt-action-find-bodhi-update
+-rwxr-xr-x. 1 root root       16104 Oct  6 01:15 abrt-action-generate-backtrace
+-rwxr-xr-x. 1 root root       16096 Oct  6 01:15 abrt-action-generate-core-backtrace
+-rwxr-xr-x. 1 root root       12989 Oct  6 01:14 abrt-action-install-debuginfo
+-rwxr-xr-x. 1 root root        3717 May 25  2021 abrt-action-list-dsos
+-rwxr-xr-x. 1 root root        7225 May 25  2021 abrt-action-notify
+-rwxr-xr-x. 1 root root        3289 Oct  6 01:14 abrt-action-perform-ccpp-analysis
+-rwxr-xr-x. 1 root root       32664 Oct  6 01:15 abrt-action-save-package-data
+-rwxr-xr-x. 1 root root       24440 Oct  6 01:15 abrt-action-trim-files
+-rwxr-xr-x. 1 root root       24408 Oct  6 01:15 abrt-bodhi
+lrwxrwxrwx. 1 root root          13 Oct  6 01:15 abrt-cli -> /usr/bin/abrt
+-rwxr-xr-x. 1 root root       33248 Oct  6 01:15 abrt-dump-journal-core
+-rwxr-xr-x. 1 root root       41024 Oct  6 01:15 abrt-dump-journal-oops
+-rwxr-xr-x. 1 root root       32880 Oct  6 01:15 abrt-dump-journal-xorg
+-rwxr-xr-x. 1 root root       24432 Oct  6 01:15 abrt-dump-oops
+-rwxr-xr-x. 1 root root       24392 Oct  6 01:15 abrt-dump-xorg
+-rwxr-xr-x. 1 root root        8889 Oct  6 01:14 abrt-handle-upload
+-rwxr-xr-x. 1 root root       16096 Oct  6 01:15 abrt-merge-pstoreoops
+-rwxr-xr-x. 1 root root       53440 Oct  6 01:15 abrt-retrace-client
+-rwxr-xr-x. 1 root root       24200 Oct  6 01:15 abrt-watch-log
+-rwxr-xr-x. 1 root root       33280 Jul 23 12:35 ac
+-rwxr-xr-x. 1 root root        3462 Jul 23 13:32 activate-global-python-argcomplete
+-rwxr-xr-x. 1 root root          33 Jul 22 02:34 alias
+-rwxr-xr-x. 1 root root       69648 Jul 22 06:16 applydeltarpm
+-rwxr-xr-x. 1 root root       32520 Jul 22 21:34 appstream-compose
+-rwxr-xr-x. 1 root root      119728 Jul 22 21:34 appstream-util
+lrwxrwxrwx. 1 root root          25 Jan  3 17:51 apropos -> /etc/alternatives/apropos
+lrwxrwxrwx. 1 root root           6 Jul 23 02:13 apropos.man-db -> whatis
+-rwxr-xr-x. 1 root root       32800 Jul 22 05:04 arch
+-rwxr-xr-x. 1 root root       15952 Dec 20 20:53 arpaname
+-rwxr-xr-x. 1 root root       36280 Jul 26 01:35 arping
+-rwxr-xr-x. 1 root root       40976 Dec 18 02:21 aserver
+-rwsr-xr-x. 1 root root       57304 Jul 22 02:19 at
+lrwxrwxrwx. 1 root root           2 Jul 22 02:19 atq -> at
+lrwxrwxrwx. 1 root root           2 Jul 22 02:19 atrm -> at
+drwxr-xr-x. 2 root      root         64 Jan  4 13:04  dongan
+-rw-r--r--. 1 root      root          0 Jan  5 07:55  konyolmsg
+-rw-------. 1 ctambunan ctambunan    20 Jan  4 06:43  .lesshst
+-rw-r--r--. 1 root      root      20168 Jan  5 07:43  passwd.ps
+drwxr-xr-x. 7 root      root        110 Jan  4 19:03  TambunanX
+drwxr-xr-x. 2 root      root          6 Jan  4 15:55  TambunanY
+-rw-r--r--. 1 root      root        169 Jan  4 13:05 '#zcat#'
+
+
+
+
+
+
+
+
+
+-rw-r--r--. 1 root      root        166 Jan  4 10:32  zcat
+[root@fedora ctambunan]# cd /home/ctambunan/TambunanX
+[root@fedora TambunanX]# touch andi
+[root@fedora TambunanX]#  tail -n 100 /var/log/dmesg > /home/ctambunan/TambunanX/andi
+tail: cannot open '/var/log/dmesg' for reading: No such file or directory
+[root@fedora TambunanX]# ls -la
+total 16
+drwxr-xr-x. 7 root      root       122 Jan  5 07:56 .
+drwx------. 6 ctambunan ctambunan 4096 Jan  5 07:55 ..
+-rw-r--r--. 1 root      root         0 Jan  5 07:57 andi
+-rw-r--r--. 2 root      root      6732 Jan  4 19:03 Andi1.txt
+-rw-r--r--. 1 root      root         0 Jan  4 16:46 Andi2.txt
+drwxr-xr-x. 4 root      root      4096 Jan  4 18:09 AndiThesis
+drwxr-xr-x. 2 root      root       110 Jan  4 17:29 dori
+drwxr-xr-x. 2 root      root        40 Jan  4 16:36 Dori1
+drwxr-xr-x. 2 root      root        45 Jan  4 16:41 Dori2
+drwxr-xr-x. 5 root      root       122 Jan  4 16:22 Thesis
+[root@fedora TambunanX]# cat Andi1.txt Andi2.txt > /tmp/all-four-in-one
+[root@fedora TambunanX]# ls -a > /tmp/my-files-name
+[root@fedora TambunanX]# echo "new line of information" >> /tmp/many-lines-of-information
+[root@fedora TambunanX]# diff previous-file current-file >> /tmp/tracking-changes-made
+diff: previous-file: No such file or directory
+diff: current-file: No such file or directory
+[root@fedora TambunanX]# find /etc -name passwd 2> /tmp/errors
+/etc/passwd
+/etc/pam.d/passwd
+[root@fedora TambunanX]# find /etc -name passwd > /tmp/output 2> /tmp/errors
+[root@fedora TambunanX]# find /etc -name passwd > /tmp/output 2> /tmp/errors
+[root@fedora TambunanX]# find /etc -name passwd > /tmp/output 2> /tmp/null
+[root@fedora TambunanX]# find /etc -name passwd &> /tmp/save-both
+[root@fedora TambunanX]# find /etc -name passwd >> /tmp/save-both 2>&1
+[root@fedora TambunanX]# ls -l /usr/bin | less
+[root@fedora TambunanX]# ls | ws -l
+bash: ws: command not found
+[root@fedora TambunanX]# ls | wc -l
+8
+[root@fedora TambunanX]# ls -t | head -n 10 > /tmp/ten-last-changed-files
+[root@fedora TambunanX]# ls > /tmp/saved-output | less
+[root@fedora TambunanX]# ls -l | tee /tmp/saved-output | less
+[root@fedora TambunanX]#  ls -t | head -n 10 | tee /tmp/ten-last-changed-files
+andi
+Andi1.txt
+AndiThesis
+dori
+Andi2.txt
+Dori2
+Dori1
+Thesis
+[root@fedora TambunanX]# cat Andi1.txt | ls -R Dori2/
+Dori2/:
+Andi2.txt  Andi_Dori3.txt
+[root@fedora TambunanX]# cat Andi1.txt ; ls -R Dori2/
+    1  ls -la
+    2  ls
+    3  passwd
+    4  history
+    5  whoami
+    6  exit
+    7  history
+    8  ls
+    9  exit
+   10  charles
+   11  exit
+   12  exit
+   13  ls -la
+   14  ip a
+   15  ip a
+   16  systemctl up ens160
+   17  poweroff
+   18  ip a
+   19  ping -c 3 8.8.8.8
+   20  poweroff
+   21  ls -la
+   22  ip a
+   23  ping -c 8.8.8.8
+   24  ping -c 3 8.8.8.8
+   25  ls
+   26  ls -la
+   27  ping -c 3 8.8.8.8
+   28  poweroff
+   29  ip a
+   30  nmcli d
+   31  ls /etc/sysconfig/network-scripts/
+   32  vi /etc/sysconfig/network-scripts/ifcfg-ens160
+   33  clear
+   34  cat /etc/sysconfig/network-scripts/
+   35  ls -la /etc/sysconfig/network-scripts/
+   36  ls -la /etc/sysconfig/network-scripts/ifcfg-ens160
+   37  vi /etc/sysconfig/network-scripts/ifcfg-ens160
+   38  nmtui
+   39  nmcli d
+   40  sudo nmtui
+   41  clear
+   42  vi /etc/sysconfig/network-scripts/ifcfg-ens160
+   43  clear
+   44  nmcli d
+   45  ifcup ens160
+   46  ifup ens160
+   47  nmcli connection
+   48  nmcli connection reload
+   49  nmcli connection up
+   50  nmcli connection up ens160
+   51  nmcli d
+   52  poweroff
+   53  ls -la
+   54  nmcli d
+   55  ping -c 3 8.8.8.8
+   56  yum update
+   57  ip a
+   58  ls -la
+   59  nmtui
+   60  history
+   61  ip a
+   62  yum install NetworkManager-tui.x86_64
+   63  nmtui
+   64  date
+   65  wc /home/ctambunan/zcat
+   66  vim /home/ctambunan/zcat
+   67  wc /home/ctambunan/zcat
+   68  wc -n 10 /home/ctambunan/zcat
+   69  wc --help
+   70  head -n 10 zcat
+   71  head -t 10 zcat
+   72  wc --help
+   73  wc -l 10 zcat
+   74  wc -L 10 zcat ; ps grep
+   75  wc -L 10 zcat ; ps -a
+   76  ls /home/
+   77  ls /home/ctambunan/
+   78  ls /home/ctambunan/zcat
+   79  emacs /home/ctambunan/zcat
+   80  dnf search emacs | grep "noarch" | grep -v "xemacs"
+   81  sudo dnf install emacs
+   82  ls
+   83  emacs zcat
+   84  emacs zcat
+   85  emacs zcat
+   86  emacs zcat
+   87  emacs zcat
+   88  vim zcat
+   89  tail zcat
+   90  tail n -2 zcat
+   91  tail n-2 zcat
+   92  ls
+   93  ls -la
+   94  mkdir charles_tambunan
+   95  ls -la
+   96  cd charles_tambunan/
+   97  ls -la
+   98  ls -la
+   99  ls -la
+  100  vim charles.txt
+  101  date
+  102  date +%r
+  103  file zcat
+  104  ws Esc+.
+  105  wc Esc+.
+  106  wc Esc+.
+  107  wc zcat
+  108  ls
+  109  cd ..
+  110  ws Esc+.
+  111  wc Esc+.
+  112  wc zcat
+  113  tail zcat
+  114  tail zcattail zcat
+  115  tail -n 20 zcat
+  116  date +%r
+  117  history
+  118  ls
+  119  passwd
+  120  whoami
+  121  ls -la
+  122  ls -la
+  123  touch charles.txt
+  124  ls -la
+  125  vim charles.txt
+  126  pwd
+  127  ls
+  128  touch Videos/charles1.ogg ; touch Videos/charles2.ogg
+  129  mkdir dongan
+  130  touch dongan/charles1.ogg ; touch dongan/charles2.ogg
+  131  ls -la dongan/
+  132  ls -l
+  133  ls -R
+  134  pwd
+  135  cd -
+  136  pwd
+  137  cd -
+  138  cd ..
+  139  cd ctambunan/
+  140  cd -
+  141  cd -p
+  142  cd ~
+  143  cd ..
+  144  ls
+  145  cd usr/
+  146  ls
+  147  cd ..
+  148  cd home/
+  149  ls -la
+  150  cd ctambunan/
+  151  cd ../
+  152  ls
+  153  cd -u2
+  154  cd ctambunan/
+  155  cd ../..
+  156  cd ../..
+  157  ls -a
+  158  ls -l
+  159  ls -al
+  160  cd bin
+  161  cd tmp
+  162  cd ..
+  163  cd bin/
+  164  cd ../../tmp
+  165  cd ~
+  166  ls
+  167  cd ..
+  168  cd ../..
+  169  cd -u1
+  170  cd usr/
+  171  cd ..
+  172  cd usr/
+  173  ls
+  174  cd tmp/
+  175  cd ../..
+  176  timedatectl
+  177  timedatectl --help
+  178  timedatectl show
+  179  ls
+  180  ls -la
+  181  ls -la
+  182  cd usr/
+  183  ls -la
+  184  cd ..
+  185  ls -la
+  186  cd home/
+  187  cd home
+  188  ls -la
+  189  cd ctambunan
+  190  ls -la
+  191  ls -la
+  192  touch bornok.txt
+  193  ls -la
+  194  mv bornok.txt dongan/
+  195  ls -la dongan/
+  196  history
+  197  poweroff
+  198  ls -la
+  199  ip a
+  200  historu
+  201  history
+  202  ls -la
+  203  cd Tambunan
+  204  cd TambunanX/
+  205  history
+  206  ls -la
+  207  mkdir dori; cd dori
+  208  touch dori dori2 dori3 dori4 dori5 dori6 dori7 dori8
+  209  ls d*
+  210  ls 0*
+  211  ls o*
+  212  ls --root
+  213  ls -root
+  214  ls -user
+  215  ls ~/glob
+  216  ls ~/root
+  217  ls -/root
+  218  ls t*
+  219  ls *t
+  220  ls *r
+  221  ls r*
+  222  ls r*
+  223  ls d*
+  224  mv dori dori1
+  225  ls -la
+  226  echo {Andi,Dori,Siapudan,Sitorus}.log
+  227  echo {AndiDori1..20}.txt
+  228  ls -la
+  229  echo AndiDori{1..20}.txt
+  230  ls A*
+  231  ls a*
+  232  ls -la
+  233  ls -la
+  234  cd dori1
+  235  cd ..
+  236  ls -la
+  237  Dori1
+  238  cd Dori1/
+  239  ls -la
+  240  cd ..
+  241  cd Dori2/
+  242  ls -la
+  243  cd dori
+  244  cd ..
+  245  ls -la
+  246  cd Dori1/
+  247  ls -la
+  248  cd ..
+  249  mkdir AndiThesis
+  250  cd AndiThesis/
+  251  ls -la
+  252  echo andi{1..20}.txt
+  253  ls -la
+  254  ls
+  255  echo andi{a..c}.txt
+  256  ls -la
+  257  touch andi{dori,siska}.txt
+  258  ls -la
+  259  touch charles{1..20}.txt
+  260  ls -la
+  261  touch andi{a,b}{c,d}.txt
+  262  ls -la
+  263  touch andi{a{a,b}}{c,d}.txt
+  264  ls -la
+  265  USERNAME=ANDI
+  266  echo $ANDI
+  267  echo $USERNAME
+  268  echo Today is $(date +%A).
+  269  echo Today is $(date +%B).
+  270  echo Today is $(date +%C).
+  271  echo Today is $(date +%C + %B).
+  272  echo Today is $(date +%C,%B).
+  273  echo Today is $(date +%C,%B,%D).
+  274  myhost=$(hostname -s); echo $myhost
+  275  echo "***** hostname is ${myhost} ****"
+  276  echo "Willl cairable $myhost evaluate to $ (hostname -s)?"
+  277  echo 'Will cairable $myhost evaluate to $ (hostname -s)?'
+  278  history
+  279  ls -la
+  280  ls b*
+  281  ls *b
+  282  ls *n*
+  283  ls *b*
+  284  touch babi{1..10}.txt
+  285  ls -la
+  286  ls b*
+  287  ls *b
+  288  touch babib {1..10}.txt
+  289  ls b*
+  290  ls *b
+  291  ls [!b]*
+  292  ls *b*
+  293  ls *[digit]*
+  294  ls *[[:digit:]]*
+  295  ls *#*
+  296  ls [0-9]
+  297  ls *[[:digit:]]*
+  298  ls *[digit]*
+  299  ls *[[:digit:]]*
+  300  touch ANDISITORUS{1..20}.txt
+  301  ls -la
+  302  ls [[:upper:]]*
+  303  ls \3*
+  304  ls +++*
+  305  ls ...*
+
+Makan Siang Dulu Semuanya
+  306  ls ???*
+
+
+
+
+  307  ls ???
+  308  ls ???*
+  309  mkdir -p dori/fighter{1..10}.sh
+  310  cat -p dori/
+  311  ls -la dori/
+  312  ls -R dori/
+  313  mkdir ando
+  314  mv dori/fighter* . ando/
+  315  mv dori/fighter* . ando/
+  316  ls ando/
+  317  ls -R dori ; ls ando/
+  318  ls -R dori ; ls -R ando/
+  319  ls -a dori ; ls -R ando/
+  320  ls -a dori ; ls -R ando
+  321  ls -a dori
+  322  cp ando/fighter * . dori/
+  323  cp ando/fighter* . dori/
+  324  cp ando
+  325  ls dori/
+  326  cp dori/andi* . ando/
+  327  cp dori/fighter* . ando/
+  328  cp -p dori/fighter* . ando/
+  329  cp -r
+  330  cp --help
+  331  ls -p dori/
+  332  cp dori/charles{1..14}.txt ando/
+  333  ls ando/
+  334  history
+  335  man -k passwd
+  336  man -k adduser
+  337  man -k cp
+  338  man gedit
+  339  man cp
+  340  man -k zip
+  341  history
+Dori2/:
+Andi2.txt  Andi_Dori3.txt
+[root@fedora TambunanX]# vim Andi3.txt
+[root@fedora TambunanX]# vimtutor
+[root@fedora TambunanX]# history
+    1  ls -la
+    2  ls
+    3  passwd
+    4  history
+    5  whoami
+    6  exit
+    7  history
+    8  ls
+    9  exit
+   10  charles
+   11  exit
+   12  exit
+   13  ls -la
+   14  ip a
+   15  ip a
+   16  systemctl up ens160
+   17  poweroff
+   18  ip a
+   19  ping -c 3 8.8.8.8
+   20  poweroff
+   21  ls -la
+   22  ip a
+   23  ping -c 8.8.8.8
+   24  ping -c 3 8.8.8.8
+   25  ls
+   26  ls -la
+   27  ping -c 3 8.8.8.8
+   28  poweroff
+   29  ip a
+   30  nmcli d
+   31  ls /etc/sysconfig/network-scripts/
+   32  vi /etc/sysconfig/network-scripts/ifcfg-ens160
+   33  clear
+   34  cat /etc/sysconfig/network-scripts/
+   35  ls -la /etc/sysconfig/network-scripts/
+   36  ls -la /etc/sysconfig/network-scripts/ifcfg-ens160
+   37  vi /etc/sysconfig/network-scripts/ifcfg-ens160
+   38  nmtui
+   39  nmcli d
+   40  sudo nmtui
+   41  clear
+   42  vi /etc/sysconfig/network-scripts/ifcfg-ens160
+   43  clear
+   44  nmcli d
+   45  ifcup ens160
+   46  ifup ens160
+   47  nmcli connection
+   48  nmcli connection reload
+   49  nmcli connection up
+   50  nmcli connection up ens160
+   51  nmcli d
+   52  poweroff
+   53  ls -la
+   54  nmcli d
+   55  ping -c 3 8.8.8.8
+   56  yum update
+   57  ip a
+   58  ls -la
+   59  nmtui
+   60  history
+   61  ip a
+   62  yum install NetworkManager-tui.x86_64
+   63  nmtui
+   64  date
+   65  wc /home/ctambunan/zcat
+   66  vim /home/ctambunan/zcat
+   67  wc /home/ctambunan/zcat
+   68  wc -n 10 /home/ctambunan/zcat
+   69  wc --help
+   70  head -n 10 zcat
+   71  head -t 10 zcat
+   72  wc --help
+   73  wc -l 10 zcat
+   74  wc -L 10 zcat ; ps grep
+   75  wc -L 10 zcat ; ps -a
+   76  ls /home/
+   77  ls /home/ctambunan/
+   78  ls /home/ctambunan/zcat
+   79  emacs /home/ctambunan/zcat
+   80  dnf search emacs | grep "noarch" | grep -v "xemacs"
+   81  sudo dnf install emacs
+   82  ls
+   83  emacs zcat
+   84  emacs zcat
+   85  emacs zcat
+   86  emacs zcat
+   87  emacs zcat
+   88  vim zcat
+   89  tail zcat
+   90  tail n -2 zcat
+   91  tail n-2 zcat
+   92  ls
+   93  ls -la
+   94  mkdir charles_tambunan
+   95  ls -la
+   96  cd charles_tambunan/
+   97  ls -la
+   98  ls -la
+   99  ls -la
+  100  vim charles.txt
+  101  date
+  102  date +%r
+  103  file zcat
+  104  ws Esc+.
+  105  wc Esc+.
+  106  wc Esc+.
+  107  wc zcat
+  108  ls
+  109  cd ..
+  110  ws Esc+.
+  111  wc Esc+.
+  112  wc zcat
+  113  tail zcat
+  114  tail zcattail zcat
+  115  tail -n 20 zcat
+  116  date +%r
+  117  history
+  118  ls
+  119  passwd
+  120  whoami
+  121  ls -la
+  122  ls -la
+  123  touch charles.txt
+  124  ls -la
+  125  vim charles.txt
+  126  pwd
+  127  ls
+  128  touch Videos/charles1.ogg ; touch Videos/charles2.ogg
+  129  mkdir dongan
+  130  touch dongan/charles1.ogg ; touch dongan/charles2.ogg
+  131  ls -la dongan/
+  132  ls -l
+  133  ls -R
+  134  pwd
+  135  cd -
+  136  pwd
+  137  cd -
+  138  cd ..
+  139  cd ctambunan/
+  140  cd -
+  141  cd -p
+  142  cd ~
+  143  cd ..
+  144  ls
+  145  cd usr/
+  146  ls
+  147  cd ..
+  148  cd home/
+  149  ls -la
+  150  cd ctambunan/
+  151  cd ../
+  152  ls
+  153  cd -u2
+  154  cd ctambunan/
+  155  cd ../..
+  156  cd ../..
+  157  ls -a
+  158  ls -l
+  159  ls -al
+  160  cd bin
+  161  cd tmp
+  162  cd ..
+  163  cd bin/
+  164  cd ../../tmp
+  165  cd ~
+  166  ls
+  167  cd ..
+  168  cd ../..
+  169  cd -u1
+  170  cd usr/
+  171  cd ..
+  172  cd usr/
+  173  ls
+  174  cd tmp/
+  175  cd ../..
+  176  timedatectl
+  177  timedatectl --help
+  178  timedatectl show
+  179  ls
+  180  ls -la
+  181  ls -la
+  182  cd usr/
+  183  ls -la
+  184  cd ..
+  185  ls -la
+  186  cd home/
+  187  cd home
+  188  ls -la
+  189  cd ctambunan
+  190  ls -la
+  191  ls -la
+  192  touch bornok.txt
+  193  ls -la
+  194  mv bornok.txt dongan/
+  195  ls -la dongan/
+  196  history
+  197  poweroff
+  198  ls -la
+  199  ip a
+  200  ip -a
+  201  ip -a
+  202  ip a
+  203  historu
+  204  history
+  205  ls -la
+  206  cd Tambunan
+  207  cd TambunanX/
+  208  history
+  209  ls -la
+  210  mkdir dori; cd dori
+  211  touch dori dori2 dori3 dori4 dori5 dori6 dori7 dori8
+  212  ls d*
+  213  ls 0*
+  214  ls o*
+  215  ls --root
+  216  ls -root
+  217  ls -user
+  218  ls ~/glob
+  219  ls ~/root
+  220  ls -/root
+  221  ls t*
+  222  ls *t
+  223  ls *r
+  224  ls r*
+  225  ls r*
+  226  ls d*
+  227  mv dori dori1
+  228  ls -la
+  229  echo {Andi,Dori,Siapudan,Sitorus}.log
+  230  echo {AndiDori1..20}.txt
+  231  ls -la
+  232  echo AndiDori{1..20}.txt
+  233  ls A*
+  234  ls a*
+  235  ls -la
+  236  ls -la
+  237  cd dori1
+  238  cd ..
+  239  ls -la
+  240  Dori1
+  241  cd Dori1/
+  242  ls -la
+  243  cd ..
+  244  cd Dori2/
+  245  ls -la
+  246  cd dori
+  247  cd ..
+  248  ls -la
+  249  cd Dori1/
+  250  ls -la
+  251  cd ..
+  252  mkdir AndiThesis
+  253  cd AndiThesis/
+  254  ls -la
+  255  echo andi{1..20}.txt
+  256  ls -la
+  257  ls
+  258  echo andi{a..c}.txt
+  259  ls -la
+  260  touch andi{dori,siska}.txt
+  261  ls -la
+  262  touch charles{1..20}.txt
+  263  ls -la
+  264  touch andi{a,b}{c,d}.txt
+  265  ls -la
+  266  touch andi{a{a,b}}{c,d}.txt
+  267  ls -la
+  268  USERNAME=ANDI
+  269  echo $ANDI
+  270  echo $USERNAME
+  271  echo Today is $(date +%A).
+  272  echo Today is $(date +%B).
+  273  echo Today is $(date +%C).
+  274  echo Today is $(date +%C + %B).
+  275  echo Today is $(date +%C,%B).
+  276  echo Today is $(date +%C,%B,%D).
+  277  myhost=$(hostname -s); echo $myhost
+  278  echo "***** hostname is ${myhost} ****"
+  279  echo "Willl cairable $myhost evaluate to $ (hostname -s)?"
+  280  echo 'Will cairable $myhost evaluate to $ (hostname -s)?'
+  281  history
+  282  ls -la
+  283  ls b*
+  284  ls *b
+  285  ls *n*
+  286  ls *b*
+  287  touch babi{1..10}.txt
+  288  ls -la
+  289  ls b*
+  290  ls *b
+  291  touch babib {1..10}.txt
+  292  ls b*
+  293  ls *b
+  294  ls [!b]*
+  295  ls *b*
+  296  ls *[digit]*
+  297  ls *[[:digit:]]*
+  298  ls *#*
+  299  ls [0-9]
+  300  ls *[[:digit:]]*
+  301  ls *[digit]*
+  302  ls *[[:digit:]]*
+  303  touch ANDISITORUS{1..20}.txt
+  304  ls -la
+  305  ls [[:upper:]]*
+  306  ls \3*
+  307  ls +++*
+  308  ls ...*
+  309  ls ???*
+  310  ls ???
+  311  ls ???*
+  312  mkdir -p dori/fighter{1..10}.sh
+  313  cat -p dori/
+  314  ls -la dori/
+  315  ls -R dori/
+  316  mkdir ando
+  317  mv dori/fighter* . ando/
+  318  mv dori/fighter* . ando/
+  319  ls ando/
+  320  ls -R dori ; ls ando/
+  321  ls -R dori ; ls -R ando/
+  322  ls -a dori ; ls -R ando/
+  323  ls -a dori ; ls -R ando
+  324  ls -a dori
+  325  cp ando/fighter * . dori/
+  326  cp ando/fighter* . dori/
+  327  cp ando
+  328  ls dori/
+  329  cp dori/andi* . ando/
+  330  cp dori/fighter* . ando/
+  331  cp -p dori/fighter* . ando/
+  332  cp -r
+  333  cp --help
+  334  ls -p dori/
+  335  cp dori/charles{1..14}.txt ando/
+  336  ls ando/
+  337  history
+  338  man -k passwd
+  339  man -k adduser
+  340  man -k cp
+  341  man gedit
+  342  man cp
+  343  man -k zip
+  344  history
+  345  ls -la
+  346  cd ..
+  347  ls -la
+  348  vim Andi1.txt
+  349  tail Andi1.txt
+  350  tail -f Andi1.txt
+  351  tail -d Andi1.txt
+  352  poweroff
+  353  history
+  354  man man
+  355  man k passwd
+  356  history
+  357  man k history
+  358  man k zip
+  359  man k ext4
+  360  pinfo zip
+  361  pinfo tar
+  362  lab help-info start command
+  363  pinfo
+  364  history
+  365  man -t passwd > passwd.ps
+  366  man lp
+  367  less /home/student/passwd/ps
+  368  less /home/student/passwd.ps
+  369  man -k postscript viewer
+  370  man evince
+  371  ls /home/
+  372  ls /home/ctambunan/passwd.ps
+  373  evince /home/ctambunan/passwd.ps
+  374  evince -w /home/ctambunan/passwd.ps
+  375  man evince
+  376  date > /tmp/saved-timestamp
+  377   tail -n 100 /var/log/dmesg > /home/ctambunan/konyolmsg
+  378  ls -la /home/ctambunan
+  379  cd /home/ctambunan/TambunanX
+  380  touch andi
+  381   tail -n 100 /var/log/dmesg > /home/ctambunan/TambunanX/andi
+  382  ls -la
+  383  cat Andi1.txt Andi2.txt > /tmp/all-four-in-one
+  384  ls -a > /tmp/my-files-name
+  385  echo "new line of information" >> /tmp/many-lines-of-information
+  386  diff previous-file current-file >> /tmp/tracking-changes-made
+  387  find /etc -name passwd 2> /tmp/errors
+  388  find /etc -name passwd > /tmp/output 2> /tmp/errors
+  389  find /etc -name passwd > /tmp/output 2> /tmp/errors
+  390  find /etc -name passwd > /tmp/output 2> /tmp/null
+  391  find /etc -name passwd &> /tmp/save-both
+  392  find /etc -name passwd >> /tmp/save-both 2>&1
+  393  ls -l /usr/bin | less
+  394  ls | ws -l
+  395  ls | wc -l
+  396  ls -t | head -n 10 > /tmp/ten-last-changed-files
+  397  ls > /tmp/saved-output | less
+  398  ls -l | tee /tmp/saved-output | less
+  399   ls -t | head -n 10 | tee /tmp/ten-last-changed-files
+  400  cat Andi1.txt | ls -R Dori2/
+  401  cat Andi1.txt ; ls -R Dori2/
+  402  vim Andi3.txt
+  403  vimtutor
+  404  history
+[root@fedora TambunanX]# client_loop: send disconnect: Connection reset
+PS C:\Users\Charles Tambunan> ssh ctambunan@192.168.37.132
+ctambunan@192.168.37.132's password:
+Web console: https://fedora:9090/ or https://192.168.37.132:9090/
+
+Last login: Wed Jan  5 07:36:48 2022 from 192.168.37.1
+[ctambunan@fedora ~]$ sudo su
+[sudo] password for ctambunan:
+[root@fedora ctambunan]# history
+    1  ls -la
+    2  ls
+    3  passwd
+    4  history
+    5  whoami
+    6  exit
+    7  history
+    8  ls
+    9  exit
+   10  charles
+   11  exit
+   12  exit
+   13  ls -la
+   14  ip a
+   15  ip a
+   16  systemctl up ens160
+   17  poweroff
+   18  ip a
+   19  ping -c 3 8.8.8.8
+   20  poweroff
+   21  ls -la
+   22  ip a
+   23  ping -c 8.8.8.8
+   24  ping -c 3 8.8.8.8
+   25  ls
+   26  ls -la
+   27  ping -c 3 8.8.8.8
+   28  poweroff
+   29  ip a
+   30  nmcli d
+   31  ls /etc/sysconfig/network-scripts/
+   32  vi /etc/sysconfig/network-scripts/ifcfg-ens160
+   33  clear
+   34  cat /etc/sysconfig/network-scripts/
+   35  ls -la /etc/sysconfig/network-scripts/
+   36  ls -la /etc/sysconfig/network-scripts/ifcfg-ens160
+   37  vi /etc/sysconfig/network-scripts/ifcfg-ens160
+   38  nmtui
+   39  nmcli d
+   40  sudo nmtui
+   41  clear
+   42  vi /etc/sysconfig/network-scripts/ifcfg-ens160
+   43  clear
+   44  nmcli d
+   45  ifcup ens160
+   46  ifup ens160
+   47  nmcli connection
+   48  nmcli connection reload
+   49  nmcli connection up
+   50  nmcli connection up ens160
+   51  nmcli d
+   52  poweroff
+   53  ls -la
+   54  nmcli d
+   55  ping -c 3 8.8.8.8
+   56  yum update
+   57  ip a
+   58  ls -la
+   59  nmtui
+   60  history
+   61  ip a
+   62  yum install NetworkManager-tui.x86_64
+   63  nmtui
+   64  date
+   65  wc /home/ctambunan/zcat
+   66  vim /home/ctambunan/zcat
+   67  wc /home/ctambunan/zcat
+   68  wc -n 10 /home/ctambunan/zcat
+   69  wc --help
+   70  head -n 10 zcat
+   71  head -t 10 zcat
+   72  wc --help
+   73  wc -l 10 zcat
+   74  wc -L 10 zcat ; ps grep
+   75  wc -L 10 zcat ; ps -a
+   76  ls /home/
+   77  ls /home/ctambunan/
+   78  ls /home/ctambunan/zcat
+   79  emacs /home/ctambunan/zcat
+   80  dnf search emacs | grep "noarch" | grep -v "xemacs"
+   81  sudo dnf install emacs
+   82  ls
+   83  emacs zcat
+   84  emacs zcat
+   85  emacs zcat
+   86  emacs zcat
+   87  emacs zcat
+   88  vim zcat
+   89  tail zcat
+   90  tail n -2 zcat
+   91  tail n-2 zcat
+   92  ls
+   93  ls -la
+   94  mkdir charles_tambunan
+   95  ls -la
+   96  cd charles_tambunan/
+   97  ls -la
+   98  ls -la
+   99  ls -la
+  100  vim charles.txt
+  101  date
+  102  date +%r
+  103  file zcat
+  104  ws Esc+.
+  105  wc Esc+.
+  106  wc Esc+.
+  107  wc zcat
+  108  ls
+  109  cd ..
+  110  ws Esc+.
+  111  wc Esc+.
+  112  wc zcat
+  113  tail zcat
+  114  tail zcattail zcat
+  115  tail -n 20 zcat
+  116  date +%r
+  117  history
+  118  ls
+  119  passwd
+  120  whoami
+  121  ls -la
+  122  ls -la
+  123  touch charles.txt
+  124  ls -la
+  125  vim charles.txt
+  126  pwd
+  127  ls
+  128  touch Videos/charles1.ogg ; touch Videos/charles2.ogg
+  129  mkdir dongan
+  130  touch dongan/charles1.ogg ; touch dongan/charles2.ogg
+  131  ls -la dongan/
+  132  ls -l
+  133  ls -R
+  134  pwd
+  135  cd -
+  136  pwd
+  137  cd -
+  138  cd ..
+  139  cd ctambunan/
+  140  cd -
+  141  cd -p
+  142  cd ~
+  143  cd ..
+  144  ls
+  145  cd usr/
+  146  ls
+  147  cd ..
+  148  cd home/
+  149  ls -la
+  150  cd ctambunan/
+  151  cd ../
+  152  ls
+  153  cd -u2
+  154  cd ctambunan/
+  155  cd ../..
+  156  cd ../..
+  157  ls -a
+  158  ls -l
+  159  ls -al
+  160  cd bin
+  161  cd tmp
+  162  cd ..
+  163  cd bin/
+  164  cd ../../tmp
+  165  cd ~
+  166  ls
+  167  cd ..
+  168  cd ../..
+  169  cd -u1
+  170  cd usr/
+  171  cd ..
+  172  cd usr/
+  173  ls
+  174  cd tmp/
+  175  cd ../..
+  176  timedatectl
+  177  timedatectl --help
+  178  timedatectl show
+  179  ls
+  180  ls -la
+  181  ls -la
+  182  cd usr/
+  183  ls -la
+  184  cd ..
+  185  ls -la
+  186  cd home/
+  187  cd home
+  188  ls -la
+  189  cd ctambunan
+  190  ls -la
+  191  ls -la
+  192  touch bornok.txt
+  193  ls -la
+  194  mv bornok.txt dongan/
+  195  ls -la dongan/
+  196  history
+  197  poweroff
+  198  ls -la
+  199  ip a
+  200  ip -a
+  201  ip -a
+  202  ip a
+  203  historu
+  204  history
+  205  ls -la
+  206  cd Tambunan
+  207  cd TambunanX/
+  208  history
+  209  ls -la
+  210  mkdir dori; cd dori
+  211  touch dori dori2 dori3 dori4 dori5 dori6 dori7 dori8
+  212  ls d*
+  213  ls 0*
+  214  ls o*
+  215  ls --root
+  216  ls -root
+  217  ls -user
+  218  ls ~/glob
+  219  ls ~/root
+  220  ls -/root
+  221  ls t*
+  222  ls *t
+  223  ls *r
+  224  ls r*
+  225  ls r*
+  226  ls d*
+  227  mv dori dori1
+  228  ls -la
+  229  echo {Andi,Dori,Siapudan,Sitorus}.log
+  230  echo {AndiDori1..20}.txt
+  231  ls -la
+  232  echo AndiDori{1..20}.txt
+  233  ls A*
+  234  ls a*
+  235  ls -la
+  236  ls -la
+  237  cd dori1
+  238  cd ..
+  239  ls -la
+  240  Dori1
+  241  cd Dori1/
+  242  ls -la
+  243  cd ..
+  244  cd Dori2/
+  245  ls -la
+  246  cd dori
+  247  cd ..
+  248  ls -la
+  249  cd Dori1/
+  250  ls -la
+  251  cd ..
+  252  mkdir AndiThesis
+  253  cd AndiThesis/
+  254  ls -la
+  255  echo andi{1..20}.txt
+  256  ls -la
+  257  ls
+  258  echo andi{a..c}.txt
+  259  ls -la
+  260  touch andi{dori,siska}.txt
+  261  ls -la
+  262  touch charles{1..20}.txt
+  263  ls -la
+  264  touch andi{a,b}{c,d}.txt
+  265  ls -la
+  266  touch andi{a{a,b}}{c,d}.txt
+  267  ls -la
+  268  USERNAME=ANDI
+  269  echo $ANDI
+  270  echo $USERNAME
+  271  echo Today is $(date +%A).
+  272  echo Today is $(date +%B).
+  273  echo Today is $(date +%C).
+  274  echo Today is $(date +%C + %B).
+  275  echo Today is $(date +%C,%B).
+  276  echo Today is $(date +%C,%B,%D).
+  277  myhost=$(hostname -s); echo $myhost
+  278  echo "***** hostname is ${myhost} ****"
+  279  echo "Willl cairable $myhost evaluate to $ (hostname -s)?"
+  280  echo 'Will cairable $myhost evaluate to $ (hostname -s)?'
+  281  history
+  282  ls -la
+  283  ls b*
+  284  ls *b
+  285  ls *n*
+  286  ls *b*
+  287  touch babi{1..10}.txt
+  288  ls -la
+  289  ls b*
+  290  ls *b
+  291  touch babib {1..10}.txt
+  292  ls b*
+  293  ls *b
+  294  ls [!b]*
+  295  ls *b*
+  296  ls *[digit]*
+  297  ls *[[:digit:]]*
+  298  ls *#*
+  299  ls [0-9]
+  300  ls *[[:digit:]]*
+  301  ls *[digit]*
+  302  ls *[[:digit:]]*
+  303  touch ANDISITORUS{1..20}.txt
+  304  ls -la
+  305  ls [[:upper:]]*
+  306  ls \3*
+  307  ls +++*
+  308  ls ...*
+  309  ls ???*
+  310  ls ???
+  311  ls ???*
+  312  mkdir -p dori/fighter{1..10}.sh
+  313  cat -p dori/
+  314  ls -la dori/
+  315  ls -R dori/
+  316  mkdir ando
+  317  mv dori/fighter* . ando/
+  318  mv dori/fighter* . ando/
+  319  ls ando/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  320  ls -R dori ; ls ando/
+  321  ls -R dori ; ls -R ando/
+  322  ls -a dori ; ls -R ando/
+  323  ls -a dori ; ls -R ando
+  324  ls -a dori
+  325  cp ando/fighter * . dori/
+  326  cp ando/fighter* . dori/
+  327  cp ando
+  328  ls dori/
+  329  cp dori/andi* . ando/
+  330  cp dori/fighter* . ando/
+  331  cp -p dori/fighter* . ando/
+  332  cp -r
+  333  cp --help
+  334  ls -p dori/
+  335  cp dori/charles{1..14}.txt ando/
+  336  ls ando/
+  337  history
+  338  man -k passwd
+  339  man -k adduser
+  340  man -k cp
+  341  man gedit
+  342  man cp
+  343  man -k zip
+  344  history
+  345  ls -la
+  346  cd ..
+  347  ls -la
+  348  vim Andi1.txt
+  349  tail Andi1.txt
+  350  tail -f Andi1.txt
+  351  tail -d Andi1.txt
+  352  poweroff
+  353  history
+[root@fedora ctambunan]# COUNT=40
+[root@fedora ctambunan]# first_name=charles
+[root@fedora ctambunan]# file1=/tmp/abc
+[root@fedora ctambunan]# _ID=RH123
+[root@fedora ctambunan]# set | less
+[root@fedora ctambunan]# COUNT=40
+[root@fedora ctambunan]# echo $COUNT
+40
+[root@fedora ctambunan]#
