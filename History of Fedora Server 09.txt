@@ -1,0 +1,30 @@
+  376  date > /tmp/saved-timestamp
+  377   tail -n 100 /var/log/dmesg > /home/ctambunan/konyolmsg
+  378  ls -la /home/ctambunan
+  379  cd /home/ctambunan/TambunanX
+  380  touch andi
+  381   tail -n 100 /var/log/dmesg > /home/ctambunan/TambunanX/andi
+  382  ls -la
+  383  cat Andi1.txt Andi2.txt > /tmp/all-four-in-one
+  384  ls -a > /tmp/my-files-name
+  385  echo "new line of information" >> /tmp/many-lines-of-information
+  386  diff previous-file current-file >> /tmp/tracking-changes-made
+  387  find /etc -name passwd 2> /tmp/errors
+  388  find /etc -name passwd > /tmp/output 2> /tmp/errors
+  389  find /etc -name passwd > /tmp/output 2> /tmp/errors
+  390  find /etc -name passwd > /tmp/output 2> /tmp/null
+  391  find /etc -name passwd &> /tmp/save-both
+  392  find /etc -name passwd >> /tmp/save-both 2>&1
+  393  ls -l /usr/bin | less
+  394  ls | ws -l
+  395  ls | wc -l
+  396  ls -t | head -n 10 > /tmp/ten-last-changed-files
+  397  ls > /tmp/saved-output | less
+  398  ls -l | tee /tmp/saved-output | less
+  399   ls -t | head -n 10 | tee /tmp/ten-last-changed-files
+  400  cat Andi1.txt | ls -R Dori2/
+  401  cat Andi1.txt ; ls -R Dori2/
+  402  vim Andi3.txt
+  403  vimtutor
+  404  history
+

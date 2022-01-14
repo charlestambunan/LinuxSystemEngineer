@@ -1,0 +1,416 @@
+    1  ls -la
+    2  ls
+    3  passwd
+    4  history
+    5  whoami
+    6  exit
+    7  history
+    8  ls
+    9  exit
+   10  charles
+   11  exit
+   12  exit
+   13  ls -la
+   14  ip a
+   15  ip a
+   16  systemctl up ens160
+   17  poweroff
+   18  ip a
+   19  ping -c 3 8.8.8.8
+   20  poweroff
+   21  ls -la
+   22  ip a
+   23  ping -c 8.8.8.8
+   24  ping -c 3 8.8.8.8
+   25  ls
+   26  ls -la
+   27  ping -c 3 8.8.8.8
+   28  poweroff
+   29  ip a
+   30  nmcli d
+   31  ls /etc/sysconfig/network-scripts/
+   32  vi /etc/sysconfig/network-scripts/ifcfg-ens160
+   33  clear
+   34  cat /etc/sysconfig/network-scripts/
+   35  ls -la /etc/sysconfig/network-scripts/
+   36  ls -la /etc/sysconfig/network-scripts/ifcfg-ens160 
+   37  vi /etc/sysconfig/network-scripts/ifcfg-ens160 
+   38  nmtui
+   39  nmcli d
+   40  sudo nmtui
+   41  clear
+   42  vi /etc/sysconfig/network-scripts/ifcfg-ens160 
+   43  clear
+   44  nmcli d
+   45  ifcup ens160
+   46  ifup ens160
+   47  nmcli connection
+   48  nmcli connection reload
+   49  nmcli connection up
+   50  nmcli connection up ens160 
+   51  nmcli d
+   52  poweroff
+   53  ls -la
+   54  nmcli d
+   55  ping -c 3 8.8.8.8
+   56  yum update
+   57  ip a
+   58  ls -la
+   59  nmtui
+   60  history
+   61  ip a
+   62  yum install NetworkManager-tui.x86_64 
+   63  nmtui
+   64  date
+   65  wc /home/ctambunan/zcat
+   66  vim /home/ctambunan/zcat
+   67  wc /home/ctambunan/zcat
+   68  wc -n 10 /home/ctambunan/zcat
+   69  wc --help
+   70  head -n 10 zcat 
+   71  head -t 10 zcat 
+   72  wc --help
+   73  wc -l 10 zcat 
+   74  wc -L 10 zcat ; ps grep  
+   75  wc -L 10 zcat ; ps -a
+   76  ls /home/
+   77  ls /home/ctambunan/
+   78  ls /home/ctambunan/zcat 
+   79  emacs /home/ctambunan/zcat 
+   80  dnf search emacs | grep "noarch" | grep -v "xemacs"
+   81  sudo dnf install emacs
+   82  ls
+   83  emacs zcat 
+   84  emacs zcat 
+   85  emacs zcat 
+   86  emacs zcat 
+   87  emacs zcat 
+   88  vim zcat 
+   89  tail zcat 
+   90  tail n -2 zcat 
+   91  tail n-2 zcat 
+   92  ls
+   93  ls -la
+   94  mkdir charles_tambunan
+   95  ls -la
+   96  cd charles_tambunan/
+   97  ls -la
+   98  ls -la
+   99  ls -la
+  100  vim charles.txt
+  101  date 
+  102  date +%r
+  103  file zcat
+  104  ws Esc+.
+  105  wc Esc+.
+  106  wc Esc+.
+  107  wc zcat
+  108  ls
+  109  cd ..
+  110  ws Esc+.
+  111  wc Esc+.
+  112  wc zcat 
+  113  tail zcat
+  114  tail zcattail zcat 
+  115  tail -n 20 zcat 
+  116  date +%r
+  117  history
+  118  ls
+  119  passwd
+  120  whoami
+  121  ls -la
+  122  ls -la
+  123  touch charles.txt
+  124  ls -la
+  125  vim charles.txt 
+  126  pwd
+  127  ls
+  128  touch Videos/charles1.ogg ; touch Videos/charles2.ogg
+  129  mkdir dongan
+  130  touch dongan/charles1.ogg ; touch dongan/charles2.ogg
+  131  ls -la dongan/
+  132  ls -l
+  133  ls -R
+  134  pwd
+  135  cd -
+  136  pwd
+  137  cd -
+  138  cd ..
+  139  cd ctambunan/
+  140  cd -
+  141  cd -p
+  142  cd ~
+  143  cd ..
+  144  ls
+  145  cd usr/
+  146  ls
+  147  cd ..
+  148  cd home/
+  149  ls -la
+  150  cd ctambunan/
+  151  cd ../
+  152  ls
+  153  cd -u2
+  154  cd ctambunan/
+  155  cd ../..
+  156  cd ../..
+  157  ls -a
+  158  ls -l
+  159  ls -al
+  160  cd bin
+  161  cd tmp
+  162  cd ..
+  163  cd bin/
+  164  cd ../../tmp
+  165  cd ~
+  166  ls
+  167  cd ..
+  168  cd ../..
+  169  cd -u1
+  170  cd usr/
+  171  cd ..
+  172  cd usr/
+  173  ls
+  174  cd tmp/
+  175  cd ../..
+  176  timedatectl
+  177  timedatectl --help
+  178  timedatectl show
+  179  ls
+  180  ls -la
+  181  ls -la
+  182  cd usr/
+  183  ls -la
+  184  cd ..
+  185  ls -la
+  186  cd home/
+  187  cd home
+  188  ls -la
+  189  cd ctambunan
+  190  ls -la
+  191  ls -la
+  192  touch bornok.txt
+  193  ls -la
+  194  mv bornok.txt dongan/
+  195  ls -la dongan/
+  196  history
+  197  poweroff
+  198  ls -la
+  199  ip a
+  200  ip -a
+  201  ip -a
+  202  ip a
+  203  historu
+  204  history
+  205  ls -la
+  206  cd Tambunan
+  207  cd TambunanX/
+  208  history
+  209  ls -la
+  210  mkdir dori; cd dori
+  211  touch dori dori2 dori3 dori4 dori5 dori6 dori7 dori8
+  212  ls d*
+  213  ls 0*
+  214  ls o*
+  215  ls --root
+  216  ls -root
+  217  ls -user
+  218  ls ~/glob
+  219  ls ~/root
+  220  ls -/root
+  221  ls t*
+  222  ls *t
+  223  ls *r
+  224  ls r*
+  225  ls r*
+  226  ls d*
+  227  mv dori dori1
+  228  ls -la
+  229  echo {Andi,Dori,Siapudan,Sitorus}.log
+  230  echo {AndiDori1..20}.txt
+  231  ls -la
+  232  echo AndiDori{1..20}.txt
+  233  ls A*
+  234  ls a*
+  235  ls -la
+  236  ls -la
+  237  cd dori1
+  238  cd ..
+  239  ls -la
+  240  Dori1
+  241  cd Dori1/
+  242  ls -la
+  243  cd ..
+  244  cd Dori2/
+  245  ls -la
+  246  cd dori
+  247  cd ..
+  248  ls -la
+  249  cd Dori1/
+  250  ls -la
+  251  cd ..
+  252  mkdir AndiThesis
+  253  cd AndiThesis/
+  254  ls -la
+  255  echo andi{1..20}.txt
+  256  ls -la
+  257  ls 
+  258  echo andi{a..c}.txt
+  259  ls -la
+  260  touch andi{dori,siska}.txt
+  261  ls -la
+  262  touch charles{1..20}.txt
+  263  ls -la
+  264  touch andi{a,b}{c,d}.txt
+  265  ls -la
+  266  touch andi{a{a,b}}{c,d}.txt
+  267  ls -la
+  268  USERNAME=ANDI
+  269  echo $ANDI
+  270  echo $USERNAME
+  271  echo Today is $(date +%A).
+  272  echo Today is $(date +%B).
+  273  echo Today is $(date +%C).
+  274  echo Today is $(date +%C + %B).
+  275  echo Today is $(date +%C,%B).
+  276  echo Today is $(date +%C,%B,%D).
+  277  myhost=$(hostname -s); echo $myhost
+  278  echo "***** hostname is ${myhost} ****"
+  279  echo "Willl cairable $myhost evaluate to $ (hostname -s)?"
+  280  echo 'Will cairable $myhost evaluate to $ (hostname -s)?'
+  281  history
+  282  ls -la
+  283  ls b*
+  284  ls *b
+  285  ls *n*
+  286  ls *b*
+  287  touch babi{1..10}.txt
+  288  ls -la
+  289  ls b*
+  290  ls *b
+  291  touch babib {1..10}.txt
+  292  ls b*
+  293  ls *b
+  294  ls [!b]*
+  295  ls *b*
+  296  ls *[digit]*
+  297  ls *[[:digit:]]*
+  298  ls *#*
+  299  ls [0-9]
+  300  ls *[[:digit:]]*
+  301  ls *[digit]*
+  302  ls *[[:digit:]]*
+  303  touch ANDISITORUS{1..20}.txt
+  304  ls -la
+  305  ls [[:upper:]]*
+  306  ls \3*
+  307  ls +++*
+  308  ls ...*
+  309  ls ???*
+  310  ls ???
+  311  ls ???*
+  312  mkdir -p dori/fighter{1..10}.sh
+  313  cat -p dori/
+  314  ls -la dori/
+  315  ls -R dori/
+  316  mkdir ando
+  317  mv dori/fighter* . ando/
+  318  mv dori/fighter* . ando/
+  319  ls ando/
+  320  ls -R dori ; ls ando/
+  321  ls -R dori ; ls -R ando/
+  322  ls -a dori ; ls -R ando/
+  323  ls -a dori ; ls -R ando
+  324  ls -a dori
+  325  cp ando/fighter * . dori/
+  326  cp ando/fighter* . dori/
+  327  cp ando
+  328  ls dori/
+  329  cp dori/andi* . ando/
+  330  cp dori/fighter* . ando/
+  331  cp -p dori/fighter* . ando/
+  332  cp -r
+  333  cp --help
+  334  ls -p dori/
+  335  cp dori/charles{1..14}.txt ando/
+  336  ls ando/
+  337  history
+  338  man -k passwd
+  339  man -k adduser
+  340  man -k cp
+  341  man gedit
+  342  man cp
+  343  man -k zip
+  344  history
+  345  ls -la
+  346  cd ..
+  347  ls -la
+  348  vim Andi1.txt 
+  349  tail Andi1.txt 
+  350  tail -f Andi1.txt 
+  351  tail -d Andi1.txt 
+  352  poweroff
+  353  history
+  354  COUNT=40
+  355  first_name=charles
+  356  file1=/tmp/abc
+  357  _ID=RH123
+  358  set | less
+  359  COUNT=40
+  360  echo $COUNT
+  361  file1=/tmp/tmp.z9pXW0HqcC
+  362  ls -l $file1
+  363  ls -l file1
+  364  ls -l file1rm $file1
+  365  rm $file1
+  366  ls -l $file1
+  367  echo Repeat $COUNT
+  368  echo Repeat ${COUNT}x
+  369  EDITOR=vim
+  370  export EDITOR
+  371  export EDITOR=vim
+  372  date
+  373  export LANG=fr_FR.UTF-8
+  374  date
+  375  echo #PATH
+  376  cd /home/ctambunan/
+  377  history
+  378  echo $PATH
+  379  export PATH=${PATH}:/home/user/sbin
+  380  history
+  381  env
+  382  export EDITOR=nano
+  383  ~/.bashrc
+  384  nano ~/.bashrc
+  385   ~/.bashrc
+  386  .bashrc
+  387  nano /etc/bashrc 
+  388  vim /etc/bashrc 
+  389  vim /etc/bashrc 
+  390  echo $file1
+  391  unset $file1
+  392  echo $file1
+  393  unset file1
+  394  echo $file1
+  395  export -n PS1
+  396  history
+  397  clear
+  398  history
+  399  vim ~/.bashrc 
+  400  cd /home/ctambunan/
+  401  ls
+  402  cd TambunanY/
+  403  file=tmp.zdkei083
+  404  echo $file
+  405  ls -l $file
+  406  rm $file
+  407  ls -l $file
+  408  export EDITOR=vim
+  409  echo $EDITOR
+  410  vim editing_final_lab.txt
+  411  ls -al > editing_final_lab.txt 
+  412  cat editing_final_lab.txt 
+  413  tail editing_final_lab.txt 
+  414  tail editing_final_lab.txt 
+  415  vim editing_final_lab.txt 
+  416  history > editing_final_lab.txt 

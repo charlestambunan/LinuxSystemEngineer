@@ -1,0 +1,117 @@
+EXAMINING RPM PACKAGES :
+
+The rpm utility is a low-level tool that can get information about the contents of package files
+and installed packages. By default, it gets information from the local database of installed
+packages. However, you can use the -p option to specify that you want to get information about a
+downloaded package file. You might want to do this in order to inspect the contents of the package
+file before installing it.
+
+The general form of a query is:
+• rpm -q [select-options] [query-options]
+
+RPM queries: General information about installed packages
+
+• rpm -qa: List all installed packages
+
+• rpm -qf FILENAME: Find out what package provides FILENAME
+
+[user@host ~]$ rpm -qf /etc/yum.repos.d
+redhat-release-8.0-0.39.el8.x86_64
+RPM queries: Information about specific packages
+
+• rpm -q: List what version of the package is currently installed
+[user@host ~]$ rpm -q yum yum-4.0.9.2-4.el8.noarch
+
+• rpm -qi: Get detailed information about the package
+
+• rpm -ql: List the files installed by the package
+
+[user@host ~]$ rpm -ql yum
+
+/etc/yum.conf
+/etc/yum/pluginconf.d
+/etc/yum/protected.d
+/etc/yum/vars
+/usr/bin/yum
+/usr/share/man/man1/yum-aliases.1.gz
+/usr/share/man/man5/yum.conf.5.gz
+/usr/share/man/man8/yum-shell.8.gz
+/usr/share/man/man8/yum.8.gz
+
+• rpm -qc: List just the configuration files installed by the package
+[user@host ~]$ rpm -qc openssh-clients
+
+/etc/ssh/ssh_config
+/etc/ssh/ssh_config.d/05-redhat.conf
+
+• rpm -qd: List just the documentation files installed by the package
+[user@host ~]$ rpm -qd openssh-clients
+
+/usr/share/man/man1/scp.1.gz
+/usr/share/man/man1/sftp.1.gz
+/usr/share/man/man1/ssh-add.1.gz
+/usr/share/man/man1/ssh-agent.1.gz
+/usr/share/man/man1/ssh-copy-id.1.gz
+/usr/share/man/man1/ssh-keyscan.1.gz
+/usr/share/man/man1/ssh.1.gz
+/usr/share/man/man5/ssh_config.5.gz
+/usr/share/man/man8/ssh-pkcs11-helper.8.gz
+
+• rpm -q --scripts: List shell scripts that run before or after the package is installed or
+removed
+
+[user@host ~]$ rpm -q --scripts openssh-server
+
+preinstall scriptlet (using /bin/sh):
+getent group sshd >/dev/null || groupadd -g 74 -r sshd || :
+getent passwd sshd >/dev/null || \
+ useradd -c "Privilege-separated SSH" -u 74 -g sshd \
+ -s /sbin/nologin -r -d /var/empty/sshd sshd 2> /dev/null || :
+postinstall scriptlet (using /bin/sh):
+if [ $1 -eq 1 ] ; then 
+ # Initial installation 
+ /usr/bin/systemctl preset sshd.service sshd.socket >/dev/null 2>&1 || : 
+fi
+preuninstall scriptlet (using /bin/sh):
+if [ $1 -eq 0 ] ; then 
+ # Package removal, not upgrade 
+ /usr/bin/systemctl --no-reload disable sshd.service sshd.socket > /dev/
+null 2>&1 || : 
+ /usr/bin/systemctl stop sshd.service sshd.socket > /dev/null 2>&1 || : 
+fi
+postuninstall scriptlet (using /bin/sh):
+
+
+
+/usr/bin/systemctl daemon-reload >/dev/null 2>&1 || : 
+if [ $1 -ge 1 ] ; then 
+ # Package upgrade, not uninstall 
+ /usr/bin/systemctl try-restart sshd.service >/dev/null 2>&1 || : 
+fi
+
+
+• rpm -q --changelog: list change information for the package
+
+[user@host ~]$ rpm -q --changelog audit
+* Wed Jan 09 2019 Steve Grubb <sgrubb@redhat.com> 3.0-0.10.20180831git0047a6c
+resolves: rhbz#1655270] Message "audit: backlog limit exceeded" reported
+
+- Fix annobin failure
+
+* Fri Dec 07 2018 Steve Grubb <sgrubb@redhat.com> 3.0-0.8.20180831git0047a6c
+resolves: rhbz#1639745 - build requires go-toolset-7 which is not available
+resolves: rhbz#1643567 - service auditd stop exits prematurely
+resolves: rhbz#1616428 - Update git snapshot of audit package
+
+- Remove static libs subpackage
+
+...output omitted...
+Querying local package files:
+[user@host ~]$ ls -l wonderwidgets-1.0-4.x86_64.rpm
+-rw-rw-r--. 1 user user 257 Mar 13 20:06 wonderwidgets-1.0-4.x86_64.rpm
+[user@host ~]$ rpm -qlp wonderwidgets-1.0-4.x86_64.rpm
+/etc/wonderwidgets.conf
+/usr/bin/wonderwidgets
+/usr/share/doc/wonderwidgets-1.0
+/usr/share/doc/wonderwidgets-1.0/README.txt
+
