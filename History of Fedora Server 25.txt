@@ -132,3 +132,4 @@ Jan 07 00:05:18 fedora systemd[1]: Starting Tell Plymouth To Write Out Runtime D
 Jan 07 00:05:18 fedora systemd[1]: Finished Tell Plymouth To Write Out Runtime Data.
 Jan 07 00:06:29 fedora systemd[1]: Starting User Runtime Directory /run/user/1000...
 Jan 07 00:06:29 fedora systemd[1]: Finished User Runtime Directory /run/user/1000.
+
