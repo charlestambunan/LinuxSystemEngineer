@@ -1,0 +1,454 @@
+PS D:\> ssh ctambunan@192.168.37.132
+The authenticity of host '192.168.37.132 (192.168.37.132)' can't be established.
+ECDSA key fingerprint is SHA256:/xCo+fVmiIlmS7pgDoEDdfPItC4J0Ciml6J/AL5tY98.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '192.168.37.132' (ECDSA) to the list of known hosts.
+ctambunan@192.168.37.132's password:
+Permission denied, please try again.
+ctambunan@192.168.37.132's password:
+Web console: https://fedora:9090/ or https://192.168.37.132:9090/
+
+Last failed login: Mon Jan  3 18:33:10 WITA 2022 from 192.168.37.1 on ssh:notty
+There was 1 failed login attempt since the last successful login.
+Last login: Mon Jan  3 17:59:03 2022
+[ctambunan@fedora ~]$ sudo su
+[sudo] password for ctambunan:
+[root@fedora ctambunan]# ls -la
+total 12
+drwx------. 2 ctambunan ctambunan  62 Jan  3 17:54 .
+drwxr-xr-x. 3 root      root       23 Jan  3 17:54 ..
+-rw-r--r--. 1 ctambunan ctambunan  18 Jul 22 02:29 .bash_logout
+-rw-r--r--. 1 ctambunan ctambunan 141 Jul 22 02:29 .bash_profile
+-rw-r--r--. 1 ctambunan ctambunan 492 Jul 22 02:29 .bashrc
+[root@fedora ctambunan]# ls
+[root@fedora ctambunan]# passwd
+Changing password for user root.
+New password:
+BAD PASSWORD: The password is shorter than 8 characters
+Retype new password:
+passwd: all authentication tokens updated successfully.
+[root@fedora ctambunan]# history
+    1  ls -la
+    2  ls
+    3  passwd
+    4  history
+[root@fedora ctambunan]# whoami
+root
+[root@fedora ctambunan]# exit
+exit
+[ctambunan@fedora ~]$ whoami
+ctambunan
+[ctambunan@fedora ~]$ yum module list
+Fedora 35 - x86_64                                                                                                          4.7 MB/s |  79 MB     00:16
+Fedora 35 openh264 (From Cisco) - x86_64                                                                                    632  B/s | 2.5 kB     00:04
+Fedora Modular 35 - x86_64                                                                                                  3.0 MB/s | 3.3 MB     00:01
+Fedora 35 - x86_64 - Updates                                                                                                4.8 MB/s |  19 MB     00:04
+Fedora Modular 35 - x86_64 - Updates                                                                                        3.7 MB/s | 2.8 MB     00:00
+Fedora Modular 35 - x86_64
+Name                    Stream                Profiles                               Summary
+avocado                 latest                default [d], minimal                   Framework with tools and libraries for Automated Testing
+avocado                 82lts                 default, minimal                       Framework with tools and libraries for Automated Testing
+avocado-vt              latest                default                                Avocado Virt Test Plugin
+avocado-vt              82lts                 default                                Avocado Virt Test Plugin
+cri-o                   1.19                  default                                Kubernetes Container Runtime Interface for OCI-based containers
+ghc                     8.8                   default [d], minimal, small            Haskell GHC 8.8
+ghc                     8.10                  all, default [d], minimal, small       Haskell GHC 8.10
+ghc                     9.0                   all, default [d], minimal, small       Haskell GHC 9.0
+ghc                     9.2                   all, default, minimal, small           Haskell GHC 9.2
+mariadb                 10.3                  client, devel, galera, server [d]      MariaDB: a very fast and robust SQL database server
+mariadb                 10.4                  client, devel, galera, server [d]      MariaDB: a very fast and robust SQL database server
+mariadb                 10.5                  client, devel, galera, server [d]      MariaDB: a very fast and robust SQL database server
+mysql                   8.0                   client, devel, server [d]              MySQL Module
+nextcloud               nextcloud-stable      default, testing                       A private file sync and share server - Stable branch
+nextcloud               nextcloud-19          default, testing                       A private file sync and share server - version 19.0.x
+nextcloud               nextcloud-20          default, testing                       A private file sync and share server - version 20.0.x
+nextcloud               nextcloud-21          default, testing                       A private file sync and share server - version 21.0.x
+nextcloud               nextcloud-22          default, testing                       A private file sync and share server - version 22.0.x
+nginx                   mainline              common [d]                             nginx webserver
+nginx                   1.20                  common                                 nginx webserver
+nodejs                  12                    default [d], development, minimal      Javascript runtime
+nodejs                  14                    default, development, minimal          Javascript runtime
+nodejs                  15                    default, development, minimal          Javascript runtime
+nodejs                  16                    default, development, minimal          Javascript runtime
+perl                    5.30                  common, default [d], minimal           Practical Extraction and Report Language
+perl                    5.32                  common [d], minimal                    Practical Extraction and Report Language
+perl-App-cpanminus      1.7044                common [d]                             Get, unpack, build and install CPAN modules
+perl-CGI                4.51                  common                                 Handle Common Gateway Interface requests and responses
+perl-DBD-MySQL          4.050                 common [d]                             A MySQL interface for Perl
+perl-DBD-Pg             3.14                  common [d]                             A PostgreSQL interface for Perl
+perl-DBD-SQLite         1.66                  common [d]                             SQLite DBI driver
+perl-DBI                1.643                 common [d]                             A database access API for Perl
+perl-Date-Manip         6.83                  common [d]                             Date manipulation routines
+perl-FCGI               0.79                  common [d]                             FastCGI Perl bindings
+perl-IO-Socket-SSL      2.068                 common [d]                             Perl library for transparent TLS
+perl-IO-stringy         2.113                 common                                 I/O on in-core objects like strings and arrays for Perl
+perl-XML-Parser         2.46                  common [d]                             Perl module for parsing XML documents
+perl-YAML               1.30                  common [d]                             Perl parser for YAML
+perl-libwww-perl        6.48                  common [d]                             A Perl interface to the World-Wide Web
+postgresql              11                    client, server [d]                     PostgreSQL module
+postgresql              12                    client, server                         PostgreSQL module
+postgresql              13                    client, server                         PostgreSQL module
+ruby                    2.7                   default [d]                            An interpreter of object-oriented scripting language
+ruby                    3.0                   default [d]                            An interpreter of object-oriented scripting language
+swig                    4.0                   complete, default [d]                  Connects C/C++/Objective C to some high-level programming languages
+varnish                 6.0                   default                                Varnish HTTP cache
+
+Fedora Modular 35 - x86_64 - Updates
+Name                    Stream                Profiles                               Summary
+avocado                 latest                default [d], minimal                   Framework with tools and libraries for Automated Testing
+avocado                 82lts                 default, minimal                       Framework with tools and libraries for Automated Testing
+avocado-vt              latest                default                                Avocado Virt Test Plugin
+avocado-vt              82lts                 default                                Avocado Virt Test Plugin
+cri-o                   1.19                  default                                Kubernetes Container Runtime Interface for OCI-based containers
+cri-o                   1.20                  default                                Kubernetes Container Runtime Interface for OCI-based containers
+cri-o                   1.21                  default                                Kubernetes Container Runtime Interface for OCI-based containers
+cri-o                   1.22                  default                                Kubernetes Container Runtime Interface for OCI-based containers
+dwm                     latest                default [d], user                      Dynamic window manager for X
+dwm                     6.0                   default [d], user                      Dynamic window manager for X
+dwm                     6.1                   default [d], user                      Dynamic window manager for X
+dwm                     6.2                   default [d], user                      Dynamic window manager for X
+ghc                     8.8                   default [d], minimal, small            Haskell GHC 8.8
+ghc                     8.10                  all, default [d], minimal, small       Haskell GHC 8.10
+ghc                     9.0                   all, default [d], minimal, small       Haskell GHC 9.0
+ghc                     9.2                   all, default, minimal, small           Haskell GHC 9.2
+mariadb                 10.3                  client, devel, galera, server [d]      MariaDB: a very fast and robust SQL database server
+mariadb                 10.4                  client, devel, galera, server [d]      MariaDB: a very fast and robust SQL database server
+mariadb                 10.5                  client, devel, galera, server [d]      MariaDB: a very fast and robust SQL database server
+mariadb                 10.6                  client, devel, galera, server          MariaDB: a very fast and robust SQL database server
+mariadb                 10.7                  client, devel, galera, server          MariaDB: a very fast and robust SQL database server
+mysql                   8.0                   client, devel, server [d]              MySQL Module
+nextcloud               nextcloud-stable      default, testing                       A private file sync and share server - Stable branch
+nextcloud               nextcloud-19          default, testing                       A private file sync and share server - version 19.0.x
+nextcloud               nextcloud-20          default, testing                       A private file sync and share server - version 20.0.x
+nextcloud               nextcloud-21          default, testing                       A private file sync and share server - version 21.0.x
+nextcloud               nextcloud-22          default, testing                       A private file sync and share server - version 22.0.x
+nginx                   mainline              common [d]                             nginx webserver
+nginx                   1.20                  common                                 nginx webserver
+nodejs                  12                    default [d], development, minimal      Javascript runtime
+nodejs                  14                    default, development, minimal          Javascript runtime
+nodejs                  15                    default, development, minimal          Javascript runtime
+nodejs                  16                    default, development, minimal          Javascript runtime
+openmpi                 4.0                   buildroot, default [d]                 Open Message Passing Interface
+perl                    5.30                  common, default [d], minimal           Practical Extraction and Report Language
+perl                    5.32                  common [d], minimal                    Practical Extraction and Report Language
+perl-App-cpanminus      1.7044                common [d]                             Get, unpack, build and install CPAN modules
+perl-CGI                4.51                  common                                 Handle Common Gateway Interface requests and responses
+perl-DBD-MySQL          4.050                 common [d]                             A MySQL interface for Perl
+perl-DBD-Pg             3.14                  common [d]                             A PostgreSQL interface for Perl
+perl-DBD-SQLite         1.66                  common [d]                             SQLite DBI driver
+perl-DBI                1.643                 common [d]                             A database access API for Perl
+perl-Date-Manip         6.83                  common [d]                             Date manipulation routines
+perl-FCGI               0.79                  common [d]                             FastCGI Perl bindings
+perl-IO-Socket-SSL      2.068                 common [d]                             Perl library for transparent TLS
+perl-IO-stringy         2.113                 common                                 I/O on in-core objects like strings and arrays for Perl
+perl-XML-Parser         2.46                  common [d]                             Perl module for parsing XML documents
+perl-YAML               1.30                  common [d]                             Perl parser for YAML
+perl-libwww-perl        6.48                  common [d]                             A Perl interface to the World-Wide Web
+postgresql              10                    client, server [d]                     PostgreSQL module
+postgresql              11                    client, server [d]                     PostgreSQL module
+postgresql              12                    client, server                         PostgreSQL module
+postgresql              13                    client, server                         PostgreSQL module
+postgresql              14                    client, server                         PostgreSQL module
+ruby                    2.7                   default [d]                            An interpreter of object-oriented scripting language
+ruby                    3.0                   default [d]                            An interpreter of object-oriented scripting language
+sway                    rolling               default [d], full                      i3-compatible window manager for Wayland
+swig                    4.0                   complete, default [d]                  Connects C/C++/Objective C to some high-level programming languages
+varnish                 6.0                   default                                Varnish HTTP cache
+
+Hint: [d]efault, [e]nabled, [x]disabled, [i]nstalled
+[ctambunan@fedora ~]$ yum module list installed
+Last metadata expiration check: 0:05:04 ago on Mon 03 Jan 2022 06:37:47 PM WITA.
+Error: No matching Modules to list
+[ctambunan@fedora ~]$ yum module provides package
+Last metadata expiration check: 0:08:36 ago on Mon 03 Jan 2022 06:37:47 PM WITA.
+[ctambunan@fedora ~]$ yum module info module
+Last metadata expiration check: 0:08:51 ago on Mon 03 Jan 2022 06:37:47 PM WITA.
+Unable to resolve argument module
+Error: No matching Modules to list
+[ctambunan@fedora ~]$ yum module info --profile module:stream
+Last metadata expiration check: 0:10:00 ago on Mon 03 Jan 2022 06:37:47 PM WITA.
+Unable to resolve argument module:stream
+Error: No matching Modules to list
+[ctambunan@fedora ~]$ bash
+[ctambunan@fedora ~]$ !ls
+bash: !ls: event not found
+[ctambunan@fedora ~]$ history
+    1  history
+[ctambunan@fedora ~]$ !history
+history
+    1  history
+[ctambunan@fedora ~]$ sudo su
+[sudo] password for ctambunan:
+Sorry, try again.
+[sudo] password for ctambunan:
+[root@fedora ctambunan]# history
+    1  ls -la
+    2  ls
+    3  passwd
+    4  history
+    5  whoami
+    6  exit
+    7  history
+[root@fedora ctambunan]# !ls
+ls
+[root@fedora ctambunan]# !exit
+exit
+exit
+[ctambunan@fedora ~]$ sudo su
+[root@fedora ctambunan]# charles
+bash: charles: command not found
+[root@fedora ctambunan]# exit
+exit
+[ctambunan@fedora ~]$ ls -la
+total 12
+drwx------. 2 ctambunan ctambunan  62 Jan  3 17:54 .
+drwxr-xr-x. 3 root      root       23 Jan  3 17:54 ..
+-rw-r--r--. 1 ctambunan ctambunan  18 Jul 22 02:29 .bash_logout
+-rw-r--r--. 1 ctambunan ctambunan 141 Jul 22 02:29 .bash_profile
+-rw-r--r--. 1 ctambunan ctambunan 492 Jul 22 02:29 .bashrc
+[ctambunan@fedora ~]$ passwd
+Changing password for user ctambunan.
+Current password:
+New password:
+BAD PASSWORD: The password is shorter than 8 characters
+passwd: Authentication token manipulation error
+[ctambunan@fedora ~]$ passwd
+Changing password for user ctambunan.
+Current password:
+New password:
+Retype new password:
+passwd: all authentication tokens updated successfully.
+[ctambunan@fedora ~]$ sudo su
+[root@fedora ctambunan]# exit
+exit
+[ctambunan@fedora ~]$ file /etc/passwd
+/etc/passwd: ASCII text
+[ctambunan@fedora ~]$ file /bin/passwd
+/bin/passwd: setuid ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=e5a1d7ccd3acf21baa4c1d5a6e83f4ec9547394e, for GNU/Linux 3.2.0, stripped
+[ctambunan@fedora ~]$ file /home
+/home: directory
+[ctambunan@fedora ~]$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+systemd-network:x:192:192:systemd Network Management:/:/usr/sbin/nologin
+systemd-oom:x:999:999:systemd Userspace OOM Killer:/:/usr/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/usr/sbin/nologin
+systemd-timesync:x:998:998:systemd Time Synchronization:/:/usr/sbin/nologin
+systemd-coredump:x:997:997:systemd Core Dumper:/:/usr/sbin/nologin
+polkitd:x:996:996:User for polkitd:/:/sbin/nologin
+chrony:x:995:993::/var/lib/chrony:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+cockpit-ws:x:994:992:User for cockpit web service:/nonexisting:/sbin/nologin
+cockpit-wsinstance:x:993:991:User for cockpit-ws instances:/nonexisting:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/dev/null:/sbin/nologin
+setroubleshoot:x:992:990::/var/lib/setroubleshoot:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+abrt:x:173:173::/etc/abrt:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/usr/share/empty.sshd:/sbin/nologin
+dnsmasq:x:991:989:Dnsmasq DHCP and DNS server:/var/lib/dnsmasq:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+ctambunan:x:1000:1000:Charles Tambunan:/home/ctambunan:/bin/bash
+[ctambunan@fedora ~]$ date +%R
+18:57
+[ctambunan@fedora ~]$ date +%s
+1641207467
+[ctambunan@fedora ~]$ date +%x
+01/03/2022
+[ctambunan@fedora ~]$ sudo su
+[sudo] password for ctambunan:
+[root@fedora ctambunan]# ls -la
+total 12
+drwx------. 2 ctambunan ctambunan  62 Jan  3 17:54 .
+drwxr-xr-x. 3 root      root       23 Jan  3 17:54 ..
+-rw-r--r--. 1 ctambunan ctambunan  18 Jul 22 02:29 .bash_logout
+-rw-r--r--. 1 ctambunan ctambunan 141 Jul 22 02:29 .bash_profile
+-rw-r--r--. 1 ctambunan ctambunan 492 Jul 22 02:29 .bashrc
+[root@fedora ctambunan]# history
+    1  ls -la
+    2  ls
+    3  passwd
+    4  history
+    5  whoami
+    6  exit
+    7  history
+    8  ls
+    9  exit
+   10  charles
+   11  exit
+   12  exit
+   13  ls -la
+   14  history
+
+PowerShell 7.2.1
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/powershell
+Type 'help' to get help.
+
+PS C:\Users\Charles Tambunan> D:
+PS D:\> cd File '.\File Backup (E)\'
+Set-Location: A positional parameter cannot be found that accepts argument '.\File Backup (E)\'.
+PS D:\> cd File '.\File Backup E\'
+Set-Location: A positional parameter cannot be found that accepts argument '.\File Backup E\'.
+PS D:\> cd File '.\File Backup (E)\'
+Set-Location: A positional parameter cannot be found that accepts argument '.\File Backup (E)\'.
+PS D:\> cd File '.\File Backup E\'
+Set-Location: A positional parameter cannot be found that accepts argument '.\File Backup E\'.
+PS D:\> cd File '.\File Backup E'
+Set-Location: A positional parameter cannot be found that accepts argument '.\File Backup E'.
+PS D:\> cd File '.\File Backup E\'
+Set-Location: A positional parameter cannot be found that accepts argument '.\File Backup E\'.
+PS D:\> ls
+
+    Directory: D:\
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          31/12/2021    23:02                Backup Laptop Mama
+d----          03/01/2022    18:43                BootCamp Cloud Engineer IT
+d----          18/12/2021    20:21                CPNS TNI AD 2021
+d----          31/12/2021    23:00                Criterion Games
+d----          03/01/2022    16:57                Database System Engineer IT Group
+d----          26/12/2021    00:56                English Skill
+d----          31/12/2021    23:00                File Amang Pendeta
+d----          18/12/2021    21:13                File Backup (D)
+d----          03/01/2022    14:52                File Backup E
+d----          29/12/2021    11:26                Lamaran Kerja 2021 (Archived)
+d----          29/12/2021    22:35                Microsoft Windows 10 Software
+d----          31/12/2021    23:00                My Games
+d----          18/12/2021    21:14                PEGA System Architect
+d----          02/01/2022    12:54                Pendapatan Kehidupan
+d----          01/01/2022    01:42                PT Asuransi Sinarmas
+-a---          02/07/2021    10:43       94452627 File Amang Pendeta.zip
+-a---          04/01/2022    03:58         553816 RESUME IT 2022 Database System Engineer.pdf
+
+PS D:\> cd '.\File Backup E'
+PS D:\File Backup E> ls
+
+    Directory: D:\File Backup E
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          18/12/2021    20:21                Acara Ibadah Gereja HKBP Slipi Livestreaming
+d----          03/01/2022    07:40                Call Of Duty Modern Warfare 2019
+d----          18/12/2021    20:21                Daftar NPWP
+d----          31/12/2021    23:04                Data Penting
+d----          18/12/2021    20:21                Digitalent Kominfo 2022
+d----          02/01/2022    20:33                Dokumen dan Foto Kontrakkan
+d----          01/01/2022    23:25                Dokumen Gereja
+d----          02/01/2022    10:14                Dokumen Kelulusan Final S1 Teknik Informatika
+d----          18/12/2021    20:22                English US UK IELTS TOEFL
+d----          18/12/2021    20:22                File 3D Modelling
+d----          01/01/2022    23:24                File Pribadi
+d----          18/12/2021    20:24                Ghost Recon Wildlands
+d----          18/12/2021    20:24                Ghost Recon Wildlands Fallen Ghosts
+d----          18/12/2021    20:24                Ghost Recon Wildlands Operation Narco Road
+d----          18/12/2021    20:24                Insurance Live
+d----          03/01/2022    08:05                Medium Articles
+d----          03/01/2022    08:58                Password
+d----          18/12/2021    20:24                Poster 17 Agustus 2021 HUT RI 76 Tahun
+d----          24/12/2021    23:07                PostGraduate Magister Management
+d----          24/12/2021    23:07                Rakitan Desktop untuk Multimedia, Gaming sama Server
+d----          20/12/2021    18:37                Semester 11
+d----          03/01/2022    18:30                Sertifikasi Skills
+d----          18/12/2021    20:34                Sertifikat Vaksin Ortu
+d----          18/12/2021    20:34                Sertifikat Vaksin Sendiri
+d----          18/12/2021    20:34                Sumatran Tiger Unmanned Fighting Vehicles
+d----          03/01/2022    14:59                Udemy
+d----          18/12/2021    20:39                UI UX Design Skills Certifications
+-a---          26/12/2021    17:51     1644268534 Backup Data 2021 From Old Email.zip
+-a---          26/12/2021    18:05       63203980 English.zip
+-a---          31/12/2021    08:26         127285 Kontak.zip
+-a---          08/11/2021    11:02          99504 Newspaper Only Jakarta Post.xlsx
+-a---          26/12/2021    18:02       40214346 Resume Maret - September 2020.zip
+-a---          19/12/2021    20:06      921725958 Semester 11.zip
+
+PS D:\File Backup E> ssh ctambunan@192.168.248.128
+The authenticity of host '192.168.248.128 (192.168.248.128)' can't be established.
+ECDSA key fingerprint is SHA256:/xCo+fVmiIlmS7pgDoEDdfPItC4J0Ciml6J/AL5tY98.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '192.168.248.128' (ECDSA) to the list of known hosts.
+ctambunan@192.168.248.128's password:
+Permission denied, please try again.
+ctambunan@192.168.248.128's password:
+Web console: https://fedora:9090/
+
+Last failed login: Tue Jan  4 05:39:41 WITA 2022 from 192.168.248.1 on ssh:notty
+There was 1 failed login attempt since the last successful login.
+Last login: Tue Jan  4 05:38:01 2022
+[ctambunan@fedora ~]$ sudo su
+[sudo] password for ctambunan:
+[root@fedora ctambunan]# ls
+[root@fedora ctambunan]# ls -la
+total 16
+drwx------. 2 ctambunan ctambunan  83 Jan  3 19:26 .
+drwxr-xr-x. 3 root      root       23 Jan  3 17:54 ..
+-rw-------. 1 ctambunan ctambunan 304 Jan  4 05:27 .bash_history
+-rw-r--r--. 1 ctambunan ctambunan  18 Jul 22 02:29 .bash_logout
+-rw-r--r--. 1 ctambunan ctambunan 141 Jul 22 02:29 .bash_profile
+-rw-r--r--. 1 ctambunan ctambunan 492 Jul 22 02:29 .bashrc
+[root@fedora ctambunan]# ping -c 3 8.8.8.8
+ping: connect: Network is unreachable
+[root@fedora ctambunan]# poweroff
+[root@fedora ctambunan]# Connection to 192.168.248.128 closed by remote host.
+Connection to 192.168.248.128 closed.
+PS D:\File Backup E> history
+
+  Id     Duration CommandLine
+  --     -------- -----------
+   1        0.118 D:
+   2        0.312 cd File '.\File Backup (E)\'
+   3        0.042 cd File '.\File Backup E\'
+   4        0.041 cd File '.\File Backup (E)\'
+   5        0.029 cd File '.\File Backup E\'
+   6        0.037 cd File '.\File Backup E'
+   7        0.031 cd File '.\File Backup E\'
+   8        0.042 ls
+   9        0.014 cd '.\File Backup E'
+  10        0.019 ls
+  11     8:12.542 ssh ctambunan@192.168.248.128
+
+PS D:\File Backup E> !10
+False
+PS D:\File Backup E> ssh charlestambunan@192.168.37.133
+ssh: connect to host 192.168.37.133 port 22: Connection refused
+PS D:\File Backup E> ssh charlestambunan@192.168.37.133
+ssh: connect to host 192.168.37.133 port 22: Connection refused
+PS D:\File Backup E> ssh charlestambunan@192.168.37.133
+The authenticity of host '192.168.37.133 (192.168.37.133)' can't be established.
+ECDSA key fingerprint is SHA256:ZMNIlXTWGIutgRA4wrSSPPaRbgD2iBolT/hd12LED9g.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '192.168.37.133' (ECDSA) to the list of known hosts.
+charlestambunan@192.168.37.133's password:
+Last login: Tue Jan  4 06:25:24 2022
+[charlestambunan@fedora ~]$ ping  192.168.37.132
+PING 192.168.37.132 (192.168.37.132) 56(84) bytes of data.
+64 bytes from 192.168.37.132: icmp_seq=1 ttl=64 time=4.71 ms
+64 bytes from 192.168.37.132: icmp_seq=2 ttl=64 time=0.403 ms
+64 bytes from 192.168.37.132: icmp_seq=3 ttl=64 time=0.413 ms
+64 bytes from 192.168.37.132: icmp_seq=4 ttl=64 time=0.333 ms
+64 bytes from 192.168.37.132: icmp_seq=5 ttl=64 time=0.338 ms
+64 bytes from 192.168.37.132: icmp_seq=6 ttl=64 time=0.390 ms
+^C
+--- 192.168.37.132 ping statistics ---
+6 packets transmitted, 6 received, 0% packet loss, time 5006ms
+rtt min/avg/max/mdev = 0.333/1.097/4.708/1.614 ms
+[charlestambunan@fedora ~]$ history
+    1  sudo su
+    2  poweroff
+    3  sudo su
+    4  ping  192.168.37.132
+    5  history
+[charlestambunan@fedora ~]$
