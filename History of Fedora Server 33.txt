@@ -1,0 +1,22 @@
+● chronyd.service - NTP client/server
+     Loaded: loaded (/usr/lib/systemd/system/chronyd.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2022-01-06 14:52:42 WITA; 1h 59min ago
+       Docs: man:chronyd(8)
+             man:chrony.conf(5)
+   Main PID: 758 (chronyd)
+      Tasks: 1 (limit: 2269)
+     Memory: 1.8M
+        CPU: 171ms
+     CGroup: /system.slice/chronyd.service
+             └─758 /usr/sbin/chronyd -F 2
+
+Jan 06 14:52:51 fedora chronyd[758]: Selected source 103.123.108.224 (2.fedora.pool.ntp.org)
+Jan 06 14:52:51 fedora chronyd[758]: System clock wrong by -3.517276 seconds
+Jan 06 14:52:47 fedora chronyd[758]: System clock was stepped by -3.517276 seconds
+Jan 06 14:52:47 fedora chronyd[758]: System clock TAI offset set to 37 seconds
+Jan 06 14:56:07 fedora chronyd[758]: Selected source 203.114.225.252 (2.fedora.pool.ntp.org)
+Jan 06 16:02:09 fedora chronyd[758]: Forward time jump detected!
+Jan 06 16:02:09 fedora chronyd[758]: Can't synchronise: no selectable sources
+Jan 06 16:05:22 fedora chronyd[758]: Selected source 103.123.108.224 (2.fedora.pool.ntp.org)
+Jan 06 16:05:22 fedora chronyd[758]: System clock wrong by 2.060234 seconds
+Jan 06 16:08:35 fedora chronyd[758]: Selected source 203.114.225.252 (2.fedora.pool.ntp.org)
