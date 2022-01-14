@@ -3502,5 +3502,3 @@ lsof      1159                          root    7w     FIFO               0,13  
 ./Redhat_Fedora_Linux_History16.txt
 ./History_Redhat_Fedora_Server16.txt
 [root@fedora 23:58:54 /home/ctambunan]$ client_loop: send disconnect: Connection reset
-
-C:\Program Files (x86)\VMware\VMware Workstation>
