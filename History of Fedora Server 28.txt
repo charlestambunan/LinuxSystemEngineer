@@ -1,0 +1,7 @@
+               Local time: Fri 2022-01-07 02:09:57 WIB
+           Universal time: Thu 2022-01-06 19:09:57 UTC
+                 RTC time: Thu 2022-01-06 19:09:57
+                Time zone: Asia/Jakarta (WIB, +0700)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no

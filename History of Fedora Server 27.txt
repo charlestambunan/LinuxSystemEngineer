@@ -1,6 +1,3 @@
-SG 2000
-PROXIMUS BOMBER
-TEST
     1  ls -la
     2  ls
     3  passwd
@@ -822,13 +819,27 @@ TEST
   819  history
   820  ip a
   821  history
-  822  ssh-keygen
-  823  ssh-copy-id charlestambunan@192.168.37.133
-  824  ssh charlestambunan@192.168.37.133
-  825  history
-  826  ls -la
-  827  cat charles.txt 
-  828  cp charles.txt charles1.txt
-  829  mv charles.txt charles4.txt
-  832  ls -la
-  833  history >> charles1.txt
+  822  ssh charlestambunan@192.168.37.133
+  823  history
+  824  systemd-journald.service
+  825  tail -f /var/log/secure 
+  826  tail -f /var/log/
+  827  ls /var/log/
+  828  ls /var/log/chrony/
+  829  ls /var/log/samba/
+  830  ls /var/log/samba/old/
+  831  tail -f /var/log/samba/old/
+  832  tail -f /var/log/samba/old
+  833  journalctl
+  834  journalctl n -5
+  835  journalctl -n 5
+  836  journalctl -o verbose
+  837  journalctl | grep -E 'Runtime|System Journal'
+  838  touch charles5.txt
+  839  journalctl | grep -E 'Runtime|System Journal' >> charles5.txt 
+  840  timedatectl 
+  841  timedatectl list-timezones 
+  842  touch charles6.txt
+  843  timedatectl list-timezones >> charles6.txt
+  844  touch charles7.txt
+  845  history >> charles7.txt 
