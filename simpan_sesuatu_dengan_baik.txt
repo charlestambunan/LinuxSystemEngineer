@@ -114,3 +114,4 @@ Querying local package files:
 /usr/bin/wonderwidgets
 /usr/share/doc/wonderwidgets-1.0
 /usr/share/doc/wonderwidgets-1.0/README.txt
+
