@@ -1,0 +1,2718 @@
+ctambunan@192.168.37.132's password:
+Web console: https://fedora:9090/ or https://192.168.37.132:9090/
+
+Last login: Mon Jan 17 07:29:32 2022
+[ctambunan@fedora ~]$ sudo su
+[sudo] password for ctambunan:
+[root@fedora 07:30:01 /home/ctambunan]$ history
+    1  sudo dnf install nano
+    2  nano /etc/sudoers
+    3  di
+    4  id
+    5  pwd
+    6  sudo su -
+    7  exiy
+    8  exiy
+    9  exit
+   10  cd ..
+   11  ls -la
+   12  cd /home/
+   13  sudo cat /etc/sudoers.d/andi
+   14  ls -la /etc/sudoers.d/andi
+   15  ls -la /etc/sudoers.d/
+   16  ls -la /etc/sudoers.d/ctambunan
+   17  sudo cat /etc/sudoers.d/andi
+   18  su - andi
+   19  adduser andi sudo
+   20  adduser andi sudo -d
+   21  adduser -d andi sudo
+   22  exit
+   23  history >> TambunanY/History_Command_Line_FedoraServer.txt
+   24  cat TambunanY/History_Command_Line_FedoraServer.txt
+   25  exit
+   26  cd ..
+   27  cd ..
+   28  ls
+   29  cd /home/ctambunan/
+   30  ls -la
+   31  cd TambunanY/
+   32  history
+   33  history
+   34  exit
+   35  useradd operator1
+   36  passwd operator1
+   37  passwd operator1
+   38  useradd operator2
+   39  passwd operator2
+   40  usermod -c "Operator One" operator1
+   41  usermod -c "Operator Two" operator2
+   42  tail /etc/passwd
+   43  useradd operator3
+   44  passwd operator3
+   45  userdel -r operator3
+   46  sudo groupadd -r group02
+   47  tail /etc/group
+   48  sudo groupadd -r group01
+   49  tail /etc/group
+   50  usermod -aG group01 operator1
+   51  usermod -g group01 operator2
+   52  id user operator3
+   53  id user operator2
+   54  usermod -aG group02 andi
+   55  id user andi
+   56  mkdir TambunanZ
+   57  groupadd -g 100000 group03
+   58  useradd operator3
+   59  passwd operator3
+   60  useradd operator4
+   61  passwd operator4
+   62  tail /etc/passwd
+   63  usermod -aG group02 operator3
+   64  tail /etc/group
+   65  usermod -aG group01 operator4
+   66  tail /etc/group
+   67  history
+   68  touch TambunanZ/charles_tambunan.txt
+   69  mv TambunanZ/charles_tambunan.txt TambunanZ/Backup_Command_Redhat_Fedora_Server.txt
+   70  history >> TambunanZ/Backup_Command_Redhat_Fedora_Server.txt
+   71  tail TambunanZ/Backup_Command_Redhat_Fedora_Server.txt
+   72  sudo chage -m 0 -M 90 -W 7 -I 14 operator1
+   73  date -d "+45 days" -u
+   74  usermod -L operator1
+   75  su - operator1
+   76  sudo usermod -L -e 2019-09-05 operator2
+   77  usermod -s /sbin/nologin operator3
+   78  su - operator3
+   79  su - operator4
+   80  history
+   81  touch TambunanZ/Backup_Redhat_Fedora_Server_12.txt
+   82  history >> TambunanZ/Backup_Redhat_Fedora_Server_12.txt
+   83  cat TambunanZ/Backup_Redhat_Fedora_Server_12.txt
+   84  chage -m 1 -M 100 -W 8 -I 15 operator3
+   85  chage -M 10 andi
+   86  history
+   87  ip a
+   88  ls -la
+   89  ip a
+   90  ls -la
+   91  history
+   92  cd TambunanW/
+   93  history
+   94  ps aux
+   95  ps lax
+   96  ps -ef
+   97  ps -ef
+   98  sleep 10000 &
+   99  jobs
+  100  fg % 1
+  101  ps j
+  102  bg% 1
+  103  bg %1
+  104  bg %10000
+  105  bg %2
+  106  bg %1
+  107  ls -la
+  108  tail -f yoga.txt
+  109  tail -f yoga.txt
+  110  cat yoga.txt
+  111  history >> yoga.txt
+  112  tail -f yoga.txt
+  113  bg
+  114  bg
+  115  jobs
+  116  control yoga.txt &
+  117  bash andi.sh
+  118  ls -la
+  119  touch andi.sh
+  120  bash andi.sh
+  121  vim andi.sh
+  122  fg %2
+  123  ps jT
+  124  jobs
+  125  fg %1
+  126  jobs
+  127  history
+  128  kill -l
+  129  ps aux | grep job
+  130  kill -9 5199
+  131  ps aux | grep job
+  132  kill -9 5199 ps aux | grep job
+  133  kill -SIGTERM 5205
+  134  ps
+  135  ps au
+  136  kill -SIGTERM 1371
+  137  ps aux | grep job
+  138  kill -SIGTERM 6404
+  139  ps aux | grep job
+  140  killall control
+  141  ps aux | grep pkill
+  142  pkill control
+  143  ps aux | grep test
+  144  pkill -U user
+  145  cat /etc/group
+  146  pkill -U operator1
+  147  ps aux
+  148  ls
+  149  ls -R
+  150  w
+  151  pgrep -l -u bob
+  152  pgrep -l -u operator2
+  153  w -h -u bob
+  154  pkill -t tty3
+  155  pgrep -l -u operator2
+  156  mkdir lab_doang
+  157  touch lab_doang/killing.txt
+  158  jobs
+  159  kill -SIGCONT %1
+  160  jobs
+  161  kill -SIGTERM %1
+  162  ps -ef | grep tail
+  163  pkill -SIGTERM tail
+  164  uptime
+  165  lscpu
+  166  w
+  167  w man
+  168  man w
+  169  history
+  170  ip a
+  171  touch History_Redhat_Fedora_Server17.txt
+  172  ls -la
+  173  mv History_Redhat_Fedora_Server17.txt History_of_Fedora_Server_16.txt
+  174  history >> History_of_fedora_Server_16.txt
+  175  cat History_of_fedora_Server_16.txt
+  176  poweroff
+  177  ls -la
+  178  cd TambunanW/
+  179  ls -la
+  180  ip a
+  181  history
+  182  monitor
+  183  monitor &
+  184  top
+  185  process101 &
+  186  M
+  187  top
+  188  ls -la
+  189  jobs
+  190  pkill -SIGCONT 712
+  191  pkill 711
+  192  history
+  193  systemctl
+  194  systemctl list-units --type=service --all
+  195  ls -la
+  196  systemctl list-units --type=service --all >> charles2.txt
+  197  cat charles2.txt
+  198  systemctl list-unit-files --type=service
+  199  touch charles3.txt
+  200  systemctl list-unit-files --type=service >> charles3.txt
+  201  cat charles3.txt
+  202  history
+  203  systemctl list-unit-files --type=service
+  204  docker --version
+  205  kubernetes --version
+  206  kubectl version
+  207  yum install upgrade
+  208  yum upgrade
+  209  systemctl is-active kdump.service
+  210  systemctl enable kdump.service
+  211  systemctl status kdump.service
+  212  systemctl restart kdump.service
+  213  systemctl status kdump.service
+  214  systemctl enabled kdump.service
+  215  systemctl is-failed kdump.service
+  216  service kdump start
+  217  systemctl status chronyd.service
+  218  ls -la
+  219  mkdir TambunanH
+  220  touch TambunanH/charles4.txt
+  221  systemctl status chronyd.service >> TambunanH/charles4.txt
+  222  cat %1 charles4.txt
+  223  cat 1% charles4.txt
+  224  man cat
+  225  cat -a charles4.txt
+  226  cat -A charles4.txt
+  227  cat charles4.txt
+  228  cat -A TambunanH/charles4.txt
+  229  ps -p 680
+  230  systemctl is-enable sshd
+  231  systemctl is-enabled sshd
+  232  systemctl is-enabled kdump.service
+  233  systemctl is-active kdump.service
+  234  systemctl status kdump.service
+  235  systemctl list-unit-files --type=service
+  236  history
+  237  systemctl list-unit-files --type=service
+  238  history
+  239  ls -la
+  240  cd TambunanH/
+  241  ls -la
+  242  touch charles5.txt
+  243  systemctl list-unit-files --type=service
+  244  reboot
+  245  history
+  246  ip a
+  247  history
+  248  ssh-keygen
+  249  ssh-copy-id charlestambunan@192.168.37.133
+  250  ssh charlestambunan@192.168.37.133
+  251  history
+  252  ls -la
+  253  cat charles.txt
+  254  cp charles.txt charles1.txt
+  255  mv charles.txt charles4.txt
+  256  ls -la
+  257  history >> charles.txt
+  258  ls -la
+  259  history >> charles1.txt
+  260  cat charles1.txt
+  261  vi charles1.txt
+  262  ssh charlestambunan@192.168.37.133
+  263  ip a
+  264  ls archive.tar
+  265  ls -la
+  266  ls -la
+  267  mkdir TambunanJ
+  268  touch charles.tar
+  269  ls -la
+  270  touch charles.h
+  271  vim charles.h
+  272  vim charles.h
+  273  clear
+  274  vim charles.h
+  275  tar -czvf charles.tar.gz charles.h
+  276  ls -la
+  277  cat charles.tar.gz
+  278  mv charles.h charles.tar
+  279  cp charles.tar.gz charles.tar
+  280  ls -la
+  281  cp charles.h santy_oktavia.c
+  282  ls -la
+  283  scp man
+  284  man scp
+  285  scp charlestambunan@192.168.37.133
+  286  scp charlestambunan@192.168.37.133:charles.tar
+  287  scp -r charlestambunan@192.168.37.133:charles.tar
+  288  scp ctambunan@192.168.37.133:/etc/hostname /home/user
+  289  scp charlestambunan@192.168.37.133:/etc/hostname /home/user
+  290  scp charlestambunan@192.168.37.133:/home/charlestambunan/charles.h
+  291  scp charlestambunan@192.168.37.133:/home/charlestambunan/charles.h /Music
+  292  scp charlestambunan@192.168.37.133:/home/charlestambunan/charles.h /home/charlestambunan
+  293  scp charlestambunan@192.168.37.133:/home/charlestambunan/charles.h /home/user
+  294  scp charlestambunan@192.168.37.133:/home/charlestambunan /home/user
+  295  scp charlestambunan@192.168.37.133:/home/charlestambunan/charles.h /home/user
+  296  scp charles.h charlestambunan@192.168.37.133:/home/me/
+  297  scp charles.h charlestambunan@192.168.37.133:/home/charlestambunan/
+  298  history
+  299  touch charles11.txt
+  300  history >> charles11.txt
+  301  cat charles11.txt
+  302  ip a
+  303  history
+  304  rsync -av charlestambunan@192.168.37.133:/home/charlestambunan/
+  305  ls -la
+  306  history
+  307  touch charles14.txt
+  308  history >> charles14.txt
+  309  ls
+  310  ls -la
+  311  mkdir TambunanLogFiles
+  312  mv charles*.txt TambunanLogFiles/
+  313  cat TambunanLogFiles/
+  314  ls -la TambunanLogFiles/
+  315  history
+  316  ls -la
+  317  mv '#zcat#' goklas.txt
+  318  cp goklas.txt make_the_choice.txt make_the_choice2.txt
+  319  cp goklas.txt make_the_choice.txt
+  320  ls -la
+  321  vim simpan_sesuatu_dengan_baik.txt
+  322  vim simpan_sesuatu_dengan_baik.txt
+  323  ls -la
+  324  cat make_the_choice.txt
+  325  cat simpan_sesuatu_dengan_baik.txt
+  326   yum-config-manager --add-repo="http://dl.fedoraproject.org/pub/
+  327  epel/8/x86_64/"
+  328  yum repolist all
+  329   yum-config-manager --add-repo="http://dl.fedoraproject.org/pub/
+  330  epel/8/x86_64/"
+  331  history
+  332  touch charles15.txt
+  333  history >> charles15.txt
+  334  history
+  335  clear
+  336  clear
+  337  history
+  338  find
+  339  locate
+  340  locate charles*.txt
+  341  history
+  342  ls -la
+  343  touch Redhat_Fedora_Linux_History16.txt
+  344  history >> Redhat_Fedora_Linux_History16.txt
+  345  poweroff
+  346  ls -la
+  347  history
+  348  df -h
+  349  df -H
+  350  fdisk
+  351  lsblk
+  352  lsof
+  353  touch History_Redhat_Fedora_Server16.txt
+  354  lsof >> History_Redhat_Fedora_Server16.txt
+  355  cat History_Redhat_Fedora_Server16.txt
+  356  history
+  357  find
+  358  history
+  359  sudo yum install cockpit
+  360  sudo systemctl enable --now cockpit.socket
+  361  sudo firewall-cmd --permanent --zone=public --add-service=cockpit
+  362  sudo firewall-cmd --reload
+  363  ip a
+  364  ls -la
+  365  mkdir TambunanG
+  366  mv *.txt TambunanJ/
+  367  ls -la TambunanJ/
+  368  ls -la TambunanJ/ ; cat final.txt
+  369  ls -la TambunanJ/ ; cat goklas.txt
+  370  ls -la TambunanJ/ ; tail goklas.txt
+  371  ls -la TambunanJ ; tail goklas.txt
+  372  ls -la TambunanJ/
+  373  history
+  374  touch TambunanJ/Backup_Redhat_Fedora_Server_24.txt
+  375  history >> TambunanJ/Backup_Redhat_Fedora_Server_24.txt
+  376  history
+  377  touch History_Redhat_Fedora_Server17.txt
+  378  history >> History_Redhat_Fedora_Server17.txt
+  379  history
+  380  poweroff
+  381  history
+  382  history
+  383  ip a
+  384  history
+  385  history
+  386  ls -la
+  387  touch History_Redhat_Fedora_Server18.txt
+  388  history >> History_Redhat_Fedora_Server18.txt
+  389  sudo yum install cockpit
+  390  sudo systemctl enable --now cockpit.socket
+  391  sudo firewall-cmd --permanent --zone=public --add-service=cockpit
+  392  sudo firewall-cmd --reload
+  393  history
+  394  history
+  395  ls -la
+  396  ls -la
+  397  history
+  398  poweroff
+  399  vim firstscript.sh
+  400  cat output.txt
+  401  sh firstscript.sh
+  402  cat output.txt
+  403  vim firstscript.sh
+  404  chmod a+x firstscript.sh
+  405  ./firstscript.sh
+  406  vim firstscript.sh
+  407  ./firstscript.sh
+  408  vim firstscript.sh
+  409  ./firstscript.sh
+  410  cat output.txt
+  411  vim andidori.sh
+  412  vim andidori.sh
+  413  sh andidori.sh
+  414  ls -la
+  415  mv firstscript.sh andidori.sh /home/ctambunan/
+  416  mv output.txt /home/ctambunan/
+  417  ls -la /home/ctambunan/
+  418  ls -la /home/ctambunan/TambunanLogFiles/
+  419  mkdir /home/ctambunan/TambunanShellScripting
+  420  mv /home/ctambunan/firstscript.sh /home/ctambunan/TambunanShellScripting/; mv /home/ctambunan/andidori.sh /home/ctambunan/TambunanShellScripting/
+  421  ls -la /home/ctambunan/TambunanShellScripting/ ; ls -la /home/ctambunan/TambunanShellScripting/
+  422  history
+  423  touch /home/ctambunan/TambunanShellScripting/History_Redhat_Fedora_Server_41.txt
+  424  history >> /home/ctambunan/TambunanShellScripting/History_Redhat_Fedora_Server_41.txt
+  425  cd ..
+  426  histor
+  427  history
+  428  touch /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  429  vim /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  430  sh /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  431  vim /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  432  sh /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  433  vim /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  434  sh /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  435  sh /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  436  vim /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  437  sh /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  438  history
+  439  touch /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server_42.txt
+  440  history >> /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server_42.txt
+  441  cat /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server_42.txt
+  442  cat /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server_42.txt
+  443  systemctl status cockpit
+  444  systemctl status cockpit.service
+  445  systemctl restart cockpit.service
+  446  systemctl enable cockpit.service
+  447  systemctl status cockpit.service
+  448  ip a
+  449  ls -la
+  450  timedatectl
+  451  timedatectl -s
+  452  timedatectl man
+  453  man timedatectl
+  454  history
+  455  ls -la
+  456  cd /home/ctambunan/TambunanShellScripting/
+  457  ls -la
+  458  vim SecondScript.sh
+  459  vim SecondScript.sh
+  460  sh SecondScript.sh
+  461  vim SecondScript.sh
+  462  sh SecondScript.sh
+  463  vim SecondScript.sh
+  464  sh SecondScript.sh
+  465  history
+  466  ls -la
+  467  touch History_of_Redhat_Fedora_Server_43.txt
+  468  mv History_Redhat_Fedora_Server_41.txt History_of_Redhat_Fedora_Server_41.txt
+  469  ls -la
+  470  history
+  471  history >> History_of_Redhat_Fedora_Server_43.txt
+  472  cat History_of_Redhat_Fedora_Server_43.txt
+  473  exit
+  474  ls -la
+  475  which hello
+  476  echo $PATH
+  477  echo # not a comment #
+  478  echo \# not a comment #
+  479  echo \# not a comment \#
+  480  echo '# not a comment #'
+  481  var=$(hostname -s); echo $var
+  482  echo Your Username variable is \$USER
+  483  echo Your Username variable is \$USER.
+  484  echo Your Username variable is \$USER .
+  485  cat ~/bin/hello
+  486  cat ~/bin/hello
+  487  hello
+  488  cd ~
+  489  cat ~/bin/hello
+  490  sudo su
+  491  exit
+  492  ip a
+  493  history
+  494  ls -la
+  495  cd TambunanShellScripting/
+  496  ls -la
+  497  touch ThirdScript.sh
+  498  vim ThirdScript.sh
+  499  sh ThirdScript.sh
+  500  vim ThirdScript.sh
+  501  sh ThirdScript.sh
+  502  vim ThirdScript.sh
+  503  sh ThirdScript.sh
+  504  vim ThirdScript.sh
+  505  sh ThirdScript.sh
+  506  vim ThirdScript.sh
+  507  sh ThirdScript.sh
+  508  sh ThirdScript.sh
+  509  vim ThirdScript.sh
+  510  sh ThirdScript.sh
+  511  vim ThirdScript.sh
+  512  sh ThirdScript.sh
+  513  vim ThirdScript.sh
+  514  sh ThirdScript.sh
+  515  vim ThirdScript.sh
+  516  vim ThirdScript.sh
+  517  sh ThirdScript.sh
+  518  vim ThirdScript.sh
+  519  sh ThirdScript.sh
+  520  vim ThirdScript.sh
+  521  vim ThirdScript.sh
+  522  sh ThirdScript.sh
+  523  vim ThirdScript.sh
+  524  vim ThirdScript.sh
+  525  sh ThirdScript.sh
+  526  vim ThirdScript.sh
+  527  sh ThirdScript.sh
+  528  vim ThirdScript.sh
+  529  vim ThirdScript.sh
+  530  sh ThirdScript.sh
+  531  ls -la
+  532  vim ThirdScript.sh
+  533  vim ThirdScript.sh
+  534  sh ThirdScript.sh
+  535  ls -la
+  536  cd sean_gelael/
+  537  ls -la
+  538  cd ..
+  539  vim ThirdScript.sh
+  540  sh ThirdScript.sh
+  541  ls -la
+  542  sh ThirdScript.sh
+  543  vim ThirdScript.sh
+  544  sh ThirdScript.sh
+  545  vim ThirdScript.sh
+  546  sh ThirdScript.sh
+  547  ls -la
+  548  sh ThirdScript.sh
+  549  vim ThirdScript.sh
+  550  sh ThirdScript.sh
+  551  vim ThirdScript.sh
+  552  sh ThirdScript.sh
+  553  ls -la
+  554  vim ThirdScript.sh
+  555  sh ThirdScript.sh
+  556  ls -la
+  557  vim ThirdScript.sh
+  558  cat ThirdScript.sh
+  559  vim FouthScript.sh
+  560  sh ThirdScript.sh
+  561  ls -la
+  562  cat FouthScript.sh
+  563  sh FouthScript.sh
+  564  vim FouthScript.sh
+  565  sh FouthScript.sh
+  566  ls -la
+  567  ls -la sean_gelael
+  568  vim FouthScript.sh
+  569  mv FouthScript.sh FourthScript.sh
+  570  ls -la
+  571  touch FiveScript.sh
+  572  vim FiveScript.sh
+  573  sh FiveScript.sh
+  574  vim FiveScript.sh
+  575  sh FiveScript.sh
+  576  vim FiveScript.sh
+  577  vim FourthScript.sh
+  578  cat FiveScript.sh
+  579  vim FiveScript.sh
+  580  sh FiveScript.sh
+  581  vim FiveScript.sh
+  582  history
+  583  ls -la
+  584  touch History_of_Redhat_Fedora_Server_44.txt
+  585  history >> History_of_Redhat_Fedora_Server_44.txt
+  586  cat History_of_Redhat_Fedora_Server_44.txt
+  587  ls -la
+  588  cat ThirdScript.sh
+  589  sh ThirdScript.sh
+  590  vim ThirdScript.sh
+  591  for i in {1..6}; do touch test$i.txt ; done
+  592  ls -la
+  593  ls History_of_Redhat_Fedora_Server_41.txt
+  594  ls History_of_Redhat_Fedora_Server_*
+  595  ls History_of_Redhat_Fedora_Server_??.txt
+  596  ls History_of_Redhat_Fedora_Server_?3.txt
+  597  grep History_of_Redhat_Fedora_Server_4?.txt
+  598  cat "Redhat"
+  599  echo "Redhat"
+  600  echo "Redhat" > test1.txt
+  601  cat test1.txt
+  602  echo "CentOS"
+  603  echo "CentOS" > test1.txt
+  604  cat test1.txt
+  605  echo "Redhat" >> test1.txt
+  606  CAT test1.txt
+  607  cat test1.txt
+  608  man sed
+  609  history
+  610  ls -la
+  611  ls -la
+  612  cat make_the_choice.txt
+  613  ls
+  614  ls -R
+  615  ls -lh
+  616  ls -h
+  617  ls -H
+  618  lh
+  619  ls -lh
+  620  history
+  621  history >> test2.txt
+  622  ls -la
+  623  man sed
+  624  cat History_of_Redhat_Fedora_Server_?4.txt
+  625  poweroff
+  626  ls -la
+  627  scp charlestambunan@192.168.37.133:/home/charlestambunan/charles.h /Music
+  628  history
+  629  ls -la
+  630  ls -lh TambunanShellScripting/
+  631  touch TambunanShellScripting/History_Redhat_Fedora_Server{45..50}.txt
+  632  ls -la TambunanShellScripting/
+  633  mv TambunanShellScripting/History_Redhat_Fedora_Server4*.txt History_of_Redhat_Fedora_Server{46...49}.txt
+  634  mv TambunanShellScripting/History_Redhat_Fedora_Server4*.txt History_of_Redhat_Fedora_Server46.txt
+  635  cd TambunanShellScripting/
+  636  ls -la
+  637  mv History_Redhat_Fedora_Server45.txt History_of_Redhat_Fedora_Server_45.txt
+  638  mv History_Redhat_Fedora_Server46.txt History_of_Redhat_Fedora_Server_46.txt
+  639  mv History_Redhat_Fedora_Server47.txt History_of_Redhat_Fedora_Server_48.txt
+  640  mv History_Redhat_Fedora_Server48.txt History_of_Redhat_Fedora_Server_48.txt
+  641  mv History_Redhat_Fedora_Server47.txt History_of_Redhat_Fedora_Server_47.txt
+  642  ls -la
+  643  mv History_of_Redhat_Fedora_Server_48.txt History_of_Redhat_Fedora_Server_47.txt
+  644  mv History_Redhat_Fedora_Server_48.txt History_of_Redhat_Fedora_Server_48.txt
+  645  mv History_Redhat_Fedora_Server_49.txt History_of_Redhat_Fedora_Server_49.txt
+  646  ls -la
+  647  mv History_Redhat_Fedora_Server48.txt History_of_Redhat_Fedora_Server_48.txt
+  648  mv History_Redhat_Fedora_Server49.txt History_of_Redhat_Fedora_Server_49.txt
+  649  mv History_Redhat_Fedora_Server50.txt History_of_Redhat_Fedora_Server_50.txt
+  650  ls -la
+  651  ls History_of_Redhat_Fedora_Server_4*.txt
+  652  ls -la History_of_Redhat_Fedora_Server_4*.txt
+  653  ls -lh History_of_Redhat_Fedora_Server_4*.txt
+  654  ls -lh History_of_Redhat_Fedora_Server_**.txt
+  655  grep ^s
+  656  ip a
+  657  ip a
+  658  history
+  659  ls -la
+  660  touch History_Redhat_Fedora_Server51.txt
+  661  history >> History_Redhat_Fedora_Server51.txt
+  662  cat History_Redhat_Fedora_Server51.txt
+  663  poweroff
+  664  ls -la
+  665  history
+  666  cat /etc/ethertypes
+  667  ls -la
+  668  history
+  669  cat
+  670  less /var/log/messages
+  671  ls -la
+  672  ls -la TambunanG/
+  673  ls -la TambunanShellScripting/
+  674  mv History_Redhat_Fedora_Server5*.txt TambunanShellScripting/
+  675  ls -la
+  676  ls -la TambunanShellScripting/
+  677  mv TambunanShellScripting/History_Redhat_Fedora_Server51.txt History_of_Redhat_Fedora_Server51.txt
+  678  ls -la TambunanShellScripting/
+  679  ls -la
+  680  mv History_of_Redhat_Fedora_Server51.txt TambunanShellScripting/
+  681  ls -la TambunanShellScripting/
+  682  touch TambunanShellScripting/History_of_Redhat_Fedora_Server52.txt
+  683  touch TambunanShellScripting/History_of_Redhat_Fedora_Server{53...60}.txt
+  684  ls -la TambunanShellScripting/
+  685  rm TambunanShellScripting/History_of_Redhat_Fedora_Server{53..60}.txt
+  686  ls -la TambunanShellScripting/
+  687  touch TambunanShellScripting/History_of_Redhat_Fedora_Server{53..60}.txt
+  688  ls -la TambunanShellScripting/
+  689  less /var/log/messages >> TambunanShellScripting/History_of_Redhat_Fedora_Server52.txt
+  690  cat >> TambunanShellScripting/History_of_Redhat_Fedora_Server52.txt
+  691  vim TambunanShellScripting/History_of_Redhat_Fedora_Server52.txt
+  692  sudo dnf -y update
+  693  sudo dnf -y install vim bash-completion curl wget telnet
+  694  sudo sestatus
+  695  sudo setenforce 0
+  696  sudo sed -i 's/^SELINUX=.*/SELINUX=permissive/g' /etc/selinux/config
+  697  cat /etc/selinux/config | grep SELINUX =
+  698  cat /etc/selinux/config | grep SELINUX=
+  699  sudo dnf -y install httpd
+  700  sudo dnf -y install httpd
+  701  vim /etc/httpd/conf/httpd.conf
+  702  nano /etc/httpd/conf/httpd.conf
+  703  nano /etc/httpd/conf/httpd.conf
+  704  nano /etc/httpd/conf/httpd.conf
+  705  sudo systemctl start httpd
+  706  sudo systemctl enable httpd
+  707  sudo firewall-cmd --add-service={http,https} --permanent
+  708  sudo firewall-cmd --reload
+  709  sudo dnf -y install php php-cli php-php-gettext php-mbstring php-mcrypt php-mysqlnd php-pear php-curl php-gd php-xml php-bcmath php-zip
+  710  php -v
+  711  php -m
+  712  vim /etc/php.ini
+  713  nano /etc/php.ini
+  714  sudo dnf install mariadb-server
+  715  sudo vim /etc/my.cnf.d/mariadb-server.cnf
+  716  sudo systemctl start mariadb
+  717  sudo systemctl enable mariadb
+  718  sudo mysql_secure_installation
+  719  mysql -u root -p
+  720  ls -la
+  721  history
+  722  sudo firewall-cmd --add-service=mysql --permanent
+  723  sudo firewall-cmd --reload
+  724  nano /var/www/html/phpinfo.php
+  725  sudo systemctl restart httpd
+  726  ip a
+  727  date
+  728  grep '^Mar 22 08:2.*GID' /var/log/secure
+  729   grep 'postfix' /var/log/maillog | head -n 2
+  730  grep -i 'queue' /etc/postfix/main.cf
+  731  ps aux | grep postfix
+  732  grep -e qmgr -e pickup -e cleanup /etc/postfix/master.cf
+  733  exit
+  734  ls -la
+  735  history
+  736  history
+  737  ls -la
+  738  history >> TambunanShellScripting/History_of_Redhat_Fedora_Server53.txt
+  739  cat history TambunanShellScripting/History_of_Redhat_Fedora_Server53.txt
+  740  mkdir -p /home/student/bin/bash-lab
+  741  vim /home/student/bin/bash-lab/
+  742  vim /home/student/bin/bash-lab
+  743  rm /home/student/bin/bash-lab
+  744  rm -d /home/student/bin/bash-lab
+  745  ls -la
+  746  mkdir -p /home/student/bin
+  747  vim /home/student/bin/bash-lab.sh
+  748  chmod a+x /home/student/bin/bash-lab.sh
+  749  vim /home/student/bin/bash-lab.sh
+  750  sh /home/student/bin/bash-lab.sh
+  751  vim /home/student/bin/bash-lab.sh
+  752  sh /home/student/bin/bash-lab.sh
+  753  ip a
+  754  ls -la /home/
+  755  ls -la /home/ctambunan/
+  756  ls -la /home/ctambunan/output-servera
+  757  cat /home/ctambunan/output-servera
+  758  cat /home/ctambunan/output-serverb
+  759  cat /home/ctambunan/output-serverb
+  760  history
+  761  ls -la
+  762  cd TambunanShellScripting/
+  763  ls -la
+  764  vim History_of_Redhat_Fedora_Server54.txt
+  765  cat History_of_Redhat_Fedora_Server54.txt
+  766  history >> History_of_Redhat_Fedora_Server55.txt
+  767  poweroff
+  768  ls -la
+  769  history
+  770  atq
+  771  echo "date >> myjob.txt" | at now
+  772  atq
+  773  watch atq
+  774  cat myjob.txt
+  775  at -q g teatime
+  776  at -q b 16:05
+  777  atq
+  778  at c -2
+  779  at -c 2
+  780  at -c 3
+  781  atq
+  782  history
+  783  crontab -e
+  784  crontab -e
+  785  exit
+  786  vi /etc/cron.daily/usercount
+  787  chmod +x /etc/cron.daily/usercount
+  788  yum install syststat
+  789  yum install sysstat
+  790  history
+  791  cp /usr/lib/systemd/system/sysstat-collect.timer /etc/systemd/system/sysstat-collect.timer
+  792  vim /etc/systemd/system/sysstat-collect.timer
+  793  systemctl daemon-reload
+  794  systemctl enable --now sysstat-collect.timer
+  795  while [ $(ls /var/log/sa | wc -l) -eq 0 ]; do sleep 1s; done
+  796  ls -l /var/log/sa
+  797  ls -l /var/log
+  798  ls -l /var/log/sa
+  799  date
+  800  exit
+  801  cp /usr/lib/tmpfiles.d/tmp.conf /etc/tmpfiles.d/tmp.conf
+  802  vi /etc/tmpfiles.d/tmp.conf
+  803  systemd-tmpfiles --clean /etc/tmpfiles.d/tmp.conf
+  804  vim /etc/tmpfiles.d/momentary.conf
+  805  systemd-tmpfiles --create /etc/tmpfiles.d/momentary.conf
+  806  ls -ld /run/momentary
+  807  touch /run/momentary/testfile
+  808  sleep 30
+  809  systemd-tmpfiles --clean /etc/tmpfiles.d/momentary.conf
+  810  ls -l /run/momentary/testfile
+  811  ls -l /run/momentary/
+  812  ls -l /run/momentary/testfile
+  813  history
+  814  cd ..
+  815  ls -la
+  816  cd /home/ctambunan/TambunanShellScripting/
+  817  ls -la
+  818  vim History_of_Redhat_Fedora_Server56.txt
+  819  vim History_of_Redhat_Fedora_Server57.txt
+  820  cat History_of_Redhat_Fedora_Server57.txt
+  821  history
+  822  ls -la
+  823  cat History_of_Redhat_Fedora_Server58.txt
+  824  vim History_of_Redhat_Fedora_Server58.txt
+  825  cat History_of_Redhat_Fedora_Server57.txt
+  826  history >> History_of_Redhat_Fedora_Server58.txt
+  827  cat History_of_Redhat_Fedora_Server58.txt
+  828  ip a
+  829  history
+  830  poweroff
+  831  ls -la
+  832  history
+  833  ls -la
+  834  yum install tuned
+  835  systemctl enable --now tuned
+  836  tuned-adm active
+  837  tuned-adm list
+  838  tuned-adm profile throughput-performance
+  839  tuned-adm active
+  840  tuned-adm recommend
+  841  tuned-adm off
+  842  tuned-adm active
+  843  yum list tuned
+  844  systemctl is-enabled tuned.service ; systemctl is-active tuned.service
+  845  sudo tuned-adm list
+  846  sudo tuned-adm profile powersave
+  847  sudo tuned-adm active
+  848  history
+  849  cat TambunanShellScripting/History_of_Redhat_Fedora_Server60.txt
+  850  cat TambunanShellScripting/History_of_Redhat_Fedora_Server59.txt
+  851  history >> TambunanShellScripting/History_of_Redhat_Fedora_Server59.txt
+  852  ip a
+  853  ls -la
+  854  ps axo pid, comm, nice,cls --sort=-nice
+  855  ps axo pid,comm,nice,cls --sort=-nice
+  856  sha1sum /dev/zero & [1] 3480
+  857  sha1sum /dev/zero &
+  858  ps -o pid,comm,nice 3480
+  859  nice sha1sum /dev/zero &
+  860  ps -o pid,comm,nice 3517
+  861  nice -n 15 sha1sum &
+  862  ps -o pid,comm,nice 3521
+  863  renice -n 19 3521
+  864  renice -n 19 58645
+  865  lab tuning-procsheduling start
+  866  grep -c '^processor' /proc/cpuinfo
+  867  for i in $(seq 1 4); do sha1sum /dev/zero & done
+  868  jobs
+  869  ps u $(pgrep sha1sum)
+  870  pkill sha1sum
+  871  for i in $(seq 1 3); do sha1sum /dev/zero & done
+  872  nice -n 10 sha1sum /dev/zero &
+  873  ps -o pid,pcpu,nice,comm $(pgrep sha1sum)
+  874  sudo renice -n 5 58645
+  875  ps -o pid,pcpu,nice,comm $(pgrep sha1sum)
+  876  history
+  877  cat TambunanShellScripting/History_of_Redhat_Fedora_Server60.txt
+  878  cat TambunanShellScripting/History_of_Redhat_Fedora_Server59.txt
+  879  cat TambunanShellScripting/History_of_Redhat_Fedora_Server59.txt
+  880  cat TambunanShellScripting/History_of_Redhat_Fedora_Server60.txt
+  881  nano TambunanShellScripting/History_of_Redhat_Fedora_Server60.txt
+  882  touch man
+  883  man touch
+  884  touch TambunanShellScripting/History_of_Redhat_Fedora_Server{61..70}.txt
+  885  ls -la TambunanShellScripting/
+  886  cat TambunanShellScripting/History_of_Redhat_Fedora_Server60.txt
+  887  cat TambunanShellScripting/History_of_Redhat_Fedora_Server61.txt
+  888  history >> TambunanShellScripting/History_of_Redhat_Fedora_Server61.txt
+  889  ls -la
+  890  ls -la TambunanShellScripting/
+  891  mv History_Redhat_Fedora_Server1*.txt TambunanShellScripting/sean_gelael/
+  892  ls -R TambunanShellScripting/sean_gelael/
+  893  ls -R
+  894  mv TambunanShellScripting/sean_gelael/History_Redhat_Fedora_Server1*.txt TambunanW/
+  895  ls -R TambunanW/
+  896  cat TambunanShellScripting/History_of_Redhat_Fedora_Server61.txt
+  897  ip a
+  898  history >> TambunanShellScripting/History_of_Redhat_Fedora_Server62.txt
+  899  poweroff
+  900  history
+  901  ip a
+  902  history
+  903  getfacl reports.txt
+  904  ls -la
+  905  getfacl my_first_cron_job.txt
+  906  ls -l my_first_cron_job.txt
+  907  mv santy_oktavia.c my_second_cron_job.txt
+  908  ls -la
+  909  getfacl .
+  910  ls -la /run/log/journal/
+  911  getfacl /run/log/journal/
+  912  ls -la /dev/
+  913  ls -la /dev/sr0
+  914  getfacl /dev/sr0
+  915  ls -la
+  916  history
+  917  ls -la
+  918  setfacl -m u:name:rX my_second_cron_job.txt
+  919  setfacl -m u:name:rw my_second_cron_job.txt
+  920  setfacl -m g:name:rw my_second_cron_job.txt
+  921  cd ~
+  922  setfacl -m u:name:rX /home/andi/
+  923  setfacl -m u:name:rX /home/andi
+  924  setfacl -m u:name:rX /home/andi/
+  925  setfacl -m u:name:rX file
+  926  ls -la
+  927  poweroff
+  928  ip a
+  929  history
+  930  ls -la
+  931  mkdir -p shares/content
+  932  ls -la
+  933  setfacl -Rm g:consultants:rwX shares/content
+  934  setfacl -Rm u:andi:rwX shares/content
+  935  setfacl -Rm g:andi:rwX shares/content
+  936  setfacl -m d:g:andi:rwx shares/content
+  937  setfacl -m d:u:andi:- shares/content
+  938  history
+  939  cd ..
+  940  cat /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server63.txt
+  941  cat /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server64.txt
+  942  history >> /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server64.txt
+  943  cat /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server64.txt
+  944  su - andi
+  945  history
+  946  cd /home/
+  947  ls -la
+  948  cd andi/
+  949  ls -la
+  950  cd user
+  951  cd ..
+  952  cd ctambunan/
+  953  lsa -la
+  954  ls
+  955  history
+  956   setfacl -Rm g:andi:rwX shares/content
+  957  cd ~
+  958  setfacl -Rm g:andi:rwX shares/content
+  959  setfacl -Rm u:operator1:rwX shares/content
+  960  setfacl -Rm u:andi:- /shares/content
+  961  setfacl -Rm u:andi:- shares/content
+  962  setfacl -m d:g:operator1:rwx /shares/content
+  963  setfacl -m d:g:operator1:rwx shares/content
+  964  setfacl -m d:u:andi:- /shares/content
+  965  setfacl -m d:u:andi:- shares/content
+  966  su operator2
+  967  su - andi
+  968  cd shares/content
+  969  ls -la
+  970   cat serverb-loadavg.txt
+  971   touch serverb-loadavg.txt
+  972  passwd operator1
+  973  su - operator1
+  974  touch loadavg.sh
+  975  yum install glances
+  976  glances
+  977  glances >> loadavg.sh
+  978  ls -la
+  979  cat loadavg.sh
+  980  vim loadavg.sh
+  981  touch loadavg2.sh
+  982  vim loadavg2.sh
+  983  mv loadavg2.sh loadavg.sh
+  984  cat loadavg.sh
+  985  vim loadavg.sh
+  986  rm loadavg.sh
+  987  cat loadavg2.sh
+  988  ls -la
+  989  cp loadavg2.sh loadavg1.sh
+  990  ls -la
+  991  sh loadavg2.sh
+  992  mkdir reports
+  993  echo "Test Reports" > reports/test.txt
+  994  exit
+  995  ls -la
+  996  history
+  997  ip a
+  998  history
+[root@fedora 07:30:05 /home/ctambunan]$ yum update
+Fedora 35 - x86_64 - Updates                                                                                                6.7 kB/s | 6.6 kB     00:00
+Fedora 35 - x86_64 - Updates                                                                                                972 kB/s | 3.2 MB     00:03
+Fedora Modular 35 - x86_64 - Updates                                                                                        7.2 kB/s | 5.9 kB     00:00
+Dependencies resolved.
+============================================================================================================================================================ Package                                               Architecture              Version                                 Repository                    Size
+============================================================================================================================================================
+Installing:
+ kernel                                                x86_64                    5.15.14-200.fc35                        updates                       15 k
+Upgrading:
+ augeas-libs                                           x86_64                    1.13.0-1.fc35                           updates                      405 k
+ cryptsetup                                            x86_64                    2.4.3-1.fc35                            updates                      199 k
+ cryptsetup-libs                                       x86_64                    2.4.3-1.fc35                            updates                      430 k
+ cups-libs                                             x86_64                    1:2.3.3op2-12.fc35                      updates                      266 k
+ libzstd                                               x86_64                    1.5.1-6.fc35                            updates                      330 k
+ mesa-libEGL                                           x86_64                    21.3.4-1.fc35                           updates                      121 k
+ mesa-libGL                                            x86_64                    21.3.4-1.fc35                           updates                      170 k
+ mesa-libgbm                                           x86_64                    21.3.4-1.fc35                           updates                       44 k
+ mesa-libglapi                                         x86_64                    21.3.4-1.fc35                           updates                       53 k
+ mesa-vulkan-drivers                                   x86_64                    21.3.4-1.fc35                           updates                      5.6 M
+ mkpasswd                                              x86_64                    5.5.11-1.fc35                           updates                       40 k
+ pam                                                   x86_64                    1.5.2-7.fc35                            updates                      547 k
+ pcre2                                                 x86_64                    10.39-1.fc35                            updates                      231 k
+ pcre2-syntax                                          noarch                    10.39-1.fc35                            updates                      144 k
+ pipewire                                              x86_64                    0.3.43-1.fc35                           updates                       38 k
+ pipewire-alsa                                         x86_64                    0.3.43-1.fc35                           updates                       62 k
+ pipewire-jack-audio-connection-kit                    x86_64                    0.3.43-1.fc35                           updates                      135 k
+ pipewire-libs                                         x86_64                    0.3.43-1.fc35                           updates                      1.5 M
+ pipewire-pulseaudio                                   x86_64                    0.3.43-1.fc35                           updates                       27 k
+ python-unversioned-command                            noarch                    3.10.1-3.fc35                           updates                      9.4 k
+ python3                                               x86_64                    3.10.1-3.fc35                           updates                       26 k
+ python3-libs                                          x86_64                    3.10.1-3.fc35                           updates                      7.5 M
+ systemd                                               x86_64                    249.9-1.fc35                            updates                      4.0 M
+ systemd-libs                                          x86_64                    249.9-1.fc35                            updates                      607 k
+ systemd-networkd                                      x86_64                    249.9-1.fc35                            updates                      524 k
+ systemd-oomd-defaults                                 noarch                    249.9-1.fc35                            updates                       26 k
+ systemd-pam                                           x86_64                    249.9-1.fc35                            updates                      325 k
+ systemd-resolved                                      x86_64                    249.9-1.fc35                            updates                      268 k
+ systemd-udev                                          x86_64                    249.9-1.fc35                            updates                      1.8 M
+ tcpdump                                               x86_64                    14:4.99.1-3.fc35                        updates                      544 k
+ vim-common                                            x86_64                    2:8.2.4068-1.fc35                       updates                      6.7 M
+ vim-data                                              noarch                    2:8.2.4068-1.fc35                       updates                       28 k
+ vim-default-editor                                    noarch                    2:8.2.4068-1.fc35                       updates                       21 k
+ vim-enhanced                                          x86_64                    2:8.2.4068-1.fc35                       updates                      1.9 M
+ vim-filesystem                                        noarch                    2:8.2.4068-1.fc35                       updates                       22 k
+ vim-minimal                                           x86_64                    2:8.2.4068-1.fc35                       updates                      709 k
+ whois-nls                                             noarch                    5.5.11-1.fc35                           updates                       33 k
+ wireplumber                                           x86_64                    0.4.7-2.fc35                            updates                       70 k
+ wireplumber-libs                                      x86_64                    0.4.7-2.fc35                            updates                      308 k
+Installing dependencies:
+ kernel-core                                           x86_64                    5.15.14-200.fc35                        updates                       35 M
+ kernel-modules                                        x86_64                    5.15.14-200.fc35                        updates                       33 M
+ lilv                                                  x86_64                    0.24.10-4.fc35                          fedora                        80 k
+ lv2                                                   x86_64                    1.18.2-1.fc35                           updates                       94 k
+ serd                                                  x86_64                    0.30.10-3.fc35                          fedora                        61 k
+ sord                                                  x86_64                    0.16.8-2.fc35                           fedora                        46 k
+ sratom                                                x86_64                    0.6.6-3.fc35                            fedora                        25 k
+Installing weak dependencies:
+ libbpf                                                x86_64                    2:0.4.0-2.fc35                          fedora                       131 k
+Removing:
+ kernel                                                x86_64                    5.14.10-300.fc35                        @anaconda                      0
+ kernel-core                                           x86_64                    5.14.10-300.fc35                        @anaconda                     76 M
+ kernel-modules                                        x86_64                    5.14.10-300.fc35                        @anaconda                     31 M
+
+Transaction Summary
+============================================================================================================================================================
+Install   9 Packages
+Upgrade  39 Packages
+Remove    3 Packages
+
+Total download size: 103 M
+Is this ok [y/N]: y
+Downloading Packages:
+(1/48): cups-libs-2.3.3op2-11.fc35_2.3.3op2-12.fc35.x86_64.drpm                                                             365 kB/s |  33 kB     00:00
+(2/48): cryptsetup-2.4.2-1.fc35_2.4.3-1.fc35.x86_64.drpm                                                                    907 kB/s |  99 kB     00:00
+(3/48): cryptsetup-libs-2.4.2-1.fc35_2.4.3-1.fc35.x86_64.drpm                                                               924 kB/s | 106 kB     00:00
+(4/48): mesa-libEGL-21.3.3-1.fc35_21.3.4-1.fc35.x86_64.drpm                                                                 979 kB/s |  22 kB     00:00
+(5/48): mesa-libGL-21.3.3-1.fc35_21.3.4-1.fc35.x86_64.drpm                                                                  1.5 MB/s |  32 kB     00:00
+(6/48): mesa-libglapi-21.3.3-1.fc35_21.3.4-1.fc35.x86_64.drpm                                                               588 kB/s |  24 kB     00:00
+(7/48): mesa-libgbm-21.3.3-1.fc35_21.3.4-1.fc35.x86_64.drpm                                                                 275 kB/s |  16 kB     00:00
+(8/48): python-unversioned-command-3.10.1-2.fc35_3.10.1-3.fc35.noarch.drpm                                                  298 kB/s | 6.6 kB     00:00
+(9/48): python3-3.10.1-2.fc35_3.10.1-3.fc35.x86_64.drpm                                                                     534 kB/s |  12 kB     00:00
+(10/48): wireplumber-0.4.5-3.fc35_0.4.7-2.fc35.x86_64.drpm                                                                  1.4 MB/s |  47 kB     00:00
+(11/48): wireplumber-libs-0.4.5-3.fc35_0.4.7-2.fc35.x86_64.drpm                                                             818 kB/s | 145 kB     00:00
+(12/48): python3-libs-3.10.1-2.fc35_3.10.1-3.fc35.x86_64.drpm                                                               1.8 MB/s | 790 kB     00:00
+(13/48): lilv-0.24.10-4.fc35.x86_64.rpm                                                                                     2.9 MB/s |  80 kB     00:00
+(14/48): serd-0.30.10-3.fc35.x86_64.rpm                                                                                     2.8 MB/s |  61 kB     00:00
+(15/48): sord-0.16.8-2.fc35.x86_64.rpm                                                                                      2.3 MB/s |  46 kB     00:00
+(16/48): sratom-0.6.6-3.fc35.x86_64.rpm                                                                                     1.8 MB/s |  25 kB     00:00
+(17/48): kernel-5.15.14-200.fc35.x86_64.rpm                                                                                 908 kB/s |  15 kB     00:00
+(18/48): libbpf-0.4.0-2.fc35.x86_64.rpm                                                                                     124 kB/s | 131 kB     00:01
+(19/48): mesa-vulkan-drivers-21.3.3-1.fc35_21.3.4-1.fc35.x86_64.drpm                                                        273 kB/s | 665 kB     00:02
+[DRPM 1/13] cups-libs-2.3.3op2-11.fc35_2.3.3op2-12.fc35.x86_64.drpm: done
+(20/48): lv2-1.18.2-1.fc35.x86_64.rpm                                                                                       2.4 MB/s |  94 kB     00:00
+(21/48): augeas-libs-1.13.0-1.fc35.x86_64.rpm                                                                               4.4 MB/s | 405 kB     00:00
+(22/48): libzstd-1.5.1-6.fc35.x86_64.rpm                                                                                    4.2 MB/s | 330 kB     00:00
+(23/48): mkpasswd-5.5.11-1.fc35.x86_64.rpm                                                                                  1.3 MB/s |  40 kB     00:00
+(24/48): pam-1.5.2-7.fc35.x86_64.rpm                                                                                        245 kB/s | 547 kB     00:02
+(25/48): pcre2-10.39-1.fc35.x86_64.rpm                                                                                      2.2 MB/s | 231 kB     00:00
+(26/48): pcre2-syntax-10.39-1.fc35.noarch.rpm                                                                               3.8 MB/s | 144 kB     00:00
+(27/48): pipewire-0.3.43-1.fc35.x86_64.rpm                                                                                  2.7 MB/s |  38 kB     00:00
+(28/48): pipewire-alsa-0.3.43-1.fc35.x86_64.rpm                                                                             4.3 MB/s |  62 kB     00:00
+(29/48): pipewire-jack-audio-connection-kit-0.3.43-1.fc35.x86_64.rpm                                                         63 kB/s | 135 kB     00:02
+(30/48): pipewire-libs-0.3.43-1.fc35.x86_64.rpm                                                                             2.8 MB/s | 1.5 MB     00:00
+(31/48): pipewire-pulseaudio-0.3.43-1.fc35.x86_64.rpm                                                                       1.3 MB/s |  27 kB     00:00
+(32/48): systemd-249.9-1.fc35.x86_64.rpm                                                                                    676 kB/s | 4.0 MB     00:06
+(33/48): systemd-libs-249.9-1.fc35.x86_64.rpm                                                                               482 kB/s | 607 kB     00:01
+(34/48): systemd-networkd-249.9-1.fc35.x86_64.rpm                                                                           2.4 MB/s | 524 kB     00:00
+(35/48): systemd-oomd-defaults-249.9-1.fc35.noarch.rpm                                                                      1.6 MB/s |  26 kB     00:00
+(36/48): systemd-pam-249.9-1.fc35.x86_64.rpm                                                                                2.4 MB/s | 325 kB     00:00
+(37/48): systemd-resolved-249.9-1.fc35.x86_64.rpm                                                                           2.6 MB/s | 268 kB     00:00
+(38/48): systemd-udev-249.9-1.fc35.x86_64.rpm                                                                               2.4 MB/s | 1.8 MB     00:00
+(39/48): tcpdump-4.99.1-3.fc35.x86_64.rpm                                                                                   228 kB/s | 544 kB     00:02
+(40/48): vim-common-8.2.4068-1.fc35.x86_64.rpm                                                                              816 kB/s | 6.7 MB     00:08
+(41/48): vim-data-8.2.4068-1.fc35.noarch.rpm                                                                                350 kB/s |  28 kB     00:00
+(42/48): vim-default-editor-8.2.4068-1.fc35.noarch.rpm                                                                      779 kB/s |  21 kB     00:00
+(43/48): vim-enhanced-8.2.4068-1.fc35.x86_64.rpm                                                                            928 kB/s | 1.9 MB     00:02
+(44/48): vim-filesystem-8.2.4068-1.fc35.noarch.rpm                                                                          782 kB/s |  22 kB     00:00
+(45/48): vim-minimal-8.2.4068-1.fc35.x86_64.rpm                                                                             552 kB/s | 709 kB     00:01
+(46/48): whois-nls-5.5.11-1.fc35.noarch.rpm                                                                                 2.2 MB/s |  33 kB     00:00
+(47/48): kernel-modules-5.15.14-200.fc35.x86_64.rpm                                                                         960 kB/s |  33 MB     00:34
+(48/48): kernel-core-5.15.14-200.fc35.x86_64.rpm                                                                            834 kB/s |  35 MB     00:42
+[DRPM 2/13] cryptsetup-2.4.2-1.fc35_2.4.3-1.fc35.x86_64.drpm: done
+[DRPM 3/13] cryptsetup-libs-2.4.2-1.fc35_2.4.3-1.fc35.x86_64.drpm: done
+[DRPM 4/13] mesa-libEGL-21.3.3-1.fc35_21.3.4-1.fc35.x86_64.drpm: done
+[DRPM 5/13] mesa-libGL-21.3.3-1.fc35_21.3.4-1.fc35.x86_64.drpm: done
+[DRPM 6/13] mesa-libglapi-21.3.3-1.fc35_21.3.4-1.fc35.x86_64.drpm: done
+[DRPM 7/13] mesa-libgbm-21.3.3-1.fc35_21.3.4-1.fc35.x86_64.drpm: done
+[DRPM 8/13] python-unversioned-command-3.10.1-2.fc35_3.10.1-3.fc35.noarch.drpm: done
+[DRPM 9/13] python3-3.10.1-2.fc35_3.10.1-3.fc35.x86_64.drpm: done
+[DRPM 10/13] wireplumber-0.4.5-3.fc35_0.4.7-2.fc35.x86_64.drpm: done
+[DRPM 11/13] wireplumber-libs-0.4.5-3.fc35_0.4.7-2.fc35.x86_64.drpm: done
+[DRPM 12/13] python3-libs-3.10.1-2.fc35_3.10.1-3.fc35.x86_64.drpm: done
+[DRPM 13/13] mesa-vulkan-drivers-21.3.3-1.fc35_21.3.4-1.fc35.x86_64.drpm: done
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                                                       1.1 MB/s |  91 MB     01:23
+Delta RPMs reduced 103.4 MB of updates to 90.6 MB (12.4% saved)
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                                                                                                    1/1
+  Upgrading        : cryptsetup-libs-2.4.3-1.fc35.x86_64                                                                                               1/90
+  Installing       : serd-0.30.10-3.fc35.x86_64                                                                                                        2/90
+  Installing       : sord-0.16.8-2.fc35.x86_64                                                                                                         3/90
+  Upgrading        : vim-data-2:8.2.4068-1.fc35.noarch                                                                                                 4/90
+  Upgrading        : pam-1.5.2-7.fc35.x86_64                                                                                                           5/90
+  Running scriptlet: pam-1.5.2-7.fc35.x86_64                                                                                                           5/90
+  Upgrading        : mesa-libglapi-21.3.4-1.fc35.x86_64                                                                                                6/90
+  Upgrading        : libzstd-1.5.1-6.fc35.x86_64                                                                                                       7/90
+  Upgrading        : systemd-libs-249.9-1.fc35.x86_64                                                                                                  8/90
+  Running scriptlet: systemd-libs-249.9-1.fc35.x86_64                                                                                                  8/90
+  Installing       : sratom-0.6.6-3.fc35.x86_64                                                                                                        9/90
+  Upgrading        : python3-libs-3.10.1-3.fc35.x86_64                                                                                                10/90
+  Upgrading        : python3-3.10.1-3.fc35.x86_64                                                                                                     11/90
+  Upgrading        : python-unversioned-command-3.10.1-3.fc35.noarch                                                                                  12/90
+  Upgrading        : whois-nls-5.5.11-1.fc35.noarch                                                                                                   13/90
+  Upgrading        : vim-filesystem-2:8.2.4068-1.fc35.noarch                                                                                          14/90
+  Upgrading        : vim-common-2:8.2.4068-1.fc35.x86_64                                                                                              15/90
+  Upgrading        : vim-enhanced-2:8.2.4068-1.fc35.x86_64                                                                                            16/90
+  Upgrading        : pcre2-syntax-10.39-1.fc35.noarch                                                                                                 17/90
+  Upgrading        : pcre2-10.39-1.fc35.x86_64                                                                                                        18/90
+  Upgrading        : mesa-libgbm-21.3.4-1.fc35.x86_64                                                                                                 19/90
+  Installing       : lv2-1.18.2-1.fc35.x86_64                                                                                                         20/90
+  Installing       : lilv-0.24.10-4.fc35.x86_64                                                                                                       21/90
+  Installing       : libbpf-2:0.4.0-2.fc35.x86_64                                                                                                     22/90
+  Upgrading        : systemd-networkd-249.9-1.fc35.x86_64                                                                                             23/90
+  Running scriptlet: systemd-networkd-249.9-1.fc35.x86_64                                                                                             23/90
+  Upgrading        : systemd-pam-249.9-1.fc35.x86_64                                                                                                  24/90
+  Upgrading        : systemd-249.9-1.fc35.x86_64                                                                                                      25/90
+  Running scriptlet: systemd-249.9-1.fc35.x86_64                                                                                                      25/90
+  Upgrading        : systemd-resolved-249.9-1.fc35.x86_64                                                                                             26/90
+  Running scriptlet: systemd-resolved-249.9-1.fc35.x86_64                                                                                             26/90
+  Upgrading        : pipewire-libs-0.3.43-1.fc35.x86_64                                                                                               27/90
+  Running scriptlet: pipewire-0.3.43-1.fc35.x86_64                                                                                                    28/90
+  Upgrading        : pipewire-0.3.43-1.fc35.x86_64                                                                                                    28/90
+  Running scriptlet: pipewire-0.3.43-1.fc35.x86_64                                                                                                    28/90
+  Upgrading        : wireplumber-libs-0.4.7-2.fc35.x86_64                                                                                             29/90
+  Upgrading        : wireplumber-0.4.7-2.fc35.x86_64                                                                                                  30/90
+  Upgrading        : systemd-udev-249.9-1.fc35.x86_64                                                                                                 31/90
+  Running scriptlet: systemd-udev-249.9-1.fc35.x86_64                                                                                                 31/90
+  Installing       : kernel-core-5.15.14-200.fc35.x86_64                                                                                              32/90
+  Running scriptlet: kernel-core-5.15.14-200.fc35.x86_64                                                                                              32/90
+  Installing       : kernel-modules-5.15.14-200.fc35.x86_64                                                                                           33/90
+  Running scriptlet: kernel-modules-5.15.14-200.fc35.x86_64                                                                                           33/90
+  Installing       : kernel-5.15.14-200.fc35.x86_64                                                                                                   34/90
+  Upgrading        : pipewire-alsa-0.3.43-1.fc35.x86_64                                                                                               35/90
+  Upgrading        : pipewire-jack-audio-connection-kit-0.3.43-1.fc35.x86_64                                                                          36/90
+  Upgrading        : pipewire-pulseaudio-0.3.43-1.fc35.x86_64                                                                                         37/90
+  Running scriptlet: pipewire-pulseaudio-0.3.43-1.fc35.x86_64                                                                                         37/90
+  Upgrading        : systemd-oomd-defaults-249.9-1.fc35.noarch                                                                                        38/90
+  Upgrading        : mesa-libEGL-21.3.4-1.fc35.x86_64                                                                                                 39/90
+  Upgrading        : vim-default-editor-2:8.2.4068-1.fc35.noarch                                                                                      40/90
+  Upgrading        : mkpasswd-5.5.11-1.fc35.x86_64                                                                                                    41/90
+  Upgrading        : mesa-libGL-21.3.4-1.fc35.x86_64                                                                                                  42/90
+  Upgrading        : vim-minimal-2:8.2.4068-1.fc35.x86_64                                                                                             43/90
+  Upgrading        : cryptsetup-2.4.3-1.fc35.x86_64                                                                                                   44/90
+  Running scriptlet: tcpdump-14:4.99.1-3.fc35.x86_64                                                                                                  45/90
+  Upgrading        : tcpdump-14:4.99.1-3.fc35.x86_64                                                                                                  45/90
+  Upgrading        : mesa-vulkan-drivers-21.3.4-1.fc35.x86_64                                                                                         46/90
+  Upgrading        : cups-libs-1:2.3.3op2-12.fc35.x86_64                                                                                              47/90
+  Upgrading        : augeas-libs-1.13.0-1.fc35.x86_64                                                                                                 48/90
+  Cleanup          : wireplumber-libs-0.4.5-3.fc35.x86_64                                                                                             49/90
+  Running scriptlet: wireplumber-0.4.5-3.fc35.x86_64                                                                                                  50/90
+  Cleanup          : wireplumber-0.4.5-3.fc35.x86_64                                                                                                  50/90
+  Cleanup          : pipewire-alsa-0.3.40-1.fc35.x86_64                                                                                               51/90
+  Cleanup          : pipewire-jack-audio-connection-kit-0.3.40-1.fc35.x86_64                                                                          52/90
+  Cleanup          : pipewire-libs-0.3.40-1.fc35.x86_64                                                                                               53/90
+  Cleanup          : pipewire-pulseaudio-0.3.40-1.fc35.x86_64                                                                                         54/90
+  Cleanup          : pipewire-0.3.40-1.fc35.x86_64                                                                                                    55/90
+  Cleanup          : cryptsetup-2.4.2-1.fc35.x86_64                                                                                                   56/90
+  Erasing          : kernel-5.14.10-300.fc35.x86_64                                                                                                   57/90
+  Running scriptlet: kernel-5.14.10-300.fc35.x86_64                                                                                                   57/90
+  Cleanup          : mesa-libGL-21.3.3-1.fc35.x86_64                                                                                                  58/90
+  Cleanup          : mesa-libEGL-21.3.3-1.fc35.x86_64                                                                                                 59/90
+  Erasing          : kernel-modules-5.14.10-300.fc35.x86_64                                                                                           60/90
+  Running scriptlet: kernel-modules-5.14.10-300.fc35.x86_64                                                                                           60/90
+  Running scriptlet: kernel-core-5.14.10-300.fc35.x86_64                                                                                              61/90
+  Erasing          : kernel-core-5.14.10-300.fc35.x86_64                                                                                              61/90
+  Cleanup          : vim-default-editor-2:8.2.4006-1.fc35.noarch                                                                                      62/90
+  Cleanup          : systemd-oomd-defaults-249.7-2.fc35.noarch                                                                                        63/90
+  Cleanup          : python-unversioned-command-3.10.1-2.fc35.noarch                                                                                  64/90
+  Running scriptlet: systemd-udev-249.7-2.fc35.x86_64                                                                                                 65/90
+  Cleanup          : systemd-udev-249.7-2.fc35.x86_64                                                                                                 65/90
+  Running scriptlet: systemd-udev-249.7-2.fc35.x86_64                                                                                                 65/90
+  Cleanup          : systemd-249.7-2.fc35.x86_64                                                                                                      66/90
+  Running scriptlet: systemd-249.7-2.fc35.x86_64                                                                                                      66/90
+  Cleanup          : systemd-pam-249.7-2.fc35.x86_64                                                                                                  67/90
+  Cleanup          : vim-enhanced-2:8.2.4006-1.fc35.x86_64                                                                                            68/90
+  Cleanup          : vim-common-2:8.2.4006-1.fc35.x86_64                                                                                              69/90
+  Cleanup          : python3-3.10.1-2.fc35.x86_64                                                                                                     70/90
+  Cleanup          : systemd-libs-249.7-2.fc35.x86_64                                                                                                 71/90
+  Cleanup          : pcre2-10.37-4.fc35.x86_64                                                                                                        72/90
+  Cleanup          : vim-minimal-2:8.2.4006-1.fc35.x86_64                                                                                             73/90
+  Cleanup          : mkpasswd-5.5.10-2.fc35.x86_64                                                                                                    74/90
+  Cleanup          : whois-nls-5.5.10-2.fc35.noarch                                                                                                   75/90
+  Cleanup          : vim-data-2:8.2.4006-1.fc35.noarch                                                                                                76/90
+  Cleanup          : pcre2-syntax-10.37-4.fc35.noarch                                                                                                 77/90
+  Cleanup          : vim-filesystem-2:8.2.4006-1.fc35.noarch                                                                                          78/90
+  Cleanup          : libzstd-1.5.1-4.fc35.x86_64                                                                                                      79/90
+  Cleanup          : python3-libs-3.10.1-2.fc35.x86_64                                                                                                80/90
+  Cleanup          : pam-1.5.2-5.fc35.x86_64                                                                                                          81/90
+  Cleanup          : cryptsetup-libs-2.4.2-1.fc35.x86_64                                                                                              82/90
+  Running scriptlet: systemd-networkd-249.7-2.fc35.x86_64                                                                                             83/90
+  Cleanup          : systemd-networkd-249.7-2.fc35.x86_64                                                                                             83/90
+  Running scriptlet: systemd-resolved-249.7-2.fc35.x86_64                                                                                             84/90
+  Cleanup          : systemd-resolved-249.7-2.fc35.x86_64                                                                                             84/90
+  Cleanup          : mesa-libgbm-21.3.3-1.fc35.x86_64                                                                                                 85/90
+  Cleanup          : mesa-libglapi-21.3.3-1.fc35.x86_64                                                                                               86/90
+  Cleanup          : tcpdump-14:4.99.1-2.fc35.x86_64                                                                                                  87/90
+  Cleanup          : mesa-vulkan-drivers-21.3.3-1.fc35.x86_64                                                                                         88/90
+  Cleanup          : cups-libs-1:2.3.3op2-11.fc35.x86_64                                                                                              89/90
+  Cleanup          : augeas-libs-1.12.1-0.2.git18558bb.fc35.x86_64                                                                                    90/90
+  Running scriptlet: pam-1.5.2-7.fc35.x86_64                                                                                                          90/90
+  Running scriptlet: wireplumber-0.4.7-2.fc35.x86_64                                                                                                  90/90
+  Running scriptlet: kernel-core-5.15.14-200.fc35.x86_64                                                                                              90/90
+restorecon: Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+restorecon: Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+restorecon: Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+restorecon: Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+restorecon: Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+restorecon: Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+restorecon: Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+restorecon: Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+restorecon: Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+restorecon: Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+restorecon: Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+restorecon: Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+restorecon: Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+restorecon: Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+
+  Running scriptlet: augeas-libs-1.12.1-0.2.git18558bb.fc35.x86_64                                                                                    90/90
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+Regex version mismatch, expected: 10.39 2021-10-29 actual: 10.37 2021-05-26
+
+  Verifying        : libbpf-2:0.4.0-2.fc35.x86_64                                                                                                      1/90
+  Verifying        : lilv-0.24.10-4.fc35.x86_64                                                                                                        2/90
+  Verifying        : serd-0.30.10-3.fc35.x86_64                                                                                                        3/90
+  Verifying        : sord-0.16.8-2.fc35.x86_64                                                                                                         4/90
+  Verifying        : sratom-0.6.6-3.fc35.x86_64                                                                                                        5/90
+  Verifying        : kernel-5.15.14-200.fc35.x86_64                                                                                                    6/90
+  Verifying        : kernel-core-5.15.14-200.fc35.x86_64                                                                                               7/90
+  Verifying        : kernel-modules-5.15.14-200.fc35.x86_64                                                                                            8/90
+  Verifying        : lv2-1.18.2-1.fc35.x86_64                                                                                                          9/90
+  Verifying        : augeas-libs-1.13.0-1.fc35.x86_64                                                                                                 10/90
+  Verifying        : augeas-libs-1.12.1-0.2.git18558bb.fc35.x86_64                                                                                    11/90
+  Verifying        : cryptsetup-2.4.3-1.fc35.x86_64                                                                                                   12/90
+  Verifying        : cryptsetup-2.4.2-1.fc35.x86_64                                                                                                   13/90
+  Verifying        : cryptsetup-libs-2.4.3-1.fc35.x86_64                                                                                              14/90
+  Verifying        : cryptsetup-libs-2.4.2-1.fc35.x86_64                                                                                              15/90
+  Verifying        : cups-libs-1:2.3.3op2-12.fc35.x86_64                                                                                              16/90
+  Verifying        : cups-libs-1:2.3.3op2-11.fc35.x86_64                                                                                              17/90
+  Verifying        : libzstd-1.5.1-6.fc35.x86_64                                                                                                      18/90
+  Verifying        : libzstd-1.5.1-4.fc35.x86_64                                                                                                      19/90
+  Verifying        : mesa-libEGL-21.3.4-1.fc35.x86_64                                                                                                 20/90
+  Verifying        : mesa-libEGL-21.3.3-1.fc35.x86_64                                                                                                 21/90
+  Verifying        : mesa-libGL-21.3.4-1.fc35.x86_64                                                                                                  22/90
+  Verifying        : mesa-libGL-21.3.3-1.fc35.x86_64                                                                                                  23/90
+  Verifying        : mesa-libgbm-21.3.4-1.fc35.x86_64                                                                                                 24/90
+  Verifying        : mesa-libgbm-21.3.3-1.fc35.x86_64                                                                                                 25/90
+  Verifying        : mesa-libglapi-21.3.4-1.fc35.x86_64                                                                                               26/90
+  Verifying        : mesa-libglapi-21.3.3-1.fc35.x86_64                                                                                               27/90
+  Verifying        : mesa-vulkan-drivers-21.3.4-1.fc35.x86_64                                                                                         28/90
+  Verifying        : mesa-vulkan-drivers-21.3.3-1.fc35.x86_64                                                                                         29/90
+  Verifying        : mkpasswd-5.5.11-1.fc35.x86_64                                                                                                    30/90
+  Verifying        : mkpasswd-5.5.10-2.fc35.x86_64                                                                                                    31/90
+  Verifying        : pam-1.5.2-7.fc35.x86_64                                                                                                          32/90
+  Verifying        : pam-1.5.2-5.fc35.x86_64                                                                                                          33/90
+  Verifying        : pcre2-10.39-1.fc35.x86_64                                                                                                        34/90
+  Verifying        : pcre2-10.37-4.fc35.x86_64                                                                                                        35/90
+  Verifying        : pcre2-syntax-10.39-1.fc35.noarch                                                                                                 36/90
+  Verifying        : pcre2-syntax-10.37-4.fc35.noarch                                                                                                 37/90
+  Verifying        : pipewire-0.3.43-1.fc35.x86_64                                                                                                    38/90
+  Verifying        : pipewire-0.3.40-1.fc35.x86_64                                                                                                    39/90
+  Verifying        : pipewire-alsa-0.3.43-1.fc35.x86_64                                                                                               40/90
+  Verifying        : pipewire-alsa-0.3.40-1.fc35.x86_64                                                                                               41/90
+  Verifying        : pipewire-jack-audio-connection-kit-0.3.43-1.fc35.x86_64                                                                          42/90
+  Verifying        : pipewire-jack-audio-connection-kit-0.3.40-1.fc35.x86_64                                                                          43/90
+  Verifying        : pipewire-libs-0.3.43-1.fc35.x86_64                                                                                               44/90
+  Verifying        : pipewire-libs-0.3.40-1.fc35.x86_64                                                                                               45/90
+  Verifying        : pipewire-pulseaudio-0.3.43-1.fc35.x86_64                                                                                         46/90
+  Verifying        : pipewire-pulseaudio-0.3.40-1.fc35.x86_64                                                                                         47/90
+  Verifying        : python-unversioned-command-3.10.1-3.fc35.noarch                                                                                  48/90
+  Verifying        : python-unversioned-command-3.10.1-2.fc35.noarch                                                                                  49/90
+  Verifying        : python3-3.10.1-3.fc35.x86_64                                                                                                     50/90
+  Verifying        : python3-3.10.1-2.fc35.x86_64                                                                                                     51/90
+  Verifying        : python3-libs-3.10.1-3.fc35.x86_64                                                                                                52/90
+  Verifying        : python3-libs-3.10.1-2.fc35.x86_64                                                                                                53/90
+  Verifying        : systemd-249.9-1.fc35.x86_64                                                                                                      54/90
+  Verifying        : systemd-249.7-2.fc35.x86_64                                                                                                      55/90
+  Verifying        : systemd-libs-249.9-1.fc35.x86_64                                                                                                 56/90
+  Verifying        : systemd-libs-249.7-2.fc35.x86_64                                                                                                 57/90
+  Verifying        : systemd-networkd-249.9-1.fc35.x86_64                                                                                             58/90
+  Verifying        : systemd-networkd-249.7-2.fc35.x86_64                                                                                             59/90
+  Verifying        : systemd-oomd-defaults-249.9-1.fc35.noarch                                                                                        60/90
+  Verifying        : systemd-oomd-defaults-249.7-2.fc35.noarch                                                                                        61/90
+  Verifying        : systemd-pam-249.9-1.fc35.x86_64                                                                                                  62/90
+  Verifying        : systemd-pam-249.7-2.fc35.x86_64                                                                                                  63/90
+  Verifying        : systemd-resolved-249.9-1.fc35.x86_64                                                                                             64/90
+  Verifying        : systemd-resolved-249.7-2.fc35.x86_64                                                                                             65/90
+  Verifying        : systemd-udev-249.9-1.fc35.x86_64                                                                                                 66/90
+  Verifying        : systemd-udev-249.7-2.fc35.x86_64                                                                                                 67/90
+  Verifying        : tcpdump-14:4.99.1-3.fc35.x86_64                                                                                                  68/90
+  Verifying        : tcpdump-14:4.99.1-2.fc35.x86_64                                                                                                  69/90
+  Verifying        : vim-common-2:8.2.4068-1.fc35.x86_64                                                                                              70/90
+  Verifying        : vim-common-2:8.2.4006-1.fc35.x86_64                                                                                              71/90
+  Verifying        : vim-data-2:8.2.4068-1.fc35.noarch                                                                                                72/90
+  Verifying        : vim-data-2:8.2.4006-1.fc35.noarch                                                                                                73/90
+  Verifying        : vim-default-editor-2:8.2.4068-1.fc35.noarch                                                                                      74/90
+  Verifying        : vim-default-editor-2:8.2.4006-1.fc35.noarch                                                                                      75/90
+  Verifying        : vim-enhanced-2:8.2.4068-1.fc35.x86_64                                                                                            76/90
+  Verifying        : vim-enhanced-2:8.2.4006-1.fc35.x86_64                                                                                            77/90
+  Verifying        : vim-filesystem-2:8.2.4068-1.fc35.noarch                                                                                          78/90
+  Verifying        : vim-filesystem-2:8.2.4006-1.fc35.noarch                                                                                          79/90
+  Verifying        : vim-minimal-2:8.2.4068-1.fc35.x86_64                                                                                             80/90
+  Verifying        : vim-minimal-2:8.2.4006-1.fc35.x86_64                                                                                             81/90
+  Verifying        : whois-nls-5.5.11-1.fc35.noarch                                                                                                   82/90
+  Verifying        : whois-nls-5.5.10-2.fc35.noarch                                                                                                   83/90
+  Verifying        : wireplumber-0.4.7-2.fc35.x86_64                                                                                                  84/90
+  Verifying        : wireplumber-0.4.5-3.fc35.x86_64                                                                                                  85/90
+  Verifying        : wireplumber-libs-0.4.7-2.fc35.x86_64                                                                                             86/90
+  Verifying        : wireplumber-libs-0.4.5-3.fc35.x86_64                                                                                             87/90
+  Verifying        : kernel-5.14.10-300.fc35.x86_64                                                                                                   88/90
+  Verifying        : kernel-core-5.14.10-300.fc35.x86_64                                                                                              89/90
+  Verifying        : kernel-modules-5.14.10-300.fc35.x86_64                                                                                           90/90
+
+Upgraded:
+  augeas-libs-1.13.0-1.fc35.x86_64             cryptsetup-2.4.3-1.fc35.x86_64                              cryptsetup-libs-2.4.3-1.fc35.x86_64
+  cups-libs-1:2.3.3op2-12.fc35.x86_64          libzstd-1.5.1-6.fc35.x86_64                                 mesa-libEGL-21.3.4-1.fc35.x86_64
+  mesa-libGL-21.3.4-1.fc35.x86_64              mesa-libgbm-21.3.4-1.fc35.x86_64                            mesa-libglapi-21.3.4-1.fc35.x86_64
+  mesa-vulkan-drivers-21.3.4-1.fc35.x86_64     mkpasswd-5.5.11-1.fc35.x86_64                               pam-1.5.2-7.fc35.x86_64
+  pcre2-10.39-1.fc35.x86_64                    pcre2-syntax-10.39-1.fc35.noarch                            pipewire-0.3.43-1.fc35.x86_64
+  pipewire-alsa-0.3.43-1.fc35.x86_64           pipewire-jack-audio-connection-kit-0.3.43-1.fc35.x86_64     pipewire-libs-0.3.43-1.fc35.x86_64
+  pipewire-pulseaudio-0.3.43-1.fc35.x86_64     python-unversioned-command-3.10.1-3.fc35.noarch             python3-3.10.1-3.fc35.x86_64
+  python3-libs-3.10.1-3.fc35.x86_64            systemd-249.9-1.fc35.x86_64                                 systemd-libs-249.9-1.fc35.x86_64
+  systemd-networkd-249.9-1.fc35.x86_64         systemd-oomd-defaults-249.9-1.fc35.noarch                   systemd-pam-249.9-1.fc35.x86_64
+  systemd-resolved-249.9-1.fc35.x86_64         systemd-udev-249.9-1.fc35.x86_64                            tcpdump-14:4.99.1-3.fc35.x86_64
+  vim-common-2:8.2.4068-1.fc35.x86_64          vim-data-2:8.2.4068-1.fc35.noarch                           vim-default-editor-2:8.2.4068-1.fc35.noarch
+  vim-enhanced-2:8.2.4068-1.fc35.x86_64        vim-filesystem-2:8.2.4068-1.fc35.noarch                     vim-minimal-2:8.2.4068-1.fc35.x86_64
+  whois-nls-5.5.11-1.fc35.noarch               wireplumber-0.4.7-2.fc35.x86_64                             wireplumber-libs-0.4.7-2.fc35.x86_64
+Installed:
+  kernel-5.15.14-200.fc35.x86_64      kernel-core-5.15.14-200.fc35.x86_64      kernel-modules-5.15.14-200.fc35.x86_64      libbpf-2:0.4.0-2.fc35.x86_64
+  lilv-0.24.10-4.fc35.x86_64          lv2-1.18.2-1.fc35.x86_64                 serd-0.30.10-3.fc35.x86_64                  sord-0.16.8-2.fc35.x86_64
+  sratom-0.6.6-3.fc35.x86_64
+Removed:
+  kernel-5.14.10-300.fc35.x86_64                 kernel-core-5.14.10-300.fc35.x86_64                 kernel-modules-5.14.10-300.fc35.x86_64
+
+Complete!
+[root@fedora 07:33:58 /home/ctambunan]$ ps axZ
+LABEL                               PID TTY      STAT   TIME COMMAND
+system_u:system_r:init_t:s0           1 ?        Ss     0:03 /usr/lib/systemd/systemd rhgb --system --deserialize 23
+system_u:system_r:kernel_t:s0         2 ?        S      0:00 [kthreadd]
+system_u:system_r:kernel_t:s0         3 ?        I<     0:00 [rcu_gp]
+system_u:system_r:kernel_t:s0         4 ?        I<     0:00 [rcu_par_gp]
+system_u:system_r:kernel_t:s0         6 ?        I<     0:00 [kworker/0:0H-events_highpri]
+system_u:system_r:kernel_t:s0         7 ?        I      0:00 [kworker/0:1-ata_sff]
+system_u:system_r:kernel_t:s0         8 ?        I      0:01 [kworker/u256:0-writeback]
+system_u:system_r:kernel_t:s0         9 ?        I<     0:00 [mm_percpu_wq]
+system_u:system_r:kernel_t:s0        10 ?        S      0:00 [rcu_tasks_kthre]
+system_u:system_r:kernel_t:s0        11 ?        S      0:00 [rcu_tasks_rude_]
+system_u:system_r:kernel_t:s0        12 ?        S      0:00 [rcu_tasks_trace]
+system_u:system_r:kernel_t:s0        13 ?        S      0:00 [ksoftirqd/0]
+system_u:system_r:kernel_t:s0        14 ?        I      0:00 [rcu_sched]
+system_u:system_r:kernel_t:s0        15 ?        S      0:00 [migration/0]
+system_u:system_r:kernel_t:s0        16 ?        S      0:00 [cpuhp/0]
+system_u:system_r:kernel_t:s0        17 ?        S      0:00 [kdevtmpfs]
+system_u:system_r:kernel_t:s0        18 ?        I<     0:00 [netns]
+system_u:system_r:kernel_t:s0        19 ?        I<     0:00 [inet_frag_wq]
+system_u:system_r:kernel_t:s0        20 ?        S      0:00 [kauditd]
+system_u:system_r:kernel_t:s0        21 ?        S      0:00 [oom_reaper]
+system_u:system_r:kernel_t:s0        22 ?        I<     0:00 [writeback]
+system_u:system_r:kernel_t:s0        23 ?        S      0:00 [kcompactd0]
+system_u:system_r:kernel_t:s0        24 ?        SN     0:00 [ksmd]
+system_u:system_r:kernel_t:s0        25 ?        SN     0:00 [khugepaged]
+system_u:system_r:kernel_t:s0        49 ?        I<     0:00 [cryptd]
+system_u:system_r:kernel_t:s0        92 ?        I<     0:00 [kintegrityd]
+system_u:system_r:kernel_t:s0        93 ?        I<     0:00 [kblockd]
+system_u:system_r:kernel_t:s0        94 ?        I<     0:00 [blkcg_punt_bio]
+system_u:system_r:kernel_t:s0        95 ?        I<     0:00 [tpm_dev_wq]
+system_u:system_r:kernel_t:s0        96 ?        I<     0:00 [ata_sff]
+system_u:system_r:kernel_t:s0        97 ?        I<     0:00 [md]
+system_u:system_r:kernel_t:s0        98 ?        I<     0:00 [edac-poller]
+system_u:system_r:kernel_t:s0        99 ?        S      0:00 [watchdogd]
+system_u:system_r:kernel_t:s0       101 ?        I<     0:00 [kworker/0:1H-kblockd]
+system_u:system_r:kernel_t:s0       106 ?        S      0:00 [kswapd0]
+system_u:system_r:kernel_t:s0       108 ?        I<     0:00 [kthrotld]
+system_u:system_r:kernel_t:s0       109 ?        S      0:00 [irq/24-pciehp]
+system_u:system_r:kernel_t:s0       110 ?        S      0:00 [irq/25-pciehp]
+system_u:system_r:kernel_t:s0       111 ?        S      0:00 [irq/26-pciehp]
+system_u:system_r:kernel_t:s0       112 ?        S      0:00 [irq/27-pciehp]
+system_u:system_r:kernel_t:s0       113 ?        S      0:00 [irq/28-pciehp]
+system_u:system_r:kernel_t:s0       114 ?        S      0:00 [irq/29-pciehp]
+system_u:system_r:kernel_t:s0       115 ?        S      0:00 [irq/30-pciehp]
+system_u:system_r:kernel_t:s0       116 ?        S      0:00 [irq/31-pciehp]
+system_u:system_r:kernel_t:s0       117 ?        S      0:00 [irq/32-pciehp]
+system_u:system_r:kernel_t:s0       118 ?        S      0:00 [irq/33-pciehp]
+system_u:system_r:kernel_t:s0       119 ?        S      0:00 [irq/34-pciehp]
+system_u:system_r:kernel_t:s0       120 ?        S      0:00 [irq/35-pciehp]
+system_u:system_r:kernel_t:s0       121 ?        S      0:00 [irq/36-pciehp]
+system_u:system_r:kernel_t:s0       122 ?        S      0:00 [irq/37-pciehp]
+system_u:system_r:kernel_t:s0       123 ?        S      0:00 [irq/38-pciehp]
+system_u:system_r:kernel_t:s0       124 ?        S      0:00 [irq/39-pciehp]
+system_u:system_r:kernel_t:s0       125 ?        S      0:00 [irq/40-pciehp]
+system_u:system_r:kernel_t:s0       126 ?        S      0:00 [irq/41-pciehp]
+system_u:system_r:kernel_t:s0       127 ?        S      0:00 [irq/42-pciehp]
+system_u:system_r:kernel_t:s0       128 ?        S      0:00 [irq/43-pciehp]
+system_u:system_r:kernel_t:s0       129 ?        S      0:00 [irq/44-pciehp]
+system_u:system_r:kernel_t:s0       130 ?        S      0:00 [irq/45-pciehp]
+system_u:system_r:kernel_t:s0       131 ?        S      0:00 [irq/46-pciehp]
+system_u:system_r:kernel_t:s0       132 ?        S      0:00 [irq/47-pciehp]
+system_u:system_r:kernel_t:s0       133 ?        S      0:00 [irq/48-pciehp]
+system_u:system_r:kernel_t:s0       134 ?        S      0:00 [irq/49-pciehp]
+system_u:system_r:kernel_t:s0       135 ?        S      0:00 [irq/50-pciehp]
+system_u:system_r:kernel_t:s0       136 ?        S      0:00 [irq/51-pciehp]
+system_u:system_r:kernel_t:s0       137 ?        S      0:00 [irq/52-pciehp]
+system_u:system_r:kernel_t:s0       138 ?        S      0:00 [irq/53-pciehp]
+system_u:system_r:kernel_t:s0       139 ?        S      0:00 [irq/54-pciehp]
+system_u:system_r:kernel_t:s0       140 ?        S      0:00 [irq/55-pciehp]
+system_u:system_r:kernel_t:s0       141 ?        I<     0:00 [acpi_thermal_pm]
+system_u:system_r:kernel_t:s0       143 ?        S      0:00 [scsi_eh_0]
+system_u:system_r:kernel_t:s0       144 ?        I<     0:00 [scsi_tmf_0]
+system_u:system_r:kernel_t:s0       145 ?        S      0:00 [scsi_eh_1]
+system_u:system_r:kernel_t:s0       146 ?        I<     0:00 [scsi_tmf_1]
+system_u:system_r:kernel_t:s0       147 ?        I      0:00 [kworker/u256:3-writeback]
+system_u:system_r:kernel_t:s0       148 ?        I      0:00 [kworker/0:2-xfs-buf/dm-0]
+system_u:system_r:kernel_t:s0       149 ?        I<     0:00 [dm_bufio_cache]
+system_u:system_r:kernel_t:s0       150 ?        I<     0:00 [mld]
+system_u:system_r:kernel_t:s0       151 ?        I<     0:00 [ipv6_addrconf]
+system_u:system_r:kernel_t:s0       152 ?        I      0:00 [kworker/u256:4-writeback]
+system_u:system_r:kernel_t:s0       154 ?        I      0:00 [kworker/0:3-events_freezable_power_]
+system_u:system_r:kernel_t:s0       155 ?        I      0:00 [kworker/u256:5-events_unbound]
+system_u:system_r:kernel_t:s0       159 ?        I<     0:00 [kstrp]
+system_u:system_r:kernel_t:s0       205 ?        I<     0:00 [zswap-shrink]
+system_u:system_r:kernel_t:s0       206 ?        I<     0:00 [kworker/u257:0-hci0]
+system_u:system_r:kernel_t:s0       394 ?        I<     0:00 [nvme-wq]
+system_u:system_r:kernel_t:s0       395 ?        I<     0:00 [nvme-reset-wq]
+system_u:system_r:kernel_t:s0       396 ?        I<     0:00 [nvme-delete-wq]
+system_u:system_r:kernel_t:s0       438 ?        I<     0:00 [ttm_swap]
+system_u:system_r:kernel_t:s0       440 ?        S      0:00 [irq/16-vmwgfx]
+system_u:system_r:kernel_t:s0       443 ?        S      0:00 [card0-crtc0]
+system_u:system_r:kernel_t:s0       445 ?        S      0:00 [card0-crtc1]
+system_u:system_r:kernel_t:s0       446 ?        S      0:00 [card0-crtc2]
+system_u:system_r:kernel_t:s0       447 ?        S      0:00 [card0-crtc3]
+system_u:system_r:kernel_t:s0       449 ?        S      0:00 [card0-crtc4]
+system_u:system_r:kernel_t:s0       450 ?        S      0:00 [card0-crtc5]
+system_u:system_r:kernel_t:s0       452 ?        S      0:00 [card0-crtc6]
+system_u:system_r:kernel_t:s0       453 ?        S      0:00 [card0-crtc7]
+system_u:system_r:kernel_t:s0       491 ?        I<     0:00 [kdmflush]
+system_u:system_r:kernel_t:s0       507 ?        I<     0:00 [xfsalloc]
+system_u:system_r:kernel_t:s0       508 ?        I<     0:00 [xfs_mru_cache]
+system_u:system_r:kernel_t:s0       509 ?        I<     0:00 [xfs-buf/dm-0]
+system_u:system_r:kernel_t:s0       510 ?        I<     0:00 [xfs-conv/dm-0]
+system_u:system_r:kernel_t:s0       511 ?        I<     0:00 [xfs-reclaim/dm-]
+system_u:system_r:kernel_t:s0       512 ?        I<     0:00 [xfs-blockgc/dm-]
+system_u:system_r:kernel_t:s0       513 ?        I<     0:00 [xfs-inodegc/dm-]
+system_u:system_r:kernel_t:s0       514 ?        I<     0:00 [xfs-log/dm-0]
+system_u:system_r:kernel_t:s0       515 ?        I<     0:00 [xfs-cil/dm-0]
+system_u:system_r:kernel_t:s0       516 ?        S      0:00 [xfsaild/dm-0]
+system_u:system_r:kernel_t:s0       676 ?        I<     0:00 [kworker/u257:1-hci0]
+system_u:system_r:kernel_t:s0       688 ?        I<     0:00 [xfs-buf/nvme0n1]
+system_u:system_r:kernel_t:s0       689 ?        I<     0:00 [xfs-conv/nvme0n]
+system_u:system_r:kernel_t:s0       690 ?        I<     0:00 [xfs-reclaim/nvm]
+system_u:system_r:kernel_t:s0       691 ?        I<     0:00 [xfs-blockgc/nvm]
+system_u:system_r:kernel_t:s0       692 ?        I<     0:00 [xfs-inodegc/nvm]
+system_u:system_r:kernel_t:s0       693 ?        I<     0:00 [xfs-log/nvme0n1]
+system_u:system_r:kernel_t:s0       694 ?        I<     0:00 [xfs-cil/nvme0n1]
+system_u:system_r:kernel_t:s0       695 ?        S      0:00 [xfsaild/nvme0n1]
+system_u:system_r:systemd_resolved_t:s0 716 ?    Ss     0:00 /usr/lib/systemd/systemd-resolved
+system_u:system_r:auditd_t:s0       718 ?        S<sl   0:00 /sbin/auditd
+system_u:system_r:auditd_t:s0       720 ?        S<     0:00 /usr/sbin/sedispatch
+system_u:system_r:kernel_t:s0       733 ?        I<     0:00 [rpciod]
+system_u:system_r:kernel_t:s0       734 ?        I<     0:00 [xprtiod]
+system_u:system_r:system_dbusd_t:s0-s0:c0.c1023 749 ? Ss   0:00 /usr/bin/dbus-broker-launch --scope system --audit
+system_u:system_r:system_dbusd_t:s0-s0:c0.c1023 754 ? S   0:00 dbus-broker --log 4 --controller 9 --machine-id 485ed2693a8c447aa830a96f40766217 --max-bytes
+system_u:system_r:bluetooth_t:s0    756 ?        Ss     0:00 /usr/libexec/bluetooth/bluetoothd
+system_u:system_r:chronyd_t:s0      763 ?        S      0:00 /usr/sbin/chronyd -F 2
+system_u:system_r:policykit_t:s0    764 ?        Ssl    0:00 /usr/lib/polkit-1/polkitd --no-debug
+system_u:system_r:syslogd_t:s0      768 ?        Ssl    0:00 /usr/sbin/rsyslogd -n
+system_u:system_r:systemd_logind_t:s0 775 ?      Ss     0:00 /usr/lib/systemd/systemd-logind
+system_u:system_r:vmtools_t:s0      777 ?        Ss     0:00 /usr/bin/VGAuthService -s
+system_u:system_r:vmtools_t:s0      778 ?        Ssl    0:00 /usr/bin/vmtoolsd
+system_u:system_r:abrt_t:s0-s0:c0.c1023 784 ?    Ssl    0:00 /usr/sbin/abrtd -d -s
+system_u:system_r:abrt_dump_oops_t:s0 807 ?      Ss     0:00 /usr/bin/abrt-dump-journal-core -D -T -f -e
+system_u:system_r:abrt_dump_oops_t:s0 808 ?      Ss     0:00 /usr/bin/abrt-dump-journal-oops -fxtD
+system_u:system_r:abrt_dump_oops_t:s0 810 ?      Ss     0:00 /usr/bin/abrt-dump-journal-xorg -fxtD
+system_u:system_r:modemmanager_t:s0 819 ?        Ssl    0:00 /usr/sbin/ModemManager
+system_u:system_r:firewalld_t:s0    823 ?        Ssl    0:00 /usr/bin/python3 -s /usr/sbin/firewalld --nofork --nopid
+system_u:system_r:NetworkManager_t:s0 857 ?      Ssl    0:00 /usr/sbin/NetworkManager --no-daemon
+system_u:system_r:gssproxy_t:s0     872 ?        Ssl    0:00 /usr/sbin/gssproxy -D
+system_u:system_r:httpd_t:s0        876 ?        Ss     0:00 php-fpm: master process (/etc/php-fpm.conf)
+system_u:system_r:sshd_t:s0-s0:c0.c1023 881 ?    Ss     0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+system_u:system_r:tuned_t:s0        883 ?        Ssl    0:00 /usr/bin/python3 -Es /usr/sbin/tuned -l -P
+system_u:system_r:httpd_t:s0        944 ?        S      0:00 php-fpm: pool www
+system_u:system_r:httpd_t:s0        945 ?        S      0:00 php-fpm: pool www
+system_u:system_r:httpd_t:s0        947 ?        S      0:00 php-fpm: pool www
+system_u:system_r:httpd_t:s0        950 ?        S      0:00 php-fpm: pool www
+system_u:system_r:httpd_t:s0        953 ?        S      0:00 php-fpm: pool www
+system_u:system_r:mysqld_t:s0       972 ?        Ssl    0:00 /usr/libexec/mariadbd --basedir=/usr
+system_u:system_r:kernel_t:s0      1002 ?        I      0:00 [kworker/u256:6-flush-253:0]
+system_u:system_r:httpd_t:s0       1042 ?        Ss     0:00 /usr/sbin/httpd -DFOREGROUND
+system_u:system_r:redis_t:s0       1046 ?        Ssl    0:00 /usr/bin/redis-server 127.0.0.1:6379
+system_u:system_r:crond_t:s0-s0:c0.c1023 1076 ?  Ss     0:00 /usr/sbin/atd -f
+system_u:system_r:local_login_t:s0-s0:c0.c1023 1105 ? Ss   0:00 login -- ctambunan
+system_u:system_r:httpd_t:s0       1127 ?        S      0:00 /usr/sbin/httpd -DFOREGROUND
+system_u:system_r:httpd_t:s0       1137 ?        Sl     0:00 /usr/sbin/httpd -DFOREGROUND
+system_u:system_r:httpd_t:s0       1139 ?        Sl     0:00 /usr/sbin/httpd -DFOREGROUND
+system_u:system_r:httpd_t:s0       1146 ?        Sl     0:00 /usr/sbin/httpd -DFOREGROUND
+system_u:system_r:pcp_pmcd_t:s0    1384 ?        Ss     0:00 /usr/libexec/pcp/bin/pmcd -A
+system_u:system_r:pcp_pmcd_t:s0    1387 ?        S      0:00 /var/lib/pcp/pmdas/root/pmdaroot
+system_u:system_r:pcp_pmcd_t:s0    1389 ?        S      0:00 /var/lib/pcp/pmdas/proc/pmdaproc -d 3
+system_u:system_r:pcp_pmcd_t:s0    1391 ?        S      0:00 /var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+system_u:system_r:pcp_pmcd_t:s0    1392 ?        S      0:00 /var/lib/pcp/pmdas/linux/pmdalinux
+system_u:system_r:pcp_pmcd_t:s0    1393 ?        S      0:00 /var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+system_u:system_r:pcp_pmproxy_t:s0 1407 ?        Ss     0:00 /usr/libexec/pcp/bin/pmproxy -F -A
+system_u:system_r:pcp_pmie_t:s0    1893 ?        S      0:00 /usr/bin/pmie -b -F -P -l /var/log/pcp/pmie/fedora/pmie.log -c config.default
+system_u:system_r:pcp_pmlogger_t:s0 1905 ?       S      0:00 /usr/libexec/pcp/bin/pmlogger -N -P -r -T24h10m -c config.default -v 100mb -mreexec %Y%m%d.%H.%
+unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 2307 ? Ss   0:00 /usr/lib/systemd/systemd --user
+system_u:system_r:init_t:s0        2308 ?        S      0:00 (sd-pam)
+unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 2316 tty1 Ss   0:00 -bash
+unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 2346 tty1 S   0:00 sudo su
+unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 2347 tty1 S   0:00 su
+unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 2348 tty1 S+   0:00 bash
+system_u:system_r:sshd_t:s0-s0:c0.c1023 2375 ?   Ss     0:00 sshd: ctambunan [priv]
+unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 2377 ? S   0:01 sshd: ctambunan@pts/0
+unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 2378 pts/0 Ss   0:00 -bash
+unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 2405 pts/0 S   0:00 sudo su
+unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 2623 pts/0 S   0:00 su
+unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 2629 pts/0 S   0:00 bash
+system_u:system_r:crond_t:s0-s0:c0.c1023 3004 ?  Ss     0:00 /usr/sbin/crond -n
+unconfined_u:unconfined_r:unconfined_dbusd_t:s0-s0:c0.c1023 10827 ? Ss   0:00 /usr/bin/dbus-broker-launch --scope user
+unconfined_u:unconfined_r:unconfined_dbusd_t:s0-s0:c0.c1023 10838 ? S   0:00 dbus-broker --log 4 --controller 10 --machine-id 485ed2693a8c447aa830a96f407662
+system_u:system_r:init_t:s0       12554 ?        Ss     0:00 /usr/lib/systemd/systemd-homed
+system_u:system_r:syslogd_t:s0    12558 ?        Ss     0:00 /usr/lib/systemd/systemd-journald
+system_u:system_r:init_t:s0       12562 ?        Ss     0:00 /usr/lib/systemd/systemd-oomd
+system_u:system_r:udev_t:s0-s0:c0.c1023 12565 ?  Ss     0:00 /usr/lib/systemd/systemd-udevd
+system_u:system_r:systemd_userdbd_t:s0 12570 ?   Ss     0:00 /usr/lib/systemd/systemd-userdbd
+system_u:system_r:systemd_userdbd_t:s0 12606 ?   S      0:00 systemd-userwork
+system_u:system_r:systemd_userdbd_t:s0 12607 ?   S      0:00 systemd-userwork
+system_u:system_r:systemd_userdbd_t:s0 12608 ?   S      0:00 systemd-userwork
+system_u:system_r:kernel_t:s0     12721 ?        I      0:00 [kworker/0:0-events]
+unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 12723 pts/0 R+   0:00 ps axZ
+[root@fedora 07:35:42 /home/ctambunan]$ systemctl start httpd.socket
+Job failed. See "journalctl -xe" for details.
+[root@fedora 07:35:51 /home/ctambunan]$ systemctl start httpd
+[root@fedora 07:35:55 /home/ctambunan]$ ps -zC httpd
+error: unsupported SysV option
+
+Usage:
+ ps [options]
+
+ Try 'ps --help <simple|list|output|threads|misc|all>'
+  or 'ps --help <s|l|o|t|m|a>'
+ for additional help text.
+
+For more details see ps(1).
+[root@fedora 07:36:00 /home/ctambunan]$ ps -ZC httpd
+LABEL                               PID TTY          TIME CMD
+system_u:system_r:httpd_t:s0       1042 ?        00:00:00 httpd
+system_u:system_r:httpd_t:s0       1127 ?        00:00:00 httpd
+system_u:system_r:httpd_t:s0       1137 ?        00:00:00 httpd
+system_u:system_r:httpd_t:s0       1139 ?        00:00:00 httpd
+system_u:system_r:httpd_t:s0       1146 ?        00:00:00 httpd
+[root@fedora 07:36:08 /home/ctambunan]$ ls -Z /home
+unconfined_u:object_r:user_home_dir_t:s0 andi       unconfined_u:object_r:user_home_dir_t:s0 operator2  unconfined_u:object_r:user_home_dir_t:s0 student
+unconfined_u:object_r:user_home_dir_t:s0 ctambunan  unconfined_u:object_r:user_home_dir_t:s0 operator3      unconfined_u:object_r:home_root_t:s0 user
+unconfined_u:object_r:user_home_dir_t:s0 operator1  unconfined_u:object_r:user_home_dir_t:s0 operator4
+[root@fedora 07:36:14 /home/ctambunan]$ ls -z /var/www
+ls: invalid option -- 'z'
+Try 'ls --help' for more information.
+[root@fedora 07:36:30 /home/ctambunan]$ ls -Z /var/www
+system_u:object_r:httpd_sys_script_exec_t:s0 cgi-bin      system_u:object_r:httpd_sys_content_t:s0 html
+[root@fedora 07:36:34 /home/ctambunan]$ getenforce
+Permissive
+[root@fedora 07:36:40 /home/ctambunan]$ setenforce
+usage:  setenforce [ Enforcing | Permissive | 1 | 0 ]
+[root@fedora 07:36:47 /home/ctambunan]$ setenenforce
+bash: setenenforce: command not found
+[root@fedora 07:36:53 /home/ctambunan]$ setenforce
+usage:  setenforce [ Enforcing | Permissive | 1 | 0 ]
+[root@fedora 07:37:05 /home/ctambunan]$ setenforce 0
+[root@fedora 07:37:09 /home/ctambunan]$ getenforce
+Permissive
+[root@fedora 07:37:13 /home/ctambunan]$ setenforce Enforcing
+[root@fedora 07:37:21 /home/ctambunan]$ getenforce
+Enforcing
+[root@fedora 07:37:26 /home/ctambunan]$ client_loop: send disconnect: Connection reset
+
+C:\Program Files (x86)\VMware\VMware Workstation>ssh ctambunan@192.168.37.132
+ctambunan@192.168.37.132's password:
+Activate the web console with: systemctl enable --now cockpit.socket
+
+Last login: Mon Jan 17 07:29:56 2022 from 192.168.37.1
+[ctambunan@fedora ~]$ sudo su
+[sudo] password for ctambunan:
+[root@fedora 09:55:30 /home/ctambunan]$ ls -la
+total 128
+drwx------. 14 ctambunan ctambunan  4096 Jan 13 16:05 .
+drwxr-xr-x.  9 root      root        130 Jan 12 11:13 ..
+-rw-------.  1 ctambunan ctambunan  1043 Jan 14 19:11 .bash_history
+-rw-r--r--.  1 ctambunan ctambunan    18 Jul 22 01:29 .bash_logout
+-rw-r--r--.  1 ctambunan ctambunan   141 Jul 22 01:29 .bash_profile
+-rw-r--r--.  1 ctambunan ctambunan   492 Jul 22 01:29 .bashrc
+-rw-r--r--.  1 root      root       1083 Jan  7 13:09 charles.h
+drwxr-xr-x.  2 root      root         25 Jan  4 09:42 charles_tambunan
+-rw-r--r--.  1 root      root        583 Jan  7 13:11 charles.tar
+-rw-r--r--.  1 root      root        583 Jan  7 13:10 charles.tar.gz
+-rw-r--r--.  1 root      root         20 Jan 13 16:05 cookies.txt
+drwxr-xr-x.  2 root      root         64 Jan  4 12:04 dongan
+-rw-r--r--.  1 ctambunan ctambunan 19966 Jan  7 17:02 history
+-rw-r--r--.  1 root      root          0 Jan  5 06:55 konyolmsg
+-rw-------.  1 ctambunan ctambunan    20 Jan  7 16:57 .lesshst
+-rw-r--r--.  1 root      root          0 Jan 13 11:38 man
+-rw-r--r--.  1 root      root          0 Jan 12 17:34 my_first_cron_job.txt
+-rw-r--r--.  1 root      root         32 Jan 12 16:30 myjob.txt
+-rw-r--r--.  1 root      root       1083 Jan  7 13:15 my_second_cron_job.txt
+-rw-r--r--.  1 root      root         24 Jan 12 11:22 output-servera
+-rw-r--r--.  1 root      root          0 Jan 12 11:22 output-serverb
+-rw-r--r--.  1 root      root       1035 Jan 10 11:04 output.txt
+-rw-r--r--.  1 root      root      20168 Jan  5 06:43 passwd.ps
+drwx------.  2 ctambunan ctambunan    71 Jan  7 17:00 .ssh
+drwxr-xr-x.  2 root      root          6 Jan  8 09:16 TambunanG
+drwxr-xr-x.  2 root      root         86 Jan  6 17:20 TambunanH
+drwxr-xr-x.  2 root      root       4096 Jan  8 09:18 TambunanJ
+drwxr-xr-x.  2 root      root       4096 Jan  7 17:53 TambunanLogFiles
+drwxr-xr-x. 11 root      root       4096 Jan 14 18:01 TambunanShellScripting
+drwxr-xr-x.  4 root      root       4096 Jan 13 11:52 TambunanW
+drwxr-xr-x.  7 root      root        139 Jan  5 07:41 TambunanX
+drwxr-xr-x.  5 root      root       4096 Jan  5 15:05 TambunanY
+drwxr-xr-x.  2 root      root         95 Jan  5 18:47 TambunanZ
+-rw-r--r--.  1 root      root         13 Jan 13 16:00 tea.txt
+-rw-------.  1 ctambunan ctambunan  1087 Jan  5 15:05 .viminfo
+-rw-r--r--.  1 root      root        166 Jan  4 09:32 zcat
+[root@fedora 09:55:31 /home/ctambunan]$ history
+    1  sudo dnf install nano
+    2  nano /etc/sudoers
+    3  di
+    4  id
+    5  pwd
+    6  sudo su -
+    7  exiy
+    8  exiy
+    9  exit
+   10  cd ..
+   11  ls -la
+   12  cd /home/
+   13  sudo cat /etc/sudoers.d/andi
+   14  ls -la /etc/sudoers.d/andi
+   15  ls -la /etc/sudoers.d/
+   16  ls -la /etc/sudoers.d/ctambunan
+   17  sudo cat /etc/sudoers.d/andi
+   18  su - andi
+   19  adduser andi sudo
+   20  adduser andi sudo -d
+   21  adduser -d andi sudo
+   22  exit
+   23  history >> TambunanY/History_Command_Line_FedoraServer.txt
+   24  cat TambunanY/History_Command_Line_FedoraServer.txt
+   25  exit
+   26  cd ..
+   27  cd ..
+   28  ls
+   29  cd /home/ctambunan/
+   30  ls -la
+   31  cd TambunanY/
+   32  history
+   33  history
+   34  exit
+   35  useradd operator1
+   36  passwd operator1
+   37  passwd operator1
+   38  useradd operator2
+   39  passwd operator2
+   40  usermod -c "Operator One" operator1
+   41  usermod -c "Operator Two" operator2
+   42  tail /etc/passwd
+   43  useradd operator3
+   44  passwd operator3
+   45  userdel -r operator3
+   46  sudo groupadd -r group02
+   47  tail /etc/group
+   48  sudo groupadd -r group01
+   49  tail /etc/group
+   50  usermod -aG group01 operator1
+   51  usermod -g group01 operator2
+   52  id user operator3
+   53  id user operator2
+   54  usermod -aG group02 andi
+   55  id user andi
+   56  mkdir TambunanZ
+   57  groupadd -g 100000 group03
+   58  useradd operator3
+   59  passwd operator3
+   60  useradd operator4
+   61  passwd operator4
+   62  tail /etc/passwd
+   63  usermod -aG group02 operator3
+   64  tail /etc/group
+   65  usermod -aG group01 operator4
+   66  tail /etc/group
+   67  history
+   68  touch TambunanZ/charles_tambunan.txt
+   69  mv TambunanZ/charles_tambunan.txt TambunanZ/Backup_Command_Redhat_Fedora_Server.txt
+   70  history >> TambunanZ/Backup_Command_Redhat_Fedora_Server.txt
+   71  tail TambunanZ/Backup_Command_Redhat_Fedora_Server.txt
+   72  sudo chage -m 0 -M 90 -W 7 -I 14 operator1
+   73  date -d "+45 days" -u
+   74  usermod -L operator1
+   75  su - operator1
+   76  sudo usermod -L -e 2019-09-05 operator2
+   77  usermod -s /sbin/nologin operator3
+   78  su - operator3
+   79  su - operator4
+   80  history
+   81  touch TambunanZ/Backup_Redhat_Fedora_Server_12.txt
+   82  history >> TambunanZ/Backup_Redhat_Fedora_Server_12.txt
+   83  cat TambunanZ/Backup_Redhat_Fedora_Server_12.txt
+   84  chage -m 1 -M 100 -W 8 -I 15 operator3
+   85  chage -M 10 andi
+   86  history
+   87  ip a
+   88  ls -la
+   89  ip a
+   90  ls -la
+   91  history
+   92  cd TambunanW/
+   93  history
+   94  ps aux
+   95  ps lax
+   96  ps -ef
+   97  ps -ef
+   98  sleep 10000 &
+   99  jobs
+  100  fg % 1
+  101  ps j
+  102  bg% 1
+  103  bg %1
+  104  bg %10000
+  105  bg %2
+  106  bg %1
+  107  ls -la
+  108  tail -f yoga.txt
+  109  tail -f yoga.txt
+  110  cat yoga.txt
+  111  history >> yoga.txt
+  112  tail -f yoga.txt
+  113  bg
+  114  bg
+  115  jobs
+  116  control yoga.txt &
+  117  bash andi.sh
+  118  ls -la
+  119  touch andi.sh
+  120  bash andi.sh
+  121  vim andi.sh
+  122  fg %2
+  123  ps jT
+  124  jobs
+  125  fg %1
+  126  jobs
+  127  history
+  128  kill -l
+  129  ps aux | grep job
+  130  kill -9 5199
+  131  ps aux | grep job
+  132  kill -9 5199 ps aux | grep job
+  133  kill -SIGTERM 5205
+  134  ps
+  135  ps au
+  136  kill -SIGTERM 1371
+  137  ps aux | grep job
+  138  kill -SIGTERM 6404
+  139  ps aux | grep job
+  140  killall control
+  141  ps aux | grep pkill
+  142  pkill control
+  143  ps aux | grep test
+  144  pkill -U user
+  145  cat /etc/group
+  146  pkill -U operator1
+  147  ps aux
+  148  ls
+  149  ls -R
+  150  w
+  151  pgrep -l -u bob
+  152  pgrep -l -u operator2
+  153  w -h -u bob
+  154  pkill -t tty3
+  155  pgrep -l -u operator2
+  156  mkdir lab_doang
+  157  touch lab_doang/killing.txt
+  158  jobs
+  159  kill -SIGCONT %1
+  160  jobs
+  161  kill -SIGTERM %1
+  162  ps -ef | grep tail
+  163  pkill -SIGTERM tail
+  164  uptime
+  165  lscpu
+  166  w
+  167  w man
+  168  man w
+  169  history
+  170  ip a
+  171  touch History_Redhat_Fedora_Server17.txt
+  172  ls -la
+  173  mv History_Redhat_Fedora_Server17.txt History_of_Fedora_Server_16.txt
+  174  history >> History_of_fedora_Server_16.txt
+  175  cat History_of_fedora_Server_16.txt
+  176  poweroff
+  177  ls -la
+  178  cd TambunanW/
+  179  ls -la
+  180  ip a
+  181  history
+  182  monitor
+  183  monitor &
+  184  top
+  185  process101 &
+  186  M
+  187  top
+  188  ls -la
+  189  jobs
+  190  pkill -SIGCONT 712
+  191  pkill 711
+  192  history
+  193  systemctl
+  194  systemctl list-units --type=service --all
+  195  ls -la
+  196  systemctl list-units --type=service --all >> charles2.txt
+  197  cat charles2.txt
+  198  systemctl list-unit-files --type=service
+  199  touch charles3.txt
+  200  systemctl list-unit-files --type=service >> charles3.txt
+  201  cat charles3.txt
+  202  history
+  203  systemctl list-unit-files --type=service
+  204  docker --version
+  205  kubernetes --version
+  206  kubectl version
+  207  yum install upgrade
+  208  yum upgrade
+  209  systemctl is-active kdump.service
+  210  systemctl enable kdump.service
+  211  systemctl status kdump.service
+  212  systemctl restart kdump.service
+  213  systemctl status kdump.service
+  214  systemctl enabled kdump.service
+  215  systemctl is-failed kdump.service
+  216  service kdump start
+  217  systemctl status chronyd.service
+  218  ls -la
+  219  mkdir TambunanH
+  220  touch TambunanH/charles4.txt
+  221  systemctl status chronyd.service >> TambunanH/charles4.txt
+  222  cat %1 charles4.txt
+  223  cat 1% charles4.txt
+  224  man cat
+  225  cat -a charles4.txt
+  226  cat -A charles4.txt
+  227  cat charles4.txt
+  228  cat -A TambunanH/charles4.txt
+  229  ps -p 680
+  230  systemctl is-enable sshd
+  231  systemctl is-enabled sshd
+  232  systemctl is-enabled kdump.service
+  233  systemctl is-active kdump.service
+  234  systemctl status kdump.service
+  235  systemctl list-unit-files --type=service
+  236  history
+  237  systemctl list-unit-files --type=service
+  238  history
+  239  ls -la
+  240  cd TambunanH/
+  241  ls -la
+  242  touch charles5.txt
+  243  systemctl list-unit-files --type=service
+  244  reboot
+  245  history
+  246  ip a
+  247  history
+  248  ssh-keygen
+  249  ssh-copy-id charlestambunan@192.168.37.133
+  250  ssh charlestambunan@192.168.37.133
+  251  history
+  252  ls -la
+  253  cat charles.txt
+  254  cp charles.txt charles1.txt
+  255  mv charles.txt charles4.txt
+  256  ls -la
+  257  history >> charles.txt
+  258  ls -la
+  259  history >> charles1.txt
+  260  cat charles1.txt
+  261  vi charles1.txt
+  262  ssh charlestambunan@192.168.37.133
+  263  ip a
+  264  ls archive.tar
+  265  ls -la
+  266  ls -la
+  267  mkdir TambunanJ
+  268  touch charles.tar
+  269  ls -la
+  270  touch charles.h
+  271  vim charles.h
+  272  vim charles.h
+  273  clear
+  274  vim charles.h
+  275  tar -czvf charles.tar.gz charles.h
+  276  ls -la
+  277  cat charles.tar.gz
+  278  mv charles.h charles.tar
+  279  cp charles.tar.gz charles.tar
+  280  ls -la
+  281  cp charles.h santy_oktavia.c
+  282  ls -la
+  283  scp man
+  284  man scp
+  285  scp charlestambunan@192.168.37.133
+  286  scp charlestambunan@192.168.37.133:charles.tar
+  287  scp -r charlestambunan@192.168.37.133:charles.tar
+  288  scp ctambunan@192.168.37.133:/etc/hostname /home/user
+  289  scp charlestambunan@192.168.37.133:/etc/hostname /home/user
+  290  scp charlestambunan@192.168.37.133:/home/charlestambunan/charles.h
+  291  scp charlestambunan@192.168.37.133:/home/charlestambunan/charles.h /Music
+  292  scp charlestambunan@192.168.37.133:/home/charlestambunan/charles.h /home/charlestambunan
+  293  scp charlestambunan@192.168.37.133:/home/charlestambunan/charles.h /home/user
+  294  scp charlestambunan@192.168.37.133:/home/charlestambunan /home/user
+  295  scp charlestambunan@192.168.37.133:/home/charlestambunan/charles.h /home/user
+  296  scp charles.h charlestambunan@192.168.37.133:/home/me/
+  297  scp charles.h charlestambunan@192.168.37.133:/home/charlestambunan/
+  298  history
+  299  touch charles11.txt
+  300  history >> charles11.txt
+  301  cat charles11.txt
+  302  ip a
+  303  history
+  304  rsync -av charlestambunan@192.168.37.133:/home/charlestambunan/
+  305  ls -la
+  306  history
+  307  touch charles14.txt
+  308  history >> charles14.txt
+  309  ls
+  310  ls -la
+  311  mkdir TambunanLogFiles
+  312  mv charles*.txt TambunanLogFiles/
+  313  cat TambunanLogFiles/
+  314  ls -la TambunanLogFiles/
+  315  history
+  316  ls -la
+  317  mv '#zcat#' goklas.txt
+  318  cp goklas.txt make_the_choice.txt make_the_choice2.txt
+  319  cp goklas.txt make_the_choice.txt
+  320  ls -la
+  321  vim simpan_sesuatu_dengan_baik.txt
+  322  vim simpan_sesuatu_dengan_baik.txt
+  323  ls -la
+  324  cat make_the_choice.txt
+  325  cat simpan_sesuatu_dengan_baik.txt
+  326   yum-config-manager --add-repo="http://dl.fedoraproject.org/pub/
+  327  epel/8/x86_64/"
+  328  yum repolist all
+  329   yum-config-manager --add-repo="http://dl.fedoraproject.org/pub/
+  330  epel/8/x86_64/"
+  331  history
+  332  touch charles15.txt
+  333  history >> charles15.txt
+  334  history
+  335  clear
+  336  clear
+  337  history
+  338  find
+  339  locate
+  340  locate charles*.txt
+  341  history
+  342  ls -la
+  343  touch Redhat_Fedora_Linux_History16.txt
+  344  history >> Redhat_Fedora_Linux_History16.txt
+  345  poweroff
+  346  ls -la
+  347  history
+  348  df -h
+  349  df -H
+  350  fdisk
+  351  lsblk
+  352  lsof
+  353  touch History_Redhat_Fedora_Server16.txt
+  354  lsof >> History_Redhat_Fedora_Server16.txt
+  355  cat History_Redhat_Fedora_Server16.txt
+  356  history
+  357  find
+  358  history
+  359  sudo yum install cockpit
+  360  sudo systemctl enable --now cockpit.socket
+  361  sudo firewall-cmd --permanent --zone=public --add-service=cockpit
+  362  sudo firewall-cmd --reload
+  363  ip a
+  364  ls -la
+  365  mkdir TambunanG
+  366  mv *.txt TambunanJ/
+  367  ls -la TambunanJ/
+  368  ls -la TambunanJ/ ; cat final.txt
+  369  ls -la TambunanJ/ ; cat goklas.txt
+  370  ls -la TambunanJ/ ; tail goklas.txt
+  371  ls -la TambunanJ ; tail goklas.txt
+  372  ls -la TambunanJ/
+  373  history
+  374  touch TambunanJ/Backup_Redhat_Fedora_Server_24.txt
+  375  history >> TambunanJ/Backup_Redhat_Fedora_Server_24.txt
+  376  history
+  377  touch History_Redhat_Fedora_Server17.txt
+  378  history >> History_Redhat_Fedora_Server17.txt
+  379  history
+  380  poweroff
+  381  history
+  382  history
+  383  ip a
+  384  history
+  385  history
+  386  ls -la
+  387  touch History_Redhat_Fedora_Server18.txt
+  388  history >> History_Redhat_Fedora_Server18.txt
+  389  sudo yum install cockpit
+  390  sudo systemctl enable --now cockpit.socket
+  391  sudo firewall-cmd --permanent --zone=public --add-service=cockpit
+  392  sudo firewall-cmd --reload
+  393  history
+  394  history
+  395  ls -la
+  396  ls -la
+  397  history
+  398  poweroff
+  399  vim firstscript.sh
+  400  cat output.txt
+  401  sh firstscript.sh
+  402  cat output.txt
+  403  vim firstscript.sh
+  404  chmod a+x firstscript.sh
+  405  ./firstscript.sh
+  406  vim firstscript.sh
+  407  ./firstscript.sh
+  408  vim firstscript.sh
+  409  ./firstscript.sh
+  410  cat output.txt
+  411  vim andidori.sh
+  412  vim andidori.sh
+  413  sh andidori.sh
+  414  ls -la
+  415  mv firstscript.sh andidori.sh /home/ctambunan/
+  416  mv output.txt /home/ctambunan/
+  417  ls -la /home/ctambunan/
+  418  ls -la /home/ctambunan/TambunanLogFiles/
+  419  mkdir /home/ctambunan/TambunanShellScripting
+  420  mv /home/ctambunan/firstscript.sh /home/ctambunan/TambunanShellScripting/; mv /home/ctambunan/andidori.sh /home/ctambunan/TambunanShellScripting/
+  421  ls -la /home/ctambunan/TambunanShellScripting/ ; ls -la /home/ctambunan/TambunanShellScripting/
+  422  history
+  423  touch /home/ctambunan/TambunanShellScripting/History_Redhat_Fedora_Server_41.txt
+  424  history >> /home/ctambunan/TambunanShellScripting/History_Redhat_Fedora_Server_41.txt
+  425  cd ..
+  426  histor
+  427  history
+  428  touch /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  429  vim /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  430  sh /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  431  vim /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  432  sh /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  433  vim /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  434  sh /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  435  sh /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  436  vim /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  437  sh /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  438  history
+  439  touch /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server_42.txt
+  440  history >> /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server_42.txt
+  441  cat /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server_42.txt
+  442  cat /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server_42.txt
+  443  systemctl status cockpit
+  444  systemctl status cockpit.service
+  445  systemctl restart cockpit.service
+  446  systemctl enable cockpit.service
+  447  systemctl status cockpit.service
+  448  ip a
+  449  ls -la
+  450  timedatectl
+  451  timedatectl -s
+  452  timedatectl man
+  453  man timedatectl
+  454  history
+  455  ls -la
+  456  cd /home/ctambunan/TambunanShellScripting/
+  457  ls -la
+  458  vim SecondScript.sh
+  459  vim SecondScript.sh
+  460  sh SecondScript.sh
+  461  vim SecondScript.sh
+  462  sh SecondScript.sh
+  463  vim SecondScript.sh
+  464  sh SecondScript.sh
+  465  history
+  466  ls -la
+  467  touch History_of_Redhat_Fedora_Server_43.txt
+  468  mv History_Redhat_Fedora_Server_41.txt History_of_Redhat_Fedora_Server_41.txt
+  469  ls -la
+  470  history
+  471  history >> History_of_Redhat_Fedora_Server_43.txt
+  472  cat History_of_Redhat_Fedora_Server_43.txt
+  473  exit
+  474  ls -la
+  475  which hello
+  476  echo $PATH
+  477  echo # not a comment #
+  478  echo \# not a comment #
+  479  echo \# not a comment \#
+  480  echo '# not a comment #'
+  481  var=$(hostname -s); echo $var
+  482  echo Your Username variable is \$USER
+  483  echo Your Username variable is \$USER.
+  484  echo Your Username variable is \$USER .
+  485  cat ~/bin/hello
+  486  cat ~/bin/hello
+  487  hello
+  488  cd ~
+  489  cat ~/bin/hello
+  490  sudo su
+  491  exit
+  492  ip a
+  493  history
+  494  ls -la
+  495  cd TambunanShellScripting/
+  496  ls -la
+  497  touch ThirdScript.sh
+  498  vim ThirdScript.sh
+  499  sh ThirdScript.sh
+  500  vim ThirdScript.sh
+  501  sh ThirdScript.sh
+  502  vim ThirdScript.sh
+  503  sh ThirdScript.sh
+  504  vim ThirdScript.sh
+  505  sh ThirdScript.sh
+  506  vim ThirdScript.sh
+  507  sh ThirdScript.sh
+  508  sh ThirdScript.sh
+  509  vim ThirdScript.sh
+  510  sh ThirdScript.sh
+  511  vim ThirdScript.sh
+  512  sh ThirdScript.sh
+  513  vim ThirdScript.sh
+  514  sh ThirdScript.sh
+  515  vim ThirdScript.sh
+  516  vim ThirdScript.sh
+  517  sh ThirdScript.sh
+  518  vim ThirdScript.sh
+  519  sh ThirdScript.sh
+  520  vim ThirdScript.sh
+  521  vim ThirdScript.sh
+  522  sh ThirdScript.sh
+  523  vim ThirdScript.sh
+  524  vim ThirdScript.sh
+  525  sh ThirdScript.sh
+  526  vim ThirdScript.sh
+  527  sh ThirdScript.sh
+  528  vim ThirdScript.sh
+  529  vim ThirdScript.sh
+  530  sh ThirdScript.sh
+  531  ls -la
+  532  vim ThirdScript.sh
+  533  vim ThirdScript.sh
+  534  sh ThirdScript.sh
+  535  ls -la
+  536  cd sean_gelael/
+  537  ls -la
+  538  cd ..
+  539  vim ThirdScript.sh
+  540  sh ThirdScript.sh
+  541  ls -la
+  542  sh ThirdScript.sh
+  543  vim ThirdScript.sh
+  544  sh ThirdScript.sh
+  545  vim ThirdScript.sh
+  546  sh ThirdScript.sh
+  547  ls -la
+  548  sh ThirdScript.sh
+  549  vim ThirdScript.sh
+  550  sh ThirdScript.sh
+  551  vim ThirdScript.sh
+  552  sh ThirdScript.sh
+  553  ls -la
+  554  vim ThirdScript.sh
+  555  sh ThirdScript.sh
+  556  ls -la
+  557  vim ThirdScript.sh
+  558  cat ThirdScript.sh
+  559  vim FouthScript.sh
+  560  sh ThirdScript.sh
+  561  ls -la
+  562  cat FouthScript.sh
+  563  sh FouthScript.sh
+  564  vim FouthScript.sh
+  565  sh FouthScript.sh
+  566  ls -la
+  567  ls -la sean_gelael
+  568  vim FouthScript.sh
+  569  mv FouthScript.sh FourthScript.sh
+  570  ls -la
+  571  touch FiveScript.sh
+  572  vim FiveScript.sh
+  573  sh FiveScript.sh
+  574  vim FiveScript.sh
+  575  sh FiveScript.sh
+  576  vim FiveScript.sh
+  577  vim FourthScript.sh
+  578  cat FiveScript.sh
+  579  vim FiveScript.sh
+  580  sh FiveScript.sh
+  581  vim FiveScript.sh
+  582  history
+  583  ls -la
+  584  touch History_of_Redhat_Fedora_Server_44.txt
+  585  history >> History_of_Redhat_Fedora_Server_44.txt
+  586  cat History_of_Redhat_Fedora_Server_44.txt
+  587  ls -la
+  588  cat ThirdScript.sh
+  589  sh ThirdScript.sh
+  590  vim ThirdScript.sh
+  591  for i in {1..6}; do touch test$i.txt ; done
+  592  ls -la
+  593  ls History_of_Redhat_Fedora_Server_41.txt
+  594  ls History_of_Redhat_Fedora_Server_*
+  595  ls History_of_Redhat_Fedora_Server_??.txt
+  596  ls History_of_Redhat_Fedora_Server_?3.txt
+  597  grep History_of_Redhat_Fedora_Server_4?.txt
+  598  cat "Redhat"
+  599  echo "Redhat"
+  600  echo "Redhat" > test1.txt
+  601  cat test1.txt
+  602  echo "CentOS"
+  603  echo "CentOS" > test1.txt
+  604  cat test1.txt
+  605  echo "Redhat" >> test1.txt
+  606  CAT test1.txt
+  607  cat test1.txt
+  608  man sed
+  609  history
+  610  ls -la
+  611  ls -la
+  612  cat make_the_choice.txt
+  613  ls
+  614  ls -R
+  615  ls -lh
+  616  ls -h
+  617  ls -H
+  618  lh
+  619  ls -lh
+  620  history
+  621  history >> test2.txt
+  622  ls -la
+  623  man sed
+  624  cat History_of_Redhat_Fedora_Server_?4.txt
+  625  poweroff
+  626  ls -la
+  627  scp charlestambunan@192.168.37.133:/home/charlestambunan/charles.h /Music
+  628  history
+  629  ls -la
+  630  ls -lh TambunanShellScripting/
+  631  touch TambunanShellScripting/History_Redhat_Fedora_Server{45..50}.txt
+  632  ls -la TambunanShellScripting/
+  633  mv TambunanShellScripting/History_Redhat_Fedora_Server4*.txt History_of_Redhat_Fedora_Server{46...49}.txt
+  634  mv TambunanShellScripting/History_Redhat_Fedora_Server4*.txt History_of_Redhat_Fedora_Server46.txt
+  635  cd TambunanShellScripting/
+  636  ls -la
+  637  mv History_Redhat_Fedora_Server45.txt History_of_Redhat_Fedora_Server_45.txt
+  638  mv History_Redhat_Fedora_Server46.txt History_of_Redhat_Fedora_Server_46.txt
+  639  mv History_Redhat_Fedora_Server47.txt History_of_Redhat_Fedora_Server_48.txt
+  640  mv History_Redhat_Fedora_Server48.txt History_of_Redhat_Fedora_Server_48.txt
+  641  mv History_Redhat_Fedora_Server47.txt History_of_Redhat_Fedora_Server_47.txt
+  642  ls -la
+  643  mv History_of_Redhat_Fedora_Server_48.txt History_of_Redhat_Fedora_Server_47.txt
+  644  mv History_Redhat_Fedora_Server_48.txt History_of_Redhat_Fedora_Server_48.txt
+  645  mv History_Redhat_Fedora_Server_49.txt History_of_Redhat_Fedora_Server_49.txt
+  646  ls -la
+  647  mv History_Redhat_Fedora_Server48.txt History_of_Redhat_Fedora_Server_48.txt
+  648  mv History_Redhat_Fedora_Server49.txt History_of_Redhat_Fedora_Server_49.txt
+  649  mv History_Redhat_Fedora_Server50.txt History_of_Redhat_Fedora_Server_50.txt
+  650  ls -la
+  651  ls History_of_Redhat_Fedora_Server_4*.txt
+  652  ls -la History_of_Redhat_Fedora_Server_4*.txt
+  653  ls -lh History_of_Redhat_Fedora_Server_4*.txt
+  654  ls -lh History_of_Redhat_Fedora_Server_**.txt
+  655  grep ^s
+  656  ip a
+  657  ip a
+  658  history
+  659  ls -la
+  660  touch History_Redhat_Fedora_Server51.txt
+  661  history >> History_Redhat_Fedora_Server51.txt
+  662  cat History_Redhat_Fedora_Server51.txt
+  663  poweroff
+  664  ls -la
+  665  history
+  666  cat /etc/ethertypes
+  667  ls -la
+  668  history
+  669  cat
+  670  less /var/log/messages
+  671  ls -la
+  672  ls -la TambunanG/
+  673  ls -la TambunanShellScripting/
+  674  mv History_Redhat_Fedora_Server5*.txt TambunanShellScripting/
+  675  ls -la
+  676  ls -la TambunanShellScripting/
+  677  mv TambunanShellScripting/History_Redhat_Fedora_Server51.txt History_of_Redhat_Fedora_Server51.txt
+  678  ls -la TambunanShellScripting/
+  679  ls -la
+  680  mv History_of_Redhat_Fedora_Server51.txt TambunanShellScripting/
+  681  ls -la TambunanShellScripting/
+  682  touch TambunanShellScripting/History_of_Redhat_Fedora_Server52.txt
+  683  touch TambunanShellScripting/History_of_Redhat_Fedora_Server{53...60}.txt
+  684  ls -la TambunanShellScripting/
+  685  rm TambunanShellScripting/History_of_Redhat_Fedora_Server{53..60}.txt
+  686  ls -la TambunanShellScripting/
+  687  touch TambunanShellScripting/History_of_Redhat_Fedora_Server{53..60}.txt
+  688  ls -la TambunanShellScripting/
+  689  less /var/log/messages >> TambunanShellScripting/History_of_Redhat_Fedora_Server52.txt
+  690  cat >> TambunanShellScripting/History_of_Redhat_Fedora_Server52.txt
+  691  vim TambunanShellScripting/History_of_Redhat_Fedora_Server52.txt
+  692  sudo dnf -y update
+  693  sudo dnf -y install vim bash-completion curl wget telnet
+  694  sudo sestatus
+  695  sudo setenforce 0
+  696  sudo sed -i 's/^SELINUX=.*/SELINUX=permissive/g' /etc/selinux/config
+  697  cat /etc/selinux/config | grep SELINUX =
+  698  cat /etc/selinux/config | grep SELINUX=
+  699  sudo dnf -y install httpd
+  700  sudo dnf -y install httpd
+  701  vim /etc/httpd/conf/httpd.conf
+  702  nano /etc/httpd/conf/httpd.conf
+  703  nano /etc/httpd/conf/httpd.conf
+  704  nano /etc/httpd/conf/httpd.conf
+  705  sudo systemctl start httpd
+  706  sudo systemctl enable httpd
+  707  sudo firewall-cmd --add-service={http,https} --permanent
+  708  sudo firewall-cmd --reload
+  709  sudo dnf -y install php php-cli php-php-gettext php-mbstring php-mcrypt php-mysqlnd php-pear php-curl php-gd php-xml php-bcmath php-zip
+  710  php -v
+  711  php -m
+  712  vim /etc/php.ini
+  713  nano /etc/php.ini
+  714  sudo dnf install mariadb-server
+  715  sudo vim /etc/my.cnf.d/mariadb-server.cnf
+  716  sudo systemctl start mariadb
+  717  sudo systemctl enable mariadb
+  718  sudo mysql_secure_installation
+  719  mysql -u root -p
+  720  ls -la
+  721  history
+  722  sudo firewall-cmd --add-service=mysql --permanent
+  723  sudo firewall-cmd --reload
+  724  nano /var/www/html/phpinfo.php
+  725  sudo systemctl restart httpd
+  726  ip a
+  727  date
+  728  grep '^Mar 22 08:2.*GID' /var/log/secure
+  729   grep 'postfix' /var/log/maillog | head -n 2
+  730  grep -i 'queue' /etc/postfix/main.cf
+  731  ps aux | grep postfix
+  732  grep -e qmgr -e pickup -e cleanup /etc/postfix/master.cf
+  733  exit
+  734  ls -la
+  735  history
+  736  history
+  737  ls -la
+  738  history >> TambunanShellScripting/History_of_Redhat_Fedora_Server53.txt
+  739  cat history TambunanShellScripting/History_of_Redhat_Fedora_Server53.txt
+  740  mkdir -p /home/student/bin/bash-lab
+  741  vim /home/student/bin/bash-lab/
+  742  vim /home/student/bin/bash-lab
+  743  rm /home/student/bin/bash-lab
+  744  rm -d /home/student/bin/bash-lab
+  745  ls -la
+  746  mkdir -p /home/student/bin
+  747  vim /home/student/bin/bash-lab.sh
+  748  chmod a+x /home/student/bin/bash-lab.sh
+  749  vim /home/student/bin/bash-lab.sh
+  750  sh /home/student/bin/bash-lab.sh
+  751  vim /home/student/bin/bash-lab.sh
+  752  sh /home/student/bin/bash-lab.sh
+  753  ip a
+  754  ls -la /home/
+  755  ls -la /home/ctambunan/
+  756  ls -la /home/ctambunan/output-servera
+  757  cat /home/ctambunan/output-servera
+  758  cat /home/ctambunan/output-serverb
+  759  cat /home/ctambunan/output-serverb
+  760  history
+  761  ls -la
+  762  cd TambunanShellScripting/
+  763  ls -la
+  764  vim History_of_Redhat_Fedora_Server54.txt
+  765  cat History_of_Redhat_Fedora_Server54.txt
+  766  history >> History_of_Redhat_Fedora_Server55.txt
+  767  poweroff
+  768  ls -la
+  769  history
+  770  atq
+  771  echo "date >> myjob.txt" | at now
+  772  atq
+  773  watch atq
+  774  cat myjob.txt
+  775  at -q g teatime
+  776  at -q b 16:05
+  777  atq
+  778  at c -2
+  779  at -c 2
+  780  at -c 3
+  781  atq
+  782  history
+  783  crontab -e
+  784  crontab -e
+  785  exit
+  786  vi /etc/cron.daily/usercount
+  787  chmod +x /etc/cron.daily/usercount
+  788  yum install syststat
+  789  yum install sysstat
+  790  history
+  791  cp /usr/lib/systemd/system/sysstat-collect.timer /etc/systemd/system/sysstat-collect.timer
+  792  vim /etc/systemd/system/sysstat-collect.timer
+  793  systemctl daemon-reload
+  794  systemctl enable --now sysstat-collect.timer
+  795  while [ $(ls /var/log/sa | wc -l) -eq 0 ]; do sleep 1s; done
+  796  ls -l /var/log/sa
+  797  ls -l /var/log
+  798  ls -l /var/log/sa
+  799  date
+  800  exit
+  801  cp /usr/lib/tmpfiles.d/tmp.conf /etc/tmpfiles.d/tmp.conf
+  802  vi /etc/tmpfiles.d/tmp.conf
+  803  systemd-tmpfiles --clean /etc/tmpfiles.d/tmp.conf
+  804  vim /etc/tmpfiles.d/momentary.conf
+  805  systemd-tmpfiles --create /etc/tmpfiles.d/momentary.conf
+  806  ls -ld /run/momentary
+  807  touch /run/momentary/testfile
+  808  sleep 30
+  809  systemd-tmpfiles --clean /etc/tmpfiles.d/momentary.conf
+  810  ls -l /run/momentary/testfile
+  811  ls -l /run/momentary/
+  812  ls -l /run/momentary/testfile
+  813  history
+  814  cd ..
+  815  ls -la
+  816  cd /home/ctambunan/TambunanShellScripting/
+  817  ls -la
+  818  vim History_of_Redhat_Fedora_Server56.txt
+  819  vim History_of_Redhat_Fedora_Server57.txt
+  820  cat History_of_Redhat_Fedora_Server57.txt
+  821  history
+  822  ls -la
+  823  cat History_of_Redhat_Fedora_Server58.txt
+  824  vim History_of_Redhat_Fedora_Server58.txt
+  825  cat History_of_Redhat_Fedora_Server57.txt
+  826  history >> History_of_Redhat_Fedora_Server58.txt
+  827  cat History_of_Redhat_Fedora_Server58.txt
+  828  ip a
+  829  history
+  830  poweroff
+  831  ls -la
+  832  history
+  833  ls -la
+  834  yum install tuned
+  835  systemctl enable --now tuned
+  836  tuned-adm active
+  837  tuned-adm list
+  838  tuned-adm profile throughput-performance
+  839  tuned-adm active
+  840  tuned-adm recommend
+  841  tuned-adm off
+  842  tuned-adm active
+  843  yum list tuned
+  844  systemctl is-enabled tuned.service ; systemctl is-active tuned.service
+  845  sudo tuned-adm list
+  846  sudo tuned-adm profile powersave
+  847  sudo tuned-adm active
+  848  history
+  849  cat TambunanShellScripting/History_of_Redhat_Fedora_Server60.txt
+  850  cat TambunanShellScripting/History_of_Redhat_Fedora_Server59.txt
+  851  history >> TambunanShellScripting/History_of_Redhat_Fedora_Server59.txt
+  852  ip a
+  853  ls -la
+  854  ps axo pid, comm, nice,cls --sort=-nice
+  855  ps axo pid,comm,nice,cls --sort=-nice
+  856  sha1sum /dev/zero & [1] 3480
+  857  sha1sum /dev/zero &
+  858  ps -o pid,comm,nice 3480
+  859  nice sha1sum /dev/zero &
+  860  ps -o pid,comm,nice 3517
+  861  nice -n 15 sha1sum &
+  862  ps -o pid,comm,nice 3521
+  863  renice -n 19 3521
+  864  renice -n 19 58645
+  865  lab tuning-procsheduling start
+  866  grep -c '^processor' /proc/cpuinfo
+  867  for i in $(seq 1 4); do sha1sum /dev/zero & done
+  868  jobs
+  869  ps u $(pgrep sha1sum)
+  870  pkill sha1sum
+  871  for i in $(seq 1 3); do sha1sum /dev/zero & done
+  872  nice -n 10 sha1sum /dev/zero &
+  873  ps -o pid,pcpu,nice,comm $(pgrep sha1sum)
+  874  sudo renice -n 5 58645
+  875  ps -o pid,pcpu,nice,comm $(pgrep sha1sum)
+  876  history
+  877  cat TambunanShellScripting/History_of_Redhat_Fedora_Server60.txt
+  878  cat TambunanShellScripting/History_of_Redhat_Fedora_Server59.txt
+  879  cat TambunanShellScripting/History_of_Redhat_Fedora_Server59.txt
+  880  cat TambunanShellScripting/History_of_Redhat_Fedora_Server60.txt
+  881  nano TambunanShellScripting/History_of_Redhat_Fedora_Server60.txt
+  882  touch man
+  883  man touch
+  884  touch TambunanShellScripting/History_of_Redhat_Fedora_Server{61..70}.txt
+  885  ls -la TambunanShellScripting/
+  886  cat TambunanShellScripting/History_of_Redhat_Fedora_Server60.txt
+  887  cat TambunanShellScripting/History_of_Redhat_Fedora_Server61.txt
+  888  history >> TambunanShellScripting/History_of_Redhat_Fedora_Server61.txt
+  889  ls -la
+  890  ls -la TambunanShellScripting/
+  891  mv History_Redhat_Fedora_Server1*.txt TambunanShellScripting/sean_gelael/
+  892  ls -R TambunanShellScripting/sean_gelael/
+  893  ls -R
+  894  mv TambunanShellScripting/sean_gelael/History_Redhat_Fedora_Server1*.txt TambunanW/
+  895  ls -R TambunanW/
+  896  cat TambunanShellScripting/History_of_Redhat_Fedora_Server61.txt
+  897  ip a
+  898  history >> TambunanShellScripting/History_of_Redhat_Fedora_Server62.txt
+  899  poweroff
+  900  history
+  901  ip a
+  902  history
+  903  getfacl reports.txt
+  904  ls -la
+  905  getfacl my_first_cron_job.txt
+  906  ls -l my_first_cron_job.txt
+  907  mv santy_oktavia.c my_second_cron_job.txt
+  908  ls -la
+  909  getfacl .
+  910  ls -la /run/log/journal/
+  911  getfacl /run/log/journal/
+  912  ls -la /dev/
+  913  ls -la /dev/sr0
+  914  getfacl /dev/sr0
+  915  ls -la
+  916  history
+  917  ls -la
+  918  setfacl -m u:name:rX my_second_cron_job.txt
+  919  setfacl -m u:name:rw my_second_cron_job.txt
+  920  setfacl -m g:name:rw my_second_cron_job.txt
+  921  cd ~
+  922  setfacl -m u:name:rX /home/andi/
+  923  setfacl -m u:name:rX /home/andi
+  924  setfacl -m u:name:rX /home/andi/
+  925  setfacl -m u:name:rX file
+  926  ls -la
+  927  poweroff
+  928  ip a
+  929  history
+  930  ls -la
+  931  mkdir -p shares/content
+  932  ls -la
+  933  setfacl -Rm g:consultants:rwX shares/content
+  934  setfacl -Rm u:andi:rwX shares/content
+  935  setfacl -Rm g:andi:rwX shares/content
+  936  setfacl -m d:g:andi:rwx shares/content
+  937  setfacl -m d:u:andi:- shares/content
+  938  history
+  939  cd ..
+  940  cat /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server63.txt
+  941  cat /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server64.txt
+  942  history >> /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server64.txt
+  943  cat /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server64.txt
+  944  su - andi
+  945  history
+  946  cd /home/
+  947  ls -la
+  948  cd andi/
+  949  ls -la
+  950  cd user
+  951  cd ..
+  952  cd ctambunan/
+  953  lsa -la
+  954  ls
+  955  history
+  956   setfacl -Rm g:andi:rwX shares/content
+  957  cd ~
+  958  setfacl -Rm g:andi:rwX shares/content
+  959  setfacl -Rm u:operator1:rwX shares/content
+  960  setfacl -Rm u:andi:- /shares/content
+  961  setfacl -Rm u:andi:- shares/content
+  962  setfacl -m d:g:operator1:rwx /shares/content
+  963  setfacl -m d:g:operator1:rwx shares/content
+  964  setfacl -m d:u:andi:- /shares/content
+  965  setfacl -m d:u:andi:- shares/content
+  966  su operator2
+  967  su - andi
+  968  cd shares/content
+  969  ls -la
+  970   cat serverb-loadavg.txt
+  971   touch serverb-loadavg.txt
+  972  passwd operator1
+  973  su - operator1
+  974  touch loadavg.sh
+  975  yum install glances
+  976  glances
+  977  glances >> loadavg.sh
+  978  ls -la
+  979  cat loadavg.sh
+  980  vim loadavg.sh
+  981  touch loadavg2.sh
+  982  vim loadavg2.sh
+  983  mv loadavg2.sh loadavg.sh
+  984  cat loadavg.sh
+  985  vim loadavg.sh
+  986  rm loadavg.sh
+  987  cat loadavg2.sh
+  988  ls -la
+  989  cp loadavg2.sh loadavg1.sh
+  990  ls -la
+  991  sh loadavg2.sh
+  992  mkdir reports
+  993  echo "Test Reports" > reports/test.txt
+  994  exit
+  995  ls -la
+  996  history
+  997  ip a
+  998  ls -la
+  999  history
+[root@fedora 09:55:34 /home/ctambunan]$ poweroff
+[root@fedora 09:55:41 /home/ctambunan]$ Connection to 192.168.37.132 closed by remote host.
+Connection to 192.168.37.132 closed.

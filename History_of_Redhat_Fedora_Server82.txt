@@ -1,0 +1,38 @@
+[root@fedora 11:44:38 /home/ctambunan]$ df
+Filesystem                     1K-blocks    Used Available Use% Mounted on
+devtmpfs                          968336       0    968336   0% /dev
+tmpfs                             988692       0    988692   0% /dev/shm
+tmpfs                             395480    1276    394204   1% /run
+/dev/mapper/fedora_fedora-root  15718400 3920900  11797500  25% /
+tmpfs                             988692       4    988688   1% /tmp
+/dev/nvme0n1p1                   1038336  296212    742124  29% /boot
+tmpfs                             197736       4    197732   1% /run/user/1000
+[root@fedora 11:44:39 /home/ctambunan]$ parted /dev/tmpfs
+Error: Could not stat device /dev/tmpfs - No such file or directory.
+Retry/Cancel? ^C
+[root@fedora 11:45:04 /home/ctambunan]$ mkdir /dev/vda
+[root@fedora 11:45:16 /home/ctambunan]$ df
+Filesystem                     1K-blocks    Used Available Use% Mounted on
+devtmpfs                          968336       0    968336   0% /dev
+tmpfs                             988692       0    988692   0% /dev/shm
+tmpfs                             395480    1276    394204   1% /run
+/dev/mapper/fedora_fedora-root  15718400 3921232  11797168  25% /
+tmpfs                             988692       4    988688   1% /tmp
+/dev/nvme0n1p1                   1038336  296212    742124  29% /boot
+tmpfs                             197736       4    197732   1% /run/user/1000
+[root@fedora 11:45:18 /home/ctambunan]$ parted /dev/vda/
+Error: The device /dev/vda is so small that it cannot possibly store a file system or partition
+table.  Perhaps you selected the wrong device?
+[root@fedora 11:50:16 /home/ctambunan]$ parted /dev/vda/client_loop: send disconnect: Connection reset
+PS D:\> ssh ctambunan@192.168.37.132
+ctambunan@192.168.37.132's password:
+Web console: https://fedora:9090/ or https://192.168.37.132:9090/
+
+Last login: Tue Jan 18 10:55:30 2022 from 192.168.37.1
+[ctambunan@fedora ~]$ sudo poweroff
+[sudo] password for ctambunan:
+[ctambunan@fedora ~]$ Connection to 192.168.37.132 closed by remote host.
+Connection to 192.168.37.132 closed.
+PS D:\>
+PS D:\> ssh ctambunan@192.168.37.132
+PS D:\>

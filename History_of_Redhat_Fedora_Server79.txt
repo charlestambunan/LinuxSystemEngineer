@@ -1,0 +1,1000 @@
+    8  vim charles.h
+    9  clear
+   10  vim charles.h
+   11  tar -czvf charles.tar.gz charles.h
+   12  ls -la
+   13  cat charles.tar.gz
+   14  mv charles.h charles.tar
+   15  cp charles.tar.gz charles.tar
+   16  ls -la
+   17  cp charles.h santy_oktavia.c
+   18  ls -la
+   19  scp man
+   20  man scp
+   21  scp charlestambunan@192.168.37.133
+   22  scp charlestambunan@192.168.37.133:charles.tar
+   23  scp -r charlestambunan@192.168.37.133:charles.tar
+   24  scp ctambunan@192.168.37.133:/etc/hostname /home/user
+   25  scp charlestambunan@192.168.37.133:/etc/hostname /home/user
+   26  scp charlestambunan@192.168.37.133:/home/charlestambunan/charles.h 
+   27  scp charlestambunan@192.168.37.133:/home/charlestambunan/charles.h /Music
+   28  scp charlestambunan@192.168.37.133:/home/charlestambunan/charles.h /home/charlestambunan
+   29  scp charlestambunan@192.168.37.133:/home/charlestambunan/charles.h /home/user 
+   30  scp charlestambunan@192.168.37.133:/home/charlestambunan /home/user 
+   31  scp charlestambunan@192.168.37.133:/home/charlestambunan/charles.h /home/user 
+   32  scp charles.h charlestambunan@192.168.37.133:/home/me/
+   33  scp charles.h charlestambunan@192.168.37.133:/home/charlestambunan/
+   34  history
+   35  touch charles11.txt
+   36  history >> charles11.txt
+   37  cat charles11.txt
+   38  ip a
+   39  history
+   40  rsync -av charlestambunan@192.168.37.133:/home/charlestambunan/
+   41  ls -la
+   42  history
+   43  touch charles14.txt
+   44  history >> charles14.txt 
+   45  ls
+   46  ls -la
+   47  mkdir TambunanLogFiles
+   48  mv charles*.txt TambunanLogFiles/
+   49  cat TambunanLogFiles/
+   50  ls -la TambunanLogFiles/
+   51  history
+   52  ls -la 
+   53  mv '#zcat#' goklas.txt
+   54  cp goklas.txt make_the_choice.txt make_the_choice2.txt
+   55  cp goklas.txt make_the_choice.txt
+   56  ls -la
+   57  vim simpan_sesuatu_dengan_baik.txt
+   58  vim simpan_sesuatu_dengan_baik.txt
+   59  ls -la
+   60  cat make_the_choice.txt 
+   61  cat simpan_sesuatu_dengan_baik.txt 
+   62   yum-config-manager --add-repo="http://dl.fedoraproject.org/pub/
+   63  epel/8/x86_64/"
+   64  yum repolist all
+   65   yum-config-manager --add-repo="http://dl.fedoraproject.org/pub/
+   66  epel/8/x86_64/"
+   67  history
+   68  touch charles15.txt
+   69  history >> charles15.txt 
+   70  history
+   71  clear
+   72  clear
+   73  history
+   74  find
+   75  locate
+   76  locate charles*.txt
+   77  history
+   78  ls -la
+   79  touch Redhat_Fedora_Linux_History16.txt
+   80  history >> Redhat_Fedora_Linux_History16.txt 
+   81  poweroff
+   82  ls -la
+   83  history
+   84  df -h
+   85  df -H
+   86  fdisk
+   87  lsblk
+   88  lsof
+   89  touch History_Redhat_Fedora_Server16.txt
+   90  lsof >> History_Redhat_Fedora_Server16.txt 
+   91  cat History_Redhat_Fedora_Server16.txt 
+   92  history
+   93  find
+   94  history
+   95  sudo yum install cockpit
+   96  sudo systemctl enable --now cockpit.socket
+   97  sudo firewall-cmd --permanent --zone=public --add-service=cockpit
+   98  sudo firewall-cmd --reload
+   99  ip a
+  100  ls -la
+  101  mkdir TambunanG
+  102  mv *.txt TambunanJ/
+  103  ls -la TambunanJ/
+  104  ls -la TambunanJ/ ; cat final.txt
+  105  ls -la TambunanJ/ ; cat goklas.txt
+  106  ls -la TambunanJ/ ; tail goklas.txt
+  107  ls -la TambunanJ ; tail goklas.txt
+  108  ls -la TambunanJ/
+  109  history
+  110  touch TambunanJ/Backup_Redhat_Fedora_Server_24.txt
+  111  history >> TambunanJ/Backup_Redhat_Fedora_Server_24.txt
+  112  history
+  113  touch History_Redhat_Fedora_Server17.txt
+  114  history >> History_Redhat_Fedora_Server17.txt 
+  115  history
+  116  poweroff
+  117  history
+  118  history
+  119  ip a
+  120  history
+  121  history
+  122  ls -la
+  123  touch History_Redhat_Fedora_Server18.txt
+  124  history >> History_Redhat_Fedora_Server18.txt 
+  125  sudo yum install cockpit
+  126  sudo systemctl enable --now cockpit.socket
+  127  sudo firewall-cmd --permanent --zone=public --add-service=cockpit
+  128  sudo firewall-cmd --reload
+  129  history
+  130  history
+  131  ls -la
+  132  ls -la
+  133  history
+  134  poweroff
+  135  vim firstscript.sh
+  136  cat output.txt
+  137  sh firstscript.sh 
+  138  cat output.txt 
+  139  vim firstscript.sh 
+  140  chmod a+x firstscript.sh 
+  141  ./firstscript.sh 
+  142  vim firstscript.sh 
+  143  ./firstscript.sh 
+  144  vim firstscript.sh 
+  145  ./firstscript.sh 
+  146  cat output.txt 
+  147  vim andidori.sh
+  148  vim andidori.sh
+  149  sh andidori.sh 
+  150  ls -la
+  151  mv firstscript.sh andidori.sh /home/ctambunan/
+  152  mv output.txt /home/ctambunan/
+  153  ls -la /home/ctambunan/
+  154  ls -la /home/ctambunan/TambunanLogFiles/
+  155  mkdir /home/ctambunan/TambunanShellScripting
+  156  mv /home/ctambunan/firstscript.sh /home/ctambunan/TambunanShellScripting/; mv /home/ctambunan/andidori.sh /home/ctambunan/TambunanShellScripting/ 
+  157  ls -la /home/ctambunan/TambunanShellScripting/ ; ls -la /home/ctambunan/TambunanShellScripting/
+  158  history
+  159  touch /home/ctambunan/TambunanShellScripting/History_Redhat_Fedora_Server_41.txt
+  160  history >> /home/ctambunan/TambunanShellScripting/History_Redhat_Fedora_Server_41.txt 
+  161  cd ..
+  162  histor
+  163  history 
+  164  touch /home/ctambunan/TambunanShellScripting/SecondScript.sh
+  165  vim /home/ctambunan/TambunanShellScripting/SecondScript.sh 
+  166  sh /home/ctambunan/TambunanShellScripting/SecondScript.sh 
+  167  vim /home/ctambunan/TambunanShellScripting/SecondScript.sh 
+  168  sh /home/ctambunan/TambunanShellScripting/SecondScript.sh 
+  169  vim /home/ctambunan/TambunanShellScripting/SecondScript.sh 
+  170  sh /home/ctambunan/TambunanShellScripting/SecondScript.sh 
+  171  sh /home/ctambunan/TambunanShellScripting/SecondScript.sh 
+  172  vim /home/ctambunan/TambunanShellScripting/SecondScript.sh 
+  173  sh /home/ctambunan/TambunanShellScripting/SecondScript.sh 
+  174  history
+  175  touch /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server_42.txt 
+  176  history >> /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server_42.txt 
+  177  cat /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server_42.txt 
+  178  cat /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server_42.txt 
+  179  systemctl status cockpit
+  180  systemctl status cockpit.service 
+  181  systemctl restart cockpit.service 
+  182  systemctl enable cockpit.service 
+  183  systemctl status cockpit.service 
+  184  ip a
+  185  ls -la
+  186  timedatectl 
+  187  timedatectl -s
+  188  timedatectl man
+  189  man timedatectl
+  190  history
+  191  ls -la
+  192  cd /home/ctambunan/TambunanShellScripting/
+  193  ls -la
+  194  vim SecondScript.sh 
+  195  vim SecondScript.sh 
+  196  sh SecondScript.sh 
+  197  vim SecondScript.sh 
+  198  sh SecondScript.sh 
+  199  vim SecondScript.sh 
+  200  sh SecondScript.sh 
+  201  history
+  202  ls -la
+  203  touch History_of_Redhat_Fedora_Server_43.txt
+  204  mv History_Redhat_Fedora_Server_41.txt History_of_Redhat_Fedora_Server_41.txt
+  205  ls -la
+  206  history
+  207  history >> History_of_Redhat_Fedora_Server_43.txt 
+  208  cat History_of_Redhat_Fedora_Server_43.txt 
+  209  exit
+  210  ls -la
+  211  which hello
+  212  echo $PATH
+  213  echo # not a comment #
+  214  echo \# not a comment #
+  215  echo \# not a comment \#
+  216  echo '# not a comment #'
+  217  var=$(hostname -s); echo $var
+  218  echo Your Username variable is \$USER
+  219  echo Your Username variable is \$USER.
+  220  echo Your Username variable is \$USER .
+  221  cat ~/bin/hello
+  222  cat ~/bin/hello
+  223  hello
+  224  cd ~
+  225  cat ~/bin/hello
+  226  sudo su
+  227  exit
+  228  ip a
+  229  history
+  230  ls -la
+  231  cd TambunanShellScripting/
+  232  ls -la
+  233  touch ThirdScript.sh
+  234  vim ThirdScript.sh 
+  235  sh ThirdScript.sh 
+  236  vim ThirdScript.sh 
+  237  sh ThirdScript.sh 
+  238  vim ThirdScript.sh 
+  239  sh ThirdScript.sh 
+  240  vim ThirdScript.sh 
+  241  sh ThirdScript.sh 
+  242  vim ThirdScript.sh 
+  243  sh ThirdScript.sh 
+  244  sh ThirdScript.sh 
+  245  vim ThirdScript.sh 
+  246  sh ThirdScript.sh 
+  247  vim ThirdScript.sh 
+  248  sh ThirdScript.sh 
+  249  vim ThirdScript.sh 
+  250  sh ThirdScript.sh 
+  251  vim ThirdScript.sh 
+  252  vim ThirdScript.sh 
+  253  sh ThirdScript.sh 
+  254  vim ThirdScript.sh 
+  255  sh ThirdScript.sh 
+  256  vim ThirdScript.sh 
+  257  vim ThirdScript.sh 
+  258  sh ThirdScript.sh 
+  259  vim ThirdScript.sh 
+  260  vim ThirdScript.sh 
+  261  sh ThirdScript.sh 
+  262  vim ThirdScript.sh 
+  263  sh ThirdScript.sh 
+  264  vim ThirdScript.sh 
+  265  vim ThirdScript.sh 
+  266  sh ThirdScript.sh 
+  267  ls -la
+  268  vim ThirdScript.sh 
+  269  vim ThirdScript.sh 
+  270  sh ThirdScript.sh 
+  271  ls -la
+  272  cd sean_gelael/
+  273  ls -la
+  274  cd ..
+  275  vim ThirdScript.sh 
+  276  sh ThirdScript.sh 
+  277  ls -la
+  278  sh ThirdScript.sh 
+  279  vim ThirdScript.sh 
+  280  sh ThirdScript.sh 
+  281  vim ThirdScript.sh 
+  282  sh ThirdScript.sh 
+  283  ls -la
+  284  sh ThirdScript.sh 
+  285  vim ThirdScript.sh 
+  286  sh ThirdScript.sh 
+  287  vim ThirdScript.sh 
+  288  sh ThirdScript.sh 
+  289  ls -la
+  290  vim ThirdScript.sh 
+  291  sh ThirdScript.sh 
+  292  ls -la
+  293  vim ThirdScript.sh 
+  294  cat ThirdScript.sh 
+  295  vim FouthScript.sh
+  296  sh ThirdScript.sh 
+  297  ls -la
+  298  cat FouthScript.sh 
+  299  sh FouthScript.sh 
+  300  vim FouthScript.sh 
+  301  sh FouthScript.sh 
+  302  ls -la
+  303  ls -la sean_gelael
+  304  vim FouthScript.sh 
+  305  mv FouthScript.sh FourthScript.sh
+  306  ls -la
+  307  touch FiveScript.sh
+  308  vim FiveScript.sh 
+  309  sh FiveScript.sh 
+  310  vim FiveScript.sh 
+  311  sh FiveScript.sh 
+  312  vim FiveScript.sh 
+  313  vim FourthScript.sh 
+  314  cat FiveScript.sh 
+  315  vim FiveScript.sh 
+  316  sh FiveScript.sh 
+  317  vim FiveScript.sh 
+  318  history
+  319  ls -la
+  320  touch History_of_Redhat_Fedora_Server_44.txt
+  321  history >> History_of_Redhat_Fedora_Server_44.txt 
+  322  cat History_of_Redhat_Fedora_Server_44.txt 
+  323  ls -la
+  324  cat ThirdScript.sh 
+  325  sh ThirdScript.sh 
+  326  vim ThirdScript.sh 
+  327  for i in {1..6}; do touch test$i.txt ; done
+  328  ls -la
+  329  ls History_of_Redhat_Fedora_Server_41.txt 
+  330  ls History_of_Redhat_Fedora_Server_*
+  331  ls History_of_Redhat_Fedora_Server_??.txt
+  332  ls History_of_Redhat_Fedora_Server_?3.txt
+  333  grep History_of_Redhat_Fedora_Server_4?.txt
+  334  cat "Redhat"
+  335  echo "Redhat"
+  336  echo "Redhat" > test1.txt 
+  337  cat test1.txt 
+  338  echo "CentOS"
+  339  echo "CentOS" > test1.txt 
+  340  cat test1.txt 
+  341  echo "Redhat" >> test1.txt 
+  342  CAT test1.txt 
+  343  cat test1.txt 
+  344  man sed
+  345  history
+  346  ls -la 
+  347  ls -la 
+  348  cat make_the_choice.txt 
+  349  ls 
+  350  ls -R
+  351  ls -lh
+  352  ls -h
+  353  ls -H
+  354  lh
+  355  ls -lh
+  356  history
+  357  history >> test2.txt 
+  358  ls -la
+  359  man sed
+  360  cat History_of_Redhat_Fedora_Server_?4.txt
+  361  poweroff
+  362  ls -la
+  363  scp charlestambunan@192.168.37.133:/home/charlestambunan/charles.h /Music
+  364  history
+  365  ls -la
+  366  ls -lh TambunanShellScripting/
+  367  touch TambunanShellScripting/History_Redhat_Fedora_Server{45..50}.txt
+  368  ls -la TambunanShellScripting/
+  369  mv TambunanShellScripting/History_Redhat_Fedora_Server4*.txt History_of_Redhat_Fedora_Server{46...49}.txt
+  370  mv TambunanShellScripting/History_Redhat_Fedora_Server4*.txt History_of_Redhat_Fedora_Server46.txt
+  371  cd TambunanShellScripting/
+  372  ls -la
+  373  mv History_Redhat_Fedora_Server45.txt History_of_Redhat_Fedora_Server_45.txt
+  374  mv History_Redhat_Fedora_Server46.txt History_of_Redhat_Fedora_Server_46.txt
+  375  mv History_Redhat_Fedora_Server47.txt History_of_Redhat_Fedora_Server_48.txt
+  376  mv History_Redhat_Fedora_Server48.txt History_of_Redhat_Fedora_Server_48.txt
+  377  mv History_Redhat_Fedora_Server47.txt History_of_Redhat_Fedora_Server_47.txt
+  378  ls -la
+  379  mv History_of_Redhat_Fedora_Server_48.txt History_of_Redhat_Fedora_Server_47.txt
+  380  mv History_Redhat_Fedora_Server_48.txt History_of_Redhat_Fedora_Server_48.txt
+  381  mv History_Redhat_Fedora_Server_49.txt History_of_Redhat_Fedora_Server_49.txt
+  382  ls -la
+  383  mv History_Redhat_Fedora_Server48.txt History_of_Redhat_Fedora_Server_48.txt
+  384  mv History_Redhat_Fedora_Server49.txt History_of_Redhat_Fedora_Server_49.txt
+  385  mv History_Redhat_Fedora_Server50.txt History_of_Redhat_Fedora_Server_50.txt
+  386  ls -la
+  387  ls History_of_Redhat_Fedora_Server_4*.txt
+  388  ls -la History_of_Redhat_Fedora_Server_4*.txt
+  389  ls -lh History_of_Redhat_Fedora_Server_4*.txt
+  390  ls -lh History_of_Redhat_Fedora_Server_**.txt
+  391  grep ^s
+  392  ip a
+  393  ip a
+  394  history
+  395  ls -la
+  396  touch History_Redhat_Fedora_Server51.txt
+  397  history >> History_Redhat_Fedora_Server51.txt 
+  398  cat History_Redhat_Fedora_Server51.txt 
+  399  poweroff
+  400  ls -la
+  401  history
+  402  cat /etc/ethertypes 
+  403  ls -la
+  404  history
+  405  cat
+  406  less /var/log/messages
+  407  ls -la
+  408  ls -la TambunanG/
+  409  ls -la TambunanShellScripting/
+  410  mv History_Redhat_Fedora_Server5*.txt TambunanShellScripting/
+  411  ls -la
+  412  ls -la TambunanShellScripting/
+  413  mv TambunanShellScripting/History_Redhat_Fedora_Server51.txt History_of_Redhat_Fedora_Server51.txt
+  414  ls -la TambunanShellScripting/
+  415  ls -la
+  416  mv History_of_Redhat_Fedora_Server51.txt TambunanShellScripting/
+  417  ls -la TambunanShellScripting/
+  418  touch TambunanShellScripting/History_of_Redhat_Fedora_Server52.txt
+  419  touch TambunanShellScripting/History_of_Redhat_Fedora_Server{53...60}.txt
+  420  ls -la TambunanShellScripting/
+  421  rm TambunanShellScripting/History_of_Redhat_Fedora_Server{53..60}.txt
+  422  ls -la TambunanShellScripting/
+  423  touch TambunanShellScripting/History_of_Redhat_Fedora_Server{53..60}.txt
+  424  ls -la TambunanShellScripting/
+  425  less /var/log/messages >> TambunanShellScripting/History_of_Redhat_Fedora_Server52.txt 
+  426  cat >> TambunanShellScripting/History_of_Redhat_Fedora_Server52.txt 
+  427  vim TambunanShellScripting/History_of_Redhat_Fedora_Server52.txt 
+  428  sudo dnf -y update
+  429  sudo dnf -y install vim bash-completion curl wget telnet
+  430  sudo sestatus
+  431  sudo setenforce 0
+  432  sudo sed -i 's/^SELINUX=.*/SELINUX=permissive/g' /etc/selinux/config 
+  433  cat /etc/selinux/config | grep SELINUX =
+  434  cat /etc/selinux/config | grep SELINUX=
+  435  sudo dnf -y install httpd
+  436  sudo dnf -y install httpd
+  437  vim /etc/httpd/conf/httpd.conf 
+  438  nano /etc/httpd/conf/httpd.conf 
+  439  nano /etc/httpd/conf/httpd.conf 
+  440  nano /etc/httpd/conf/httpd.conf 
+  441  sudo systemctl start httpd
+  442  sudo systemctl enable httpd
+  443  sudo firewall-cmd --add-service={http,https} --permanent
+  444  sudo firewall-cmd --reload
+  445  sudo dnf -y install php php-cli php-php-gettext php-mbstring php-mcrypt php-mysqlnd php-pear php-curl php-gd php-xml php-bcmath php-zip
+  446  php -v
+  447  php -m
+  448  vim /etc/php.ini
+  449  nano /etc/php.ini
+  450  sudo dnf install mariadb-server
+  451  sudo vim /etc/my.cnf.d/mariadb-server.cnf
+  452  sudo systemctl start mariadb
+  453  sudo systemctl enable mariadb
+  454  sudo mysql_secure_installation 
+  455  mysql -u root -p
+  456  ls -la
+  457  history
+  458  sudo firewall-cmd --add-service=mysql --permanent
+  459  sudo firewall-cmd --reload
+  460  nano /var/www/html/phpinfo.php
+  461  sudo systemctl restart httpd
+  462  ip a
+  463  date
+  464  grep '^Mar 22 08:2.*GID' /var/log/secure
+  465   grep 'postfix' /var/log/maillog | head -n 2
+  466  grep -i 'queue' /etc/postfix/main.cf
+  467  ps aux | grep postfix
+  468  grep -e qmgr -e pickup -e cleanup /etc/postfix/master.cf
+  469  exit
+  470  ls -la
+  471  history
+  472  history
+  473  ls -la
+  474  history >> TambunanShellScripting/History_of_Redhat_Fedora_Server53.txt 
+  475  cat history TambunanShellScripting/History_of_Redhat_Fedora_Server53.txt 
+  476  mkdir -p /home/student/bin/bash-lab
+  477  vim /home/student/bin/bash-lab/
+  478  vim /home/student/bin/bash-lab
+  479  rm /home/student/bin/bash-lab
+  480  rm -d /home/student/bin/bash-lab
+  481  ls -la
+  482  mkdir -p /home/student/bin
+  483  vim /home/student/bin/bash-lab.sh
+  484  chmod a+x /home/student/bin/bash-lab.sh 
+  485  vim /home/student/bin/bash-lab.sh 
+  486  sh /home/student/bin/bash-lab.sh 
+  487  vim /home/student/bin/bash-lab.sh 
+  488  sh /home/student/bin/bash-lab.sh 
+  489  ip a
+  490  ls -la /home/
+  491  ls -la /home/ctambunan/
+  492  ls -la /home/ctambunan/output-servera 
+  493  cat /home/ctambunan/output-servera 
+  494  cat /home/ctambunan/output-serverb 
+  495  cat /home/ctambunan/output-serverb 
+  496  history
+  497  ls -la
+  498  cd TambunanShellScripting/
+  499  ls -la
+  500  vim History_of_Redhat_Fedora_Server54.txt 
+  501  cat History_of_Redhat_Fedora_Server54.txt 
+  502  history >> History_of_Redhat_Fedora_Server55.txt 
+  503  poweroff
+  504  ls -la
+  505  history
+  506  atq
+  507  echo "date >> myjob.txt" | at now
+  508  atq
+  509  watch atq
+  510  cat myjob.txt 
+  511  at -q g teatime
+  512  at -q b 16:05
+  513  atq
+  514  at c -2
+  515  at -c 2
+  516  at -c 3
+  517  atq
+  518  history
+  519  crontab -e
+  520  crontab -e
+  521  exit
+  522  vi /etc/cron.daily/usercount
+  523  chmod +x /etc/cron.daily/usercount 
+  524  yum install syststat
+  525  yum install sysstat
+  526  history
+  527  cp /usr/lib/systemd/system/sysstat-collect.timer /etc/systemd/system/sysstat-collect.timer
+  528  vim /etc/systemd/system/sysstat-collect.timer
+  529  systemctl daemon-reload 
+  530  systemctl enable --now sysstat-collect.timer
+  531  while [ $(ls /var/log/sa | wc -l) -eq 0 ]; do sleep 1s; done
+  532  ls -l /var/log/sa
+  533  ls -l /var/log
+  534  ls -l /var/log/sa
+  535  date
+  536  exit
+  537  cp /usr/lib/tmpfiles.d/tmp.conf /etc/tmpfiles.d/tmp.conf
+  538  vi /etc/tmpfiles.d/tmp.conf 
+  539  systemd-tmpfiles --clean /etc/tmpfiles.d/tmp.conf 
+  540  vim /etc/tmpfiles.d/momentary.conf 
+  541  systemd-tmpfiles --create /etc/tmpfiles.d/momentary.conf 
+  542  ls -ld /run/momentary
+  543  touch /run/momentary/testfile
+  544  sleep 30
+  545  systemd-tmpfiles --clean /etc/tmpfiles.d/momentary.conf 
+  546  ls -l /run/momentary/testfile
+  547  ls -l /run/momentary/
+  548  ls -l /run/momentary/testfile
+  549  history
+  550  cd ..
+  551  ls -la
+  552  cd /home/ctambunan/TambunanShellScripting/
+  553  ls -la
+  554  vim History_of_Redhat_Fedora_Server56.txt 
+  555  vim History_of_Redhat_Fedora_Server57.txt 
+  556  cat History_of_Redhat_Fedora_Server57.txt 
+  557  history
+  558  ls -la
+  559  cat History_of_Redhat_Fedora_Server58.txt 
+  560  vim History_of_Redhat_Fedora_Server58.txt 
+  561  cat History_of_Redhat_Fedora_Server57.txt 
+  562  history >> History_of_Redhat_Fedora_Server58.txt 
+  563  cat History_of_Redhat_Fedora_Server58.txt 
+  564  ip a
+  565  history
+  566  poweroff
+  567  ls -la
+  568  history
+  569  ls -la
+  570  yum install tuned
+  571  systemctl enable --now tuned
+  572  tuned-adm active 
+  573  tuned-adm list 
+  574  tuned-adm profile throughput-performance 
+  575  tuned-adm active 
+  576  tuned-adm recommend 
+  577  tuned-adm off
+  578  tuned-adm active
+  579  yum list tuned
+  580  systemctl is-enabled tuned.service ; systemctl is-active tuned.service 
+  581  sudo tuned-adm list
+  582  sudo tuned-adm profile powersave 
+  583  sudo tuned-adm active 
+  584  history
+  585  cat TambunanShellScripting/History_of_Redhat_Fedora_Server60.txt 
+  586  cat TambunanShellScripting/History_of_Redhat_Fedora_Server59.txt 
+  587  history >> TambunanShellScripting/History_of_Redhat_Fedora_Server59.txt 
+  588  ip a
+  589  ls -la
+  590  ps axo pid, comm, nice,cls --sort=-nice
+  591  ps axo pid,comm,nice,cls --sort=-nice
+  592  sha1sum /dev/zero & [1] 3480
+  593  sha1sum /dev/zero &
+  594  ps -o pid,comm,nice 3480
+  595  nice sha1sum /dev/zero &
+  596  ps -o pid,comm,nice 3517
+  597  nice -n 15 sha1sum &
+  598  ps -o pid,comm,nice 3521
+  599  renice -n 19 3521
+  600  renice -n 19 58645
+  601  lab tuning-procsheduling start
+  602  grep -c '^processor' /proc/cpuinfo 
+  603  for i in $(seq 1 4); do sha1sum /dev/zero & done
+  604  jobs
+  605  ps u $(pgrep sha1sum)
+  606  pkill sha1sum
+  607  for i in $(seq 1 3); do sha1sum /dev/zero & done
+  608  nice -n 10 sha1sum /dev/zero &
+  609  ps -o pid,pcpu,nice,comm $(pgrep sha1sum)
+  610  sudo renice -n 5 58645
+  611  ps -o pid,pcpu,nice,comm $(pgrep sha1sum)
+  612  history
+  613  cat TambunanShellScripting/History_of_Redhat_Fedora_Server60.txt 
+  614  cat TambunanShellScripting/History_of_Redhat_Fedora_Server59.txt 
+  615  cat TambunanShellScripting/History_of_Redhat_Fedora_Server59.txt 
+  616  cat TambunanShellScripting/History_of_Redhat_Fedora_Server60.txt 
+  617  nano TambunanShellScripting/History_of_Redhat_Fedora_Server60.txt 
+  618  touch man
+  619  man touch
+  620  touch TambunanShellScripting/History_of_Redhat_Fedora_Server{61..70}.txt
+  621  ls -la TambunanShellScripting/
+  622  cat TambunanShellScripting/History_of_Redhat_Fedora_Server60.txt 
+  623  cat TambunanShellScripting/History_of_Redhat_Fedora_Server61.txt 
+  624  history >> TambunanShellScripting/History_of_Redhat_Fedora_Server61.txt 
+  625  ls -la
+  626  ls -la TambunanShellScripting/
+  627  mv History_Redhat_Fedora_Server1*.txt TambunanShellScripting/sean_gelael/
+  628  ls -R TambunanShellScripting/sean_gelael/
+  629  ls -R
+  630  mv TambunanShellScripting/sean_gelael/History_Redhat_Fedora_Server1*.txt TambunanW/
+  631  ls -R TambunanW/
+  632  cat TambunanShellScripting/History_of_Redhat_Fedora_Server61.txt 
+  633  ip a
+  634  history >> TambunanShellScripting/History_of_Redhat_Fedora_Server62.txt 
+  635  poweroff
+  636  history
+  637  ip a
+  638  history
+  639  getfacl reports.txt
+  640  ls -la
+  641  getfacl my_first_cron_job.txt
+  642  ls -l my_first_cron_job.txt 
+  643  mv santy_oktavia.c my_second_cron_job.txt 
+  644  ls -la
+  645  getfacl .
+  646  ls -la /run/log/journal/
+  647  getfacl /run/log/journal/
+  648  ls -la /dev/
+  649  ls -la /dev/sr0 
+  650  getfacl /dev/sr0 
+  651  ls -la
+  652  history
+  653  ls -la
+  654  setfacl -m u:name:rX my_second_cron_job.txt 
+  655  setfacl -m u:name:rw my_second_cron_job.txt 
+  656  setfacl -m g:name:rw my_second_cron_job.txt 
+  657  cd ~
+  658  setfacl -m u:name:rX /home/andi/
+  659  setfacl -m u:name:rX /home/andi
+  660  setfacl -m u:name:rX /home/andi/
+  661  setfacl -m u:name:rX file
+  662  ls -la
+  663  poweroff
+  664  ip a
+  665  history
+  666  ls -la
+  667  mkdir -p shares/content
+  668  ls -la
+  669  setfacl -Rm g:consultants:rwX shares/content
+  670  setfacl -Rm u:andi:rwX shares/content
+  671  setfacl -Rm g:andi:rwX shares/content
+  672  setfacl -m d:g:andi:rwx shares/content
+  673  setfacl -m d:u:andi:- shares/content
+  674  history
+  675  cd ..
+  676  cat /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server63.txt 
+  677  cat /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server64.txt 
+  678  history >> /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server64.txt 
+  679  cat /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server64.txt 
+  680  su - andi
+  681  history
+  682  cd /home/
+  683  ls -la
+  684  cd andi/
+  685  ls -la
+  686  cd user
+  687  cd ..
+  688  cd ctambunan/
+  689  lsa -la
+  690  ls
+  691  history
+  692   setfacl -Rm g:andi:rwX shares/content
+  693  cd ~
+  694  setfacl -Rm g:andi:rwX shares/content
+  695  setfacl -Rm u:operator1:rwX shares/content
+  696  setfacl -Rm u:andi:- /shares/content
+  697  setfacl -Rm u:andi:- shares/content
+  698  setfacl -m d:g:operator1:rwx /shares/content
+  699  setfacl -m d:g:operator1:rwx shares/content
+  700  setfacl -m d:u:andi:- /shares/content
+  701  setfacl -m d:u:andi:- shares/content
+  702  su operator2
+  703  su - andi
+  704  cd shares/content
+  705  ls -la
+  706   cat serverb-loadavg.txt
+  707   touch serverb-loadavg.txt
+  708  passwd operator1
+  709  su - operator1
+  710  touch loadavg.sh
+  711  yum install glances
+  712  glances
+  713  glances >> loadavg.sh
+  714  ls -la
+  715  cat loadavg.sh 
+  716  vim loadavg.sh 
+  717  touch loadavg2.sh
+  718  vim loadavg2.sh
+  719  mv loadavg2.sh loadavg.sh 
+  720  cat loadavg.sh 
+  721  vim loadavg.sh 
+  722  rm loadavg.sh 
+  723  cat loadavg2.sh 
+  724  ls -la
+  725  cp loadavg2.sh loadavg1.sh 
+  726  ls -la
+  727  sh loadavg2.sh 
+  728  mkdir reports
+  729  echo "Test Reports" > reports/test.txt
+  730  exit
+  731  ls -la
+  732  history
+  733  ip a
+  734  history
+  735  yum update
+  736  ps axZ
+  737  systemctl start httpd.socket 
+  738  systemctl start httpd
+  739  ps -zC httpd
+  740  ps -ZC httpd
+  741  ls -Z /home
+  742  ls -z /var/www
+  743  ls -Z /var/www
+  744  getenforce
+  745  setenforce
+  746  setenenforce
+  747  setenforce
+  748  setenforce 0
+  749  getenforce 
+  750  setenforce Enforcing
+  751  getenforce
+  752  ls -la
+  753  history
+  754  poweroff
+  755  ip a
+  756  getenforce
+  757  vim /etc/selinux/config 
+  758  systemctl reboot
+  759  getenforce
+  760  vim /etc/selinux/config 
+  761  grep '^SELINUX' /etc/selinux/config 
+  762  setenforce 1
+  763  getenforce 
+  764  exit
+  765  sudo -
+  766  sudo -i
+  767  history
+  768  cd TambunanShellScripting/
+  769  ls -la
+  770  cat History_of_Redhat_Fedora_Server66.txt 
+  771  cat History_of_Redhat_Fedora_Server65.txt 
+  772  history >> History_of_Redhat_Fedora_Server66.txt 
+  773  ip a
+  774  history
+  775  poweroff
+  776  mkdir /custom
+  777  echo 'This is SERVERA. ' > /custom/index.html
+  778  vim /etc/httpd/conf/httpd.conf 
+  779  nano /etc/httpd/conf/httpd.conf 
+  780  vim /etc/httpd/conf/httpd.conf 
+  781  grep custom /etc/httpd/conf/httpd.conf 
+  782  vim /etc/httpd/conf/httpd.conf 
+  783  grep custom /etc/httpd/conf/httpd.conf 
+  784  systemctl enable --now httpd
+  785  systemctl status httpd
+  786  semanage fcontext -a -t httpd_sys_content_t '/custom(/.*)?'
+  787  restorecon -Rv /custom
+  788  exit
+  789  sudo -i
+  790  ls -la
+  791  history
+  792  cd ~
+  793  history
+  794  exit
+  795  vim /etc/httpd/conf.d/userdir.conf 
+  796  grep '#UserDir' /etc/httpd/conf.d/userdir.conf 
+  797  grep '^ *UserDir' /etc/httpd/conf.d/userdir.conf 
+  798  systemctl enable --now httpd
+  799  mkdir ~/public_html
+  800  echo 'This is student content on Servera.' > \ ~/public_html/index.html
+  801  echo 'This is student content on SERVERA.' > \~/public_html/index.html
+  802  echo 'This is student content on SERVERA.' > ~/public_html/index.html
+  803  chmod 711 ~
+  804  getsebool -a | grep home
+  805  setsebool -P httpd_enable_homedirs on
+  806  ls -la
+  807  cd public_html/
+  808  ls -la
+  809  cat index.html 
+  810  cd ..
+  811  history
+  812  cat /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server68.txt 
+  813  history >> /home/ctambunan/TambunanShellScripting/History_of_Redhat_Fedora_Server68.txt 
+  814  less /var/log/messages
+  815  sealert -l b1c9cc8f-a953-4625-b79b-82c4f4f1fee3
+  816  SELinux is preventing /usr/sbin/httpd from getattr access on the file /custom/index.html.
+  817  less /var/log/messages
+  818  ausearch -m AVC -ts recent
+  819  semanage fcontext -a -t httpd_sys_content_t '/custom(/.*)?'
+  820  exit
+  821  su -i
+  822  su i
+  823  su -i
+  824  history
+  825  cd TambunanShellScripting/
+  826  ls -la
+  827  cat History_of_Redhat_Fedora_Server67.txt 
+  828  history >> History_of_Redhat_Fedora_Server67.txt 
+  829  getsebool -a
+  830  setsebool httpd_enable_homedirs 
+  831  getsebool httpd_enable_homedirs 
+  832  setsebool httpd_enable_homedirs on
+  833  sudo setsebool httpd_enable_homedirs on
+  834  sudo semanage boolean -l | grep httpd_enable_homedirs
+  835  getsebool httpd_enable_homedirs 
+  836  setsebool -P httpd_enable_homedirs on
+  837  sudo semanage boolean -l | grep httpd_enable_homedirs
+  838  sudo semanage boolean -l -C
+  839  sudo -i
+  840  history
+  841  cat History_of_Redhat_Fedora_Server69.txt 
+  842  history >> History_of_Redhat_Fedora_Server69.txt 
+  843  ip a
+  844  netstat -tunlp
+  845  systemctl start apache
+  846  systemctl restart apache
+  847  systemctl start httpd
+  848  netstat -tunlp
+  849  cat History_of_Redhat_Fedora_Server67.txt 
+  850  cat History_of_Redhat_Fedora_Server68.txt 
+  851  cat History_of_Redhat_Fedora_Server69.txt 
+  852  cat History_of_Redhat_Fedora_Server70.txt 
+  853  ls -la
+  854  history >> History_of_Redhat_Fedora_Server70.txt 
+  855  cat History_of_Redhat_Fedora_Server70.txt 
+  856  cat History_of_Redhat_Fedora_Server71.txt 
+  857  touch History_of_Redhat_Fedora_Server{72..80}.txt 
+  858  ls -la
+  859  parted /dev/vda print
+  860  ls /dev/
+  861  parted /dev/
+  862  ls /dev/
+  863  ls /dev/disk/
+  864  ls /dev/disk/by-label
+  865  ls /dev/disk/by-partuuid
+  866  parted /dev/nvme0 print
+  867  parted /dev/vcsa3
+  868  parted /dev/vcs1
+  869  parted /dev/vda
+  870  clear
+  871  history
+  872  cat History_of_Redhat_Fedora_Server72.txt 
+  873  history >> History_of_Redhat_Fedora_Server72.txt 
+  874  df
+  875  exit
+  876  ls -la
+  877  history
+  878  poweroff
+  879  history
+  880  ip a
+  881  ls -la
+  882  history
+  883  poweroff
+  884  ls -la
+  885  history
+  886  ip a
+  887  poweroff
+  888  history
+  889  ls
+  890  ip a
+  891  vgs
+  892  lvcreate -n lv_testing -L 5G fedora_fedora
+  893  lvs
+  894  lvdisplay 
+  895  mkfs.ext4 /dev/fedora_fedora/lv_testing
+  896  mkdir /test
+  897  mount /dev/fedora_fedora/lv_testing /test
+  898  df -H
+  899  vi /etc/fstab 
+  900  umount /test 
+  901  df -H
+  902  mount -H
+  903  mount -a
+  904  df -H
+  905  vgs
+  906  history
+  907  ls -la
+  908  cd TambunanShellScripting/
+  909  ls -la
+  910  history >> History_of_Redhat_Fedora_Server76.txt 
+  911  ls -la
+  912  history >> History_of_Redhat_Fedora_Server_45.txt
+  913  history >> History_of_Redhat_Fedora_Server_46.txt
+  914  history >> History_of_Redhat_Fedora_Server_47.txt
+  915  history >> History_of_Redhat_Fedora_Server_48.txt
+  916  history >> History_of_Redhat_Fedora_Server_49.txt
+  917  history >> History_of_Redhat_Fedora_Server_50.txt
+  918  ls -la
+  919  poweroff
+  920  ls -la
+  921  hostname charlestambunan
+  922  exit
+  923  ls -la
+  924  history
+  925  lvs
+  926  vgds
+  927  vgs
+  928  ip a
+  929  ipa 
+  930  ipa 
+  931  ip a
+  932  history
+  933  cd TambunanShellScripting/
+  934  ls -la
+  935  yum install stratisid stratis-cli
+  936  yum install stratisd stratis-cli
+  937  systemctl enable --now stratisd
+  938  dvs
+  939  vds
+  940  df -H
+  941  vgs
+  942  dvs
+  943  dv
+  944  history
+  945  ip a
+  946  lvcreate -n docker_testing -L 6G fedora_fedora 
+  947  mkfs.ext4 /dev/fedora_fedora/docker_testing 
+  948  mkdir dockbreak
+  949  mount /dev/fedora_fedora/docker_testing dockbreak/
+  950  lvs
+  951  df -H
+  952  stratis pool create stratispool1 /dev/mapper/fedora_fedora-docker_testing 
+  953  stratis pool create stratispool1 /dev/mapper/fedora_fedora-lv_testing 
+  954  udev
+  955  vgs
+  956  stratis pool list
+  957  lsblk
+  958  blkid -p /dev/nvme0n1p2 
+  959  vgs
+  960  stratis pool create stratispool1 /dev/nvme0n1p2 
+  961  lsblk 
+  962  vgs
+  963  yum install vdo kmod-kvdo
+  964  yum install vdo
+  965  yum install kmod-kvdo
+  966  history
+  967  sudo dnf install kmod-kvdo vdo
+  968  sudo dnf update -y
+  969  cd ..
+  970  cd /home/ctambunan/TambunanShellScripting/
+  971  ls -la
+  972  history >> History_of_Redhat_Fedora_Server78.txt 
+  973  ls -la
+  974  poweroff
+  975  poweroff
+  976  ls -la
+  977   nfsconf --set nfsd udp n
+  978   nfsconf --set nfsd vers2 n
+  979   nfsconf --set nfsd vers3 n
+  980  nfsconf --set nfsd tcp y
+  981  nfsconf --set nfsd vers4 y
+  982  nfsconf --set nfsd vers4.0 y
+  983  nfsconf --set nfsd vers4.1 y
+  984   nfsconf --set nfsd vers4.2 y
+  985  mkdir /mantappu
+  986  mount -t nfs serverb.lab.example.com:/shares/
+  987  public /mantappu
+  988  mount -t nfs serverb.lab.example.commount | grep public
+  989  mount | grep public
+  990  umount /mantappu
+  991  mount | grep mantappu
+  992  umount /mantappu
+  993  mount -t nfs serverb.lab.example.com:/shares/mantappu /mantappu/
+  994  mount -t nfs serverb.lab.example.com:/shares/mantappu /mantappu
+  995  mount -t nfs serverb.lab.example.com:/shares/public /mantappu
+  996  vim /etc/fstab
+  997  ls -l
+  998  ls -l /mantappu
+  999  systemctl reboot
+ 1000  ls -l /mantappu
+ 1001  cat /mantappu/NOTES.txt
+ 1002  echo "This is a test" > /mantappu/Test.txt
+ 1003  cat /mantappu/Test.txt
+ 1004  history
+ 1005  cd TambunanShellScripting/
+ 1006  ls -la
+ 1007  history >> History_of_Redhat_Fedora_Server79.txt 

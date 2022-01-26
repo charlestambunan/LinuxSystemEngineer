@@ -1,0 +1,25 @@
+  953  ip a
+  954  ls -la
+  955  ps axo pid, comm, nice,cls --sort=-nice
+  956  ps axo pid,comm,nice,cls --sort=-nice
+  957  sha1sum /dev/zero & [1] 3480
+  958  sha1sum /dev/zero &
+  959  ps -o pid,comm,nice 3480
+  960  nice sha1sum /dev/zero &
+  961  ps -o pid,comm,nice 3517
+  962  nice -n 15 sha1sum &
+  963  ps -o pid,comm,nice 3521
+  964  renice -n 19 3521
+  965  renice -n 19 58645
+  966  lab tuning-procsheduling start
+  967  grep -c '^processor' /proc/cpuinfo
+  968  for i in $(seq 1 4); do sha1sum /dev/zero & done
+  969  jobs
+  970  ps u $(pgrep sha1sum)
+  971  pkill sha1sum
+  972  for i in $(seq 1 3); do sha1sum /dev/zero & done
+  973  nice -n 10 sha1sum /dev/zero &
+  974  ps -o pid,pcpu,nice,comm $(pgrep sha1sum)
+  975  sudo renice -n 5 58645
+  976  ps -o pid,pcpu,nice,comm $(pgrep sha1sum)
+  977  history

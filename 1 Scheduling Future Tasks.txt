@@ -1,0 +1,141 @@
+[root@fedora 16:09:47 /home/ctambunan]$ atq
+[root@fedora 16:29:28 /home/ctambunan]$ echo "date >> myjob.txt" | at now
+warning: commands will be executed using /bin/sh
+job 1 at Wed Jan 12 16:30:00 2022
+[root@fedora 16:30:26 /home/ctambunan]$ atq
+[root@fedora 16:30:32 /home/ctambunan]$ watch atq
+[root@fedora 16:32:09 /home/ctambunan]$ ^C
+[root@fedora 16:32:09 /home/ctambunan]$ cat myjob.txt
+Wed Jan 12 04:30:26 PM WIB 2022
+[root@fedora 16:32:15 /home/ctambunan]$ at -q g teatime
+warning: commands will be executed using /bin/sh
+at Thu Jan 13 16:00:00 2022
+at> echo "It's teatime" >> tea.txt
+at> <EOT>
+job 2 at Thu Jan 13 16:00:00 2022
+[root@fedora 16:33:04 /home/ctambunan]$ at -q b 16:05
+warning: commands will be executed using /bin/sh
+at Thu Jan 13 16:05:00 2022
+at> echo "The Cookies is Good" >> cookies.txt
+at> <EOT>
+job 3 at Thu Jan 13 16:05:00 2022
+[root@fedora 16:33:43 /home/ctambunan]$ atq
+2       Thu Jan 13 16:00:00 2022 g root
+3       Thu Jan 13 16:05:00 2022 b root
+[root@fedora 16:33:46 /home/ctambunan]$ at c -2
+at: invalid option -- '2'
+Usage: at [-V] [-q x] [-f file] [-u username] [-mMlbv] timespec ...
+       at [-V] [-q x] [-f file] [-u username] [-mMlbv] -t time
+       at -c job ...
+       atq [-V] [-q x]
+       at [ -rd ] job ...
+       atrm [-V] job ...
+       batch
+[root@fedora 16:33:51 /home/ctambunan]$ at -c 2
+#!/bin/sh
+# atrun uid=0 gid=0
+# mail ctambunan 0
+umask 22
+SHELL=/bin/bash; export SHELL
+SUDO_GID=1000; export SUDO_GID
+HOSTNAME=fedora; export HOSTNAME
+HISTSIZE=1000; export HISTSIZE
+SUDO_COMMAND=/usr/bin/su; export SUDO_COMMAND
+SUDO_USER=ctambunan; export SUDO_USER
+EDITOR=/usr/bin/vim; export EDITOR
+PWD=/home/ctambunan; export PWD
+LOGNAME=root; export LOGNAME
+HOME=/root; export HOME
+LANG=en_US.UTF-8; export LANG
+LS_COLORS=rs=0:di=01\;34:ln=01\;36:mh=00:pi=40\;33:so=01\;35:do=01\;35:bd=40\;33\;01:cd=40\;33\;01:or=40\;31\;01:mi=01\;37\;41:su=37\;41:sg=30\;43:ca=30\;41:tw=30\;42:ow=34\;42:st=37\;44:ex=01\;32:\*.tar=01\;31:\*.tgz=01\;31:\*.arc=01\;31:\*.arj=01\;31:\*.taz=01\;31:\*.lha=01\;31:\*.lz4=01\;31:\*.lzh=01\;31:\*.lzma=01\;31:\*.tlz=01\;31:\*.txz=01\;31:\*.tzo=01\;31:\*.t7z=01\;31:\*.zip=01\;31:\*.z=01\;31:\*.dz=01\;31:\*.gz=01\;31:\*.lrz=01\;31:\*.lz=01\;31:\*.lzo=01\;31:\*.xz=01\;31:\*.zst=01\;31:\*.tzst=01\;31:\*.bz2=01\;31:\*.bz=01\;31:\*.tbz=01\;31:\*.tbz2=01\;31:\*.tz=01\;31:\*.deb=01\;31:\*.rpm=01\;31:\*.jar=01\;31:\*.war=01\;31:\*.ear=01\;31:\*.sar=01\;31:\*.rar=01\;31:\*.alz=01\;31:\*.ace=01\;31:\*.zoo=01\;31:\*.cpio=01\;31:\*.7z=01\;31:\*.rz=01\;31:\*.cab=01\;31:\*.wim=01\;31:\*.swm=01\;31:\*.dwm=01\;31:\*.esd=01\;31:\*.jpg=01\;35:\*.jpeg=01\;35:\*.mjpg=01\;35:\*.mjpeg=01\;35:\*.gif=01\;35:\*.bmp=01\;35:\*.pbm=01\;35:\*.pgm=01\;35:\*.ppm=01\;35:\*.tga=01\;35:\*.xbm=01\;35:\*.xpm=01\;35:\*.tif=01\;35:\*.tiff=01\;35:\*.png=01\;35:\*.svg=01\;35:\*.svgz=01\;35:\*.mng=01\;35:\*.pcx=01\;35:\*.mov=01\;35:\*.mpg=01\;35:\*.mpeg=01\;35:\*.m2v=01\;35:\*.mkv=01\;35:\*.webm=01\;35:\*.webp=01\;35:\*.ogm=01\;35:\*.mp4=01\;35:\*.m4v=01\;35:\*.mp4v=01\;35:\*.vob=01\;35:\*.qt=01\;35:\*.nuv=01\;35:\*.wmv=01\;35:\*.asf=01\;35:\*.rm=01\;35:\*.rmvb=01\;35:\*.flc=01\;35:\*.avi=01\;35:\*.fli=01\;35:\*.flv=01\;35:\*.gl=01\;35:\*.dl=01\;35:\*.xcf=01\;35:\*.xwd=01\;35:\*.yuv=01\;35:\*.cgm=01\;35:\*.emf=01\;35:\*.ogv=01\;35:\*.ogx=01\;35:\*.aac=01\;36:\*.au=01\;36:\*.flac=01\;36:\*.m4a=01\;36:\*.mid=01\;36:\*.midi=01\;36:\*.mka=01\;36:\*.mp3=01\;36:\*.mpc=01\;36:\*.ogg=01\;36:\*.ra=01\;36:\*.wav=01\;36:\*.oga=01\;36:\*.opus=01\;36:\*.spx=01\;36:\*.xspf=01\;36:; export LS_COLORS
+LESSOPEN=\|\|/usr/bin/lesspipe.sh\ %s; export LESSOPEN
+USER=root; export USER
+SHLVL=1; export SHLVL
+DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/\ ; export DEBUGINFOD_URLS
+which_declare=declare\ -f; export which_declare
+XDG_DATA_DIRS=/root/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share; export XDG_DATA_DIRS
+PATH=/root/.local/bin:/root/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/var/lib/snapd/snap/bin; export PATH
+SUDO_UID=1000; export SUDO_UID
+MAIL=/var/spool/mail/ctambunan; export MAIL
+cd /home/ctambunan || {
+         echo 'Execution directory inaccessible' >&2
+         exit 1
+}
+${SHELL:-/bin/sh} << 'marcinDELIMITER30f91700'
+echo "It's teatime" >> tea.txt
+marcinDELIMITER30f91700
+[root@fedora 16:33:56 /home/ctambunan]$ at -c 3
+#!/bin/sh
+# atrun uid=0 gid=0
+# mail ctambunan 0
+umask 22
+SHELL=/bin/bash; export SHELL
+SUDO_GID=1000; export SUDO_GID
+HOSTNAME=fedora; export HOSTNAME
+HISTSIZE=1000; export HISTSIZE
+SUDO_COMMAND=/usr/bin/su; export SUDO_COMMAND
+SUDO_USER=ctambunan; export SUDO_USER
+EDITOR=/usr/bin/vim; export EDITOR
+PWD=/home/ctambunan; export PWD
+LOGNAME=root; export LOGNAME
+HOME=/root; export HOME
+LANG=en_US.UTF-8; export LANG
+LS_COLORS=rs=0:di=01\;34:ln=01\;36:mh=00:pi=40\;33:so=01\;35:do=01\;35:bd=40\;33\;01:cd=40\;33\;01:or=40\;31\;01:mi=01\;37\;41:su=37\;41:sg=30\;43:ca=30\;41:tw=30\;42:ow=34\;42:st=37\;44:ex=01\;32:\*.tar=01\;31:\*.tgz=01\;31:\*.arc=01\;31:\*.arj=01\;31:\*.taz=01\;31:\*.lha=01\;31:\*.lz4=01\;31:\*.lzh=01\;31:\*.lzma=01\;31:\*.tlz=01\;31:\*.txz=01\;31:\*.tzo=01\;31:\*.t7z=01\;31:\*.zip=01\;31:\*.z=01\;31:\*.dz=01\;31:\*.gz=01\;31:\*.lrz=01\;31:\*.lz=01\;31:\*.lzo=01\;31:\*.xz=01\;31:\*.zst=01\;31:\*.tzst=01\;31:\*.bz2=01\;31:\*.bz=01\;31:\*.tbz=01\;31:\*.tbz2=01\;31:\*.tz=01\;31:\*.deb=01\;31:\*.rpm=01\;31:\*.jar=01\;31:\*.war=01\;31:\*.ear=01\;31:\*.sar=01\;31:\*.rar=01\;31:\*.alz=01\;31:\*.ace=01\;31:\*.zoo=01\;31:\*.cpio=01\;31:\*.7z=01\;31:\*.rz=01\;31:\*.cab=01\;31:\*.wim=01\;31:\*.swm=01\;31:\*.dwm=01\;31:\*.esd=01\;31:\*.jpg=01\;35:\*.jpeg=01\;35:\*.mjpg=01\;35:\*.mjpeg=01\;35:\*.gif=01\;35:\*.bmp=01\;35:\*.pbm=01\;35:\*.pgm=01\;35:\*.ppm=01\;35:\*.tga=01\;35:\*.xbm=01\;35:\*.xpm=01\;35:\*.tif=01\;35:\*.tiff=01\;35:\*.png=01\;35:\*.svg=01\;35:\*.svgz=01\;35:\*.mng=01\;35:\*.pcx=01\;35:\*.mov=01\;35:\*.mpg=01\;35:\*.mpeg=01\;35:\*.m2v=01\;35:\*.mkv=01\;35:\*.webm=01\;35:\*.webp=01\;35:\*.ogm=01\;35:\*.mp4=01\;35:\*.m4v=01\;35:\*.mp4v=01\;35:\*.vob=01\;35:\*.qt=01\;35:\*.nuv=01\;35:\*.wmv=01\;35:\*.asf=01\;35:\*.rm=01\;35:\*.rmvb=01\;35:\*.flc=01\;35:\*.avi=01\;35:\*.fli=01\;35:\*.flv=01\;35:\*.gl=01\;35:\*.dl=01\;35:\*.xcf=01\;35:\*.xwd=01\;35:\*.yuv=01\;35:\*.cgm=01\;35:\*.emf=01\;35:\*.ogv=01\;35:\*.ogx=01\;35:\*.aac=01\;36:\*.au=01\;36:\*.flac=01\;36:\*.m4a=01\;36:\*.mid=01\;36:\*.midi=01\;36:\*.mka=01\;36:\*.mp3=01\;36:\*.mpc=01\;36:\*.ogg=01\;36:\*.ra=01\;36:\*.wav=01\;36:\*.oga=01\;36:\*.opus=01\;36:\*.spx=01\;36:\*.xspf=01\;36:; export LS_COLORS
+LESSOPEN=\|\|/usr/bin/lesspipe.sh\ %s; export LESSOPEN
+USER=root; export USER
+SHLVL=1; export SHLVL
+DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/\ ; export DEBUGINFOD_URLS
+which_declare=declare\ -f; export which_declare
+XDG_DATA_DIRS=/root/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share; export XDG_DATA_DIRS
+PATH=/root/.local/bin:/root/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/var/lib/snapd/snap/bin; export PATH
+SUDO_UID=1000; export SUDO_UID
+MAIL=/var/spool/mail/ctambunan; export MAIL
+cd /home/ctambunan || {
+         echo 'Execution directory inaccessible' >&2
+         exit 1
+}
+${SHELL:-/bin/sh} << 'marcinDELIMITER0fc19775'
+echo "The Cookies is Good" >> cookies.txt
+marcinDELIMITER0fc19775
+[root@fedora 16:34:02 /home/ctambunan]$
+[root@fedora 16:35:25 /home/ctambunan]$ atq
+2       Thu Jan 13 16:00:00 2022 g root
+3       Thu Jan 13 16:05:00 2022 b root
+[root@fedora 16:35:27 /home/ctambunan]$
+
+SCHEDULING RECURRING USER JOBS
+OBJECTIVES
+
+After completing this section, you should be able to schedule commands to run on a repeating
+schedule using a user's crontab file.
+
+DESCRIBING RECURRING USER JOBS
+
+Jobs scheduled to run repeatedly are called recurring jobs. Red Hat Enterprise Linux systems
+ship with the crond daemon, provided by the cronie package, enabled and started by default
+specifically for recurring jobs. The crond daemon reads multiple configuration files: one per
+user (edited with the crontab command), and a set of system-wide files. These configuration
+files give users and administrators fine-grained control over when their recurring jobs should be
+executed.
+
+If a scheduled command produces any output or error that is not redirected, the crond daemon
+attempts to email that output or error to the user who owns that job (unless overridden) using the
+mail server configured on the system. Depending on the environment, this may need additional
+configuration. The output or error of the scheduled command can be redirected to different files.
+
+SCHEDULING RECURRING USER JOBS
+
+Normal users can use the crontab command to manage their jobs. This command can be called
+in four different ways:
+Crontab Examples
+
+COMMAND 		INTENDED USE
+crontab -l 		List the jobs for the current user.
+crontab -r 		Remove all jobs for the current user.
+crontab -e 		Edit jobs for the current user.
+crontab filename 	Remove all jobs, and replace with the jobs read from filename.
+
+If no file is specified, stdin is used.
+
+REFERENCES
+crond(8), crontab(1), and crontab(5) man pages

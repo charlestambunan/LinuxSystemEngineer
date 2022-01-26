@@ -1,0 +1,13 @@
+  917  history
+  918  vi /etc/cron.daily/usercount
+  919  history
+  920  chmod +x /etc/cron.daily/usercount
+  921   yum install sysstat
+  922  cp /usr/lib/systemd/system/sysstat-collect.timer /etc/systemd/system/sysstat-collect.timer
+  923  vi /etc/systemd/system/sysstat-collect.timer
+  924  systemctl daemon-reload
+  925  systemctl enable --now sysstat-collect.timer
+  926  while [ $(ls /var/log/sa | wc -l) -eq 0 ]; do sleep;  1s; done
+  927  ls -l /var/log/sa
+  928  date
+  929  history

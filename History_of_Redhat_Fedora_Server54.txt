@@ -1,0 +1,21 @@
+  840  mkdir -p /home/student/bin/bash-lab
+  841  vim /home/student/bin/bash-lab/
+  842  vim /home/student/bin/bash-lab
+  843  rm /home/student/bin/bash-lab
+  844  rm -d /home/student/bin/bash-lab
+  845  ls -la
+  846  mkdir -p /home/student/bin
+  847  vim /home/student/bin/bash-lab.sh
+  848  chmod a+x /home/student/bin/bash-lab.sh
+  849  vim /home/student/bin/bash-lab.sh
+  850  sh /home/student/bin/bash-lab.sh
+  851  vim /home/student/bin/bash-lab.sh
+  852  sh /home/student/bin/bash-lab.sh
+  853  ip a
+  854  ls -la /home/
+  855  ls -la /home/ctambunan/
+  856  ls -la /home/ctambunan/output-servera
+  857  cat /home/ctambunan/output-servera
+  858  cat /home/ctambunan/output-serverb
+  859  cat /home/ctambunan/output-serverb
+  860  history

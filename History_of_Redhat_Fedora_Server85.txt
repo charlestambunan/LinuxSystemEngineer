@@ -1,0 +1,29 @@
+  976  history
+  977  poweroff
+  978  ls -la
+  979  ls -la /dev/
+  980  df
+  981  parted /dev/tmpfs
+  982  parted /dev/tmpfs mklabel msdos
+  983  mkdir /dev/Dori
+  984  parted /dev/Dori mklabel msdos
+  985  parted /dev/Dori
+  986  parted /dev/Dori print
+  987  udevadm settle 
+  988  mkfs.xfs /dev/Dori
+  989  mkdir /archive
+  990  lsblk --fs /dev/Dori
+  991  lsblk --fs /dev/tmpfs
+  992  lsblk --fs /dev/Dori
+  993  vim /etc/fstab 
+  994  systemctl daemon-reload 
+  995  mount /archive
+  996  mount | grep /archive
+  997  systemctl reboot 
+  998  mount | grep /archive
+  999  history
+ 1000  cd TambunanShellScripting/
+ 1001  ls -la
+ 1002  cat History_of_Redhat_Fedora_Server74.txt 
+ 1003  cat History_of_Redhat_Fedora_Server73.txt 
+ 1004  history >> History_of_Redhat_Fedora_Server74.txt 

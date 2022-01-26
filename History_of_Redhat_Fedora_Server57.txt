@@ -1,0 +1,13 @@
+  902  cp /usr/lib/tmpfiles.d/tmp.conf /etc/tmpfiles.d/tmp.conf
+  903  vi /etc/tmpfiles.d/tmp.conf
+  904  systemd-tmpfiles --clean /etc/tmpfiles.d/tmp.conf
+  905  vim /etc/tmpfiles.d/momentary.conf
+  906  systemd-tmpfiles --create /etc/tmpfiles.d/momentary.conf
+  907  ls -ld /run/momentary
+  908  touch /run/momentary/testfile
+  909  sleep 30
+  910  systemd-tmpfiles --clean /etc/tmpfiles.d/momentary.conf
+  911  ls -l /run/momentary/testfile
+  912  ls -l /run/momentary/
+  913  ls -l /run/momentary/testfile
+  914  history

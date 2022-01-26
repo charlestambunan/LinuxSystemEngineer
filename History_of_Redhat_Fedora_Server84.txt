@@ -1,0 +1,24 @@
+  979  sudo -i
+  980  ls -la /dev/
+  981  parted /dev/disk print
+  982  df
+  983  parted /dev/nvme0 print
+  984  mkdir /dev/vdb
+  985  parted /dev/vdb mkpart myswap linux-swap 1001MB 1501 MB
+  986  parted /dev/vdb
+  987  udevadm settle
+  988  mkswap /dev/vdb
+  989  swapon --show
+  990  swapon /dev/vdb
+  991  swapon --show
+  992  swapoff /dev/zram0
+  993  swapon --show
+  994  lsblk --fs /dev/zram0
+  995  vim /etc/fstab
+  996  systemctl daemon-reload
+  997  swapon -a
+  998  swapon --show
+  999  systemctl reboot
+ 1000  cd ~
+ 1001  swapon --show
+ 1002  history
